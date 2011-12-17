@@ -31,6 +31,11 @@ li.nav {
 	float:left;
 }
 
+ul{
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
 body {
 	background:#fff;
 	font-family: Tahoma, sans-serif;
@@ -38,6 +43,30 @@ body {
 	margin: 0;
 	padding: 0;
 	text-align: left;
+}
+
+h1{
+	font-size: 2em;
+	font-weight: normal;
+	
+}
+
+h2{
+	font-size: 1.5em;
+	margin-bottom: 0;
+	font-weight: normal;
+}
+
+h3{
+	font-size: 1em;
+	margin-top: 1em;
+	margin-bottom: 0px;
+}
+
+h3.alt{
+	margin-top: 0px;
+	font-weight: normal;
+	font-style: italic;
 }
 
 #container {
@@ -70,19 +99,12 @@ body {
 	margin-bottom: 8px;
 }
 
-#main_image{
-	float: left;
-	margin-right: 30px;
-}
-
-#portrait{
-	float: left;
-	margin-right: 10px;
-}
 
 #navigation {
 	width: 800px;
 	background-color: #333;
 }
 
-
+.section{
+	padding-left: 1em;
+}
