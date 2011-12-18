@@ -5,9 +5,7 @@ Author: Adam Rule, 2011
 
 a:link, a:visited {
 	display:block;
-	/*font-weight:bold;*/
 	color:#fff;
-	text-align:center;
 	padding-left:15px;
 	padding-right: 15px;
 	padding-top: 4px;
@@ -85,4 +83,18 @@ body {
 	background-color: #333;
 }
 
+.onethird {
+	width:250px;
+	margin-right:0px;
+	text-align:left;
+	float: left;
+}
+
+.middle {
+	width:250px;
+	margin-right:25px;
+	margin-left: 25px;
+	text-align:left;
+	float: left;
+}
 
