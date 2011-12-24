@@ -1,41 +1,66 @@
 /*
-Description: Theme for Adam Rule home
-Author: Adam Rule, 2011
+Description: 	Theme for Adam Rule homepage
+Author: 	Adam Rule, 2011
 */
 
+
 a:link, a:visited {
-	display:block;
-	color:#fff;
-	padding-left:15px;
-	padding-right: 15px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-	text-decoration:none;
+	display: block;
+	color: #000;
+	text-decoration: none;
 }
 
 a:hover, a:active {
-	color:#aaa;
+	color: #999;
+}
+
+a.nav:link, a.nav:visited {
+	display: block;
+	color: #fff;
+	text-decoration: none;
+}
+
+a.nav:hover, a.nav:active {
+	color: #aaa;
+}
+
+body {
+	background:#fff;
+	font-family: Verdana, Tahoma, sans-serif;
+	font-size: 90%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+}
+
+h4 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+h4.portfolio_top {
+	margin-top: -25px;
 }
 
 ul.nav {
-	list-style-type:none;
-	margin:0;
-	padding:0;
-	overflow:hidden;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
 	font-size: 1.2em;
 }
 
 li.nav {
 	float:left;
+	padding-left:15px;
+	padding-right: 15px;
+	padding-top: 4px;
+	padding-bottom: 4px;
 }
 
-body {
-	background:#fff;
-	font-family: Tahoma, sans-serif;
-	font-size: 90%;
-	margin: 0;
-	padding: 0;
-	text-align: left;
+p.portfolio {
+	margin-top: 10px;
+	margin-bottom: 0px;
 }
 
 #container {
@@ -52,30 +77,32 @@ body {
 
 #footer {
 	text-align: right;
-	margin-top:30px;
-	clear:both;
+	margin-top: 25px;
+	margin-bottom: 25px; 
+	clear: both;
 	font-size: 0.75em;
 }
 
 #header {
-	margin-top: 50px;
-	margin-bottom: 30px;
+	margin-top: 20px;
+	margin-bottom: 25px;
 	width: 800px;
 }
 
 #logo {
 	margin-left: -10px;
-	margin-bottom: 8px;
+	margin-bottom: 10px;
 }
 
 #main_image{
 	float: left;
-	margin-right: 30px;
+	margin-right: 25px;
 }
 
 #portrait{
 	float: left;
-	margin-right: 10px;
+	margin-right: 25px;
+	margin-bottom: 15px;
 }
 
 #navigation {
@@ -84,15 +111,17 @@ body {
 }
 
 .onethird {
-	width:250px;
-	margin-right:0px;
-	text-align:left;
+	width: 250px;
+	margin-top: 25px;
+	margin-right: 0px;
+	text-align: left;
 	float: left;
 }
 
 .middle {
 	width:250px;
-	margin-right:25px;
+	margin-top: 25px;
+	margin-right: 25px;
 	margin-left: 25px;
 	text-align:left;
 	float: left;
