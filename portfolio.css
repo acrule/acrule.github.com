@@ -3,11 +3,28 @@ Description: 	Theme for Adam Rule portfolio
 Author: 	Adam Rule, 2011
 */
 
+a.plain:link, a.plain:visited {
+	color: #333;
+}
+
+a.plain:hover, a.plain:active {
+	color: #999;
+}
+
+h2 {
+	font-size: 2.5em;
+	font-weight: normal;
+	color: #333;
+	font-weight: bold;
+	margin-bottom: 0px;
+}
+
+
 h3.portfolio_top {
 	margin-top: -25px;
 }
 
-img.start_page{
+.start_page {
 	float: right;
 	margin-left: 25px;
 	margin-bottom: 25px;
@@ -15,10 +32,14 @@ img.start_page{
 
 img.end_page {
 	width: 350px;
+	margin-bottom: 0px;
 }
 
 p.caption {
 	text-align: center;
+	color: #333;
+	margin-top: 0px;
+	margin-bottom: 25px;
 }
 
 p.prompt{
@@ -32,6 +53,15 @@ p.portfolio {
 	margin-top: 10px;
 	margin-bottom: 0px;
 	color: #666;
+	text-align: center;
+}
+
+p.credit {
+	color: #999;
+	font-size: 0.5em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
 }
 
 .half {

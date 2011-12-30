@@ -6,7 +6,7 @@ Author: 	Adam Rule, 2011
 
 a:link, a:visited {
 	/*display: block;*/
-	color: #885;
+	color: #47b;
 	text-decoration: none;
 }
 
@@ -21,7 +21,7 @@ a.nav:link, a.nav:visited {
 }
 
 a.nav:hover, a.nav:active {
-	color: #996;
+	color: #69d;
 }
 
 body {
