@@ -1,0 +1,60 @@
+/*
+Description: 	Theme for Adam Rule portfolio
+Author: 	Adam Rule, 2011
+*/
+
+h3.portfolio_top {
+	margin-top: -25px;
+}
+
+img.start_page{
+	float: right;
+	margin-left: 25px;
+	margin-bottom: 25px;
+}
+
+img.end_page {
+	width: 350px;
+}
+
+p.caption {
+	text-align: center;
+}
+
+p.prompt{
+	font-size: 1.5em;
+	font-style: italic;
+	text-align: center;
+	color: #333;
+}
+
+p.portfolio {
+	margin-top: 10px;
+	margin-bottom: 0px;
+	color: #666;
+}
+
+.half {
+	width: 350 px;
+	margin-left: 25px;
+	margin-right: 25px;
+	float: left;
+}
+
+.onethird {
+	width: 250px;
+	margin-top: 25px;
+	margin-right: 0px;
+	text-align: left;
+	float: left;
+}
+
+.middle {
+	width:250px;
+	margin-top: 25px;
+	margin-right: 25px;
+	margin-left: 25px;
+	text-align:left;
+	float: left;
+}
+

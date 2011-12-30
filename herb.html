@@ -4,6 +4,7 @@
 
 <head>
   <link rel="Stylesheet" type="text/css" href="stylesheet.css">
+  <link rel="Stylesheet" type="text/css" href="portfolio.css">
   <title>Adam Rule Online Portfolio</title>
 
 </head>
@@ -14,7 +15,7 @@
 
 <div id="header">
 <div id="logo">
-  <a href="index.html"><img src="logo.png" alt="adam rule"></img></a>
+  <a href="index.html"><img src="images/logo.png" alt="adam rule"></img></a>
 </div>
 <div id="navigation">
   <ul class="nav">
@@ -29,14 +30,55 @@
 
 <div id="content">
 
+<img class="start_page" src="images/herb.png" />
+
 <h2>HERB</h2>
 
-<p>Here is a paragraph about the work with HERB.</p>
+<p class="prompt">How can an autonomous robot treat users with respect?</p>
+
+<h3>Background</h3>
+<p>Intel is currently developing the Home Exploring Robotic Butler (HERB) as a test-bed for assistive robotics research. Intel believes the autonomous robot could assist elders and persons with disabilities in performing basic activities of daily life. With the functionality of HERB increasing, Intel wanted to explore the robot’s interaction design. I worked with a young man with quadriplegia and his primary caregiver to study HERB’s interaction design.</p>
+
+<h3>Process</h3>
+<ul>
+    <li>Literature Review - I conducted an extensive review of literature pertaining to elders, persons with disabilities, robotics, and robot tasks. This review helped me compile a list of current assistive device interfaces, robotic interfaces, and those tasks elders and disabled users would want HERB to assist them with.</li>
+    <li>Directed Storytelling - I conducted directed storytelling sessions with the young man and his caregiver to uncover their experiences and attitudes towards caregiving. These sessions began to uncover the nuances of respect in caregiving, how opening a door could in one instance be degrading and in another, helpful.</li>
+    <li>Shadowing - I shadowed the young man and his caregiver for a period of 16 hours to observe their routines. This provided insight into the multitude of tasks they do collaboratively. Even chewing gum is a team effort. </li>
+    <li>Participatory Research - I also took on the role of caregiver for the young man for several hours, driving him to and from a mall, going to a restaurant and feeding him, as well as taking him to visit with friends.</li>
+    <li>Paper Prototyping - Once tasks and interaction modes were defined, I created several paper prototypes for HERB's control interface and evaluated them using think-alouds with the young man.</li>
+    <li>Digital Prototyping - Once a single interface was settled on, I worked with another Intel intern to develop a digital prototype of HERB’s control interface using Python and GTK.</li>
+</ul>
+
+<h3>Results</h3>
+<p>Our study uncovered many nuances of respect and self-actualization in the caregiving process. Along with the significant functional toll that physical impairment brings, I learned the significant impact that impairment has on social and mental well-being. Persons with physical impairment wish to be respected for the abilities they do have, and assistive technologies, especially autonomous robots, should be careful not to provide more assistance than needed.</p>
+
+<p>I also uncovered the need for persons with physical impairments to establish their identity as separate from their impairment or assistive devices. Customization of products and brand association provided these persons with a way to convey their identity.</p>
+
+<p>These findings lead us to develop a control interface for HERB that allowed task customization by stringing together primitive actions into longer commands in a manner similar to LEGO Mindstorm. This paradigm ensured that HERB's autonomy the user's ability were balanced. Users with severe impairment could then modify a drink retrieval task to include opening and tilting the bottle so they could drink out of it, while more able users could avoid feeling disrespected and have HERB simply hand the bottle to them. I worked with Intel researchers to ensure that the primitive commands used in this interface were robust enough to be completed autonomously by HERB, but granular enough to be strung together in a multitude of ways. My insights into the nature of desired assistance have been used by the Intel team since my project was completed.</p>
+
+<h3>Images</h3>
+
+<div class="half">
+<img class="end_page" src="images/car.png" />
+<p class="caption">Shadowing</p>
+</div>
+
+<div class="half">
+<img class="end_page" src="images/paper_prototype.png" />
+<p class="caption">Paper Prototyping</p>
+</div>
+
+<br clear="all" />
+
+<div class="half">
+<img class="end_page" src="images/digital_prototype.png" />
+<p class="caption">Digital Prototyping</p>
+</div>
 
 </div>
 
 <div id="footer">
-  <cite> &copy; 2011 &nbsp; Adam Rule</cite>
+  <cite> &copy; 2012 &nbsp; Adam Rule</cite>
 </div>
 
 </div>

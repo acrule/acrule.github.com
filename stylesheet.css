@@ -5,8 +5,8 @@ Author: 	Adam Rule, 2011
 
 
 a:link, a:visited {
-	display: block;
-	color: #000;
+	/*display: block;*/
+	color: #885;
 	text-decoration: none;
 }
 
@@ -21,7 +21,7 @@ a.nav:link, a.nav:visited {
 }
 
 a.nav:hover, a.nav:active {
-	color: #aaa;
+	color: #996;
 }
 
 body {
@@ -38,10 +38,6 @@ h4 {
 	margin-bottom: 10px;
 }
 
-h4.portfolio_top {
-	margin-top: -25px;
-}
-
 ul.nav {
 	list-style-type: none;
 	margin: 0;
@@ -52,15 +48,9 @@ ul.nav {
 
 li.nav {
 	float:left;
-	padding-left:15px;
-	padding-right: 15px;
+	padding-left:25px;
 	padding-top: 4px;
 	padding-bottom: 4px;
-}
-
-p.portfolio {
-	margin-top: 10px;
-	margin-bottom: 0px;
 }
 
 #container {
@@ -110,20 +100,5 @@ p.portfolio {
 	background-color: #333;
 }
 
-.onethird {
-	width: 250px;
-	margin-top: 25px;
-	margin-right: 0px;
-	text-align: left;
-	float: left;
-}
 
-.middle {
-	width:250px;
-	margin-top: 25px;
-	margin-right: 25px;
-	margin-left: 25px;
-	text-align:left;
-	float: left;
-}
 
