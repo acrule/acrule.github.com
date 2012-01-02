@@ -1,5 +1,5 @@
 /*
-Description: 	Theme for Adam Rule portfolio
+Description: 	Theme for adamrule.com portfolio pages
 Author: 	Adam Rule, 2011
 */
 
@@ -8,7 +8,7 @@ a.plain:link, a.plain:visited {
 }
 
 a.plain:hover, a.plain:active {
-	color: #999;
+	color: #333;
 }
 
 h2 {
@@ -19,15 +19,8 @@ h2 {
 	margin-bottom: 0px;
 }
 
-
 h3.portfolio_top {
 	margin-top: -25px;
-}
-
-.start_page {
-	float: right;
-	margin-left: 25px;
-	margin-bottom: 25px;
 }
 
 img.end_page {
@@ -42,6 +35,14 @@ p.caption {
 	margin-bottom: 25px;
 }
 
+p.credit {
+	color: #999;
+	font-size: 0.5em;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	text-align: center;
+}
+
 p.prompt{
 	font-size: 1.5em;
 	font-style: italic;
@@ -53,14 +54,6 @@ p.portfolio {
 	margin-top: 10px;
 	margin-bottom: 0px;
 	color: #666;
-	text-align: center;
-}
-
-p.credit {
-	color: #999;
-	font-size: 0.5em;
-	margin-top: 0px;
-	margin-bottom: 0px;
 	text-align: center;
 }
 
@@ -86,5 +79,11 @@ p.credit {
 	margin-left: 25px;
 	text-align:left;
 	float: left;
+}
+
+.start_page {
+	float: right;
+	margin-left: 25px;
+	margin-bottom: 25px;
 }
 
