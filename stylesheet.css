@@ -3,6 +3,18 @@ Description: 	Theme for adamrule.com
 Author: 	Adam Rule, 2012
 */
 
+a.current{
+	display: block;
+	text-decoration: none;
+}
+
+a.current:link, a.current:visited {
+	color: #69d;
+}
+
+a.current:hover, a.current:active{
+	color: #69d;
+}
 
 a:link, a:visited {
 	/*display: block;*/
@@ -75,7 +87,7 @@ li.nav {
 
 #content {
 	background-color:#fff;
-	text-alight: left;
+	text-align: left;
 }
 
 #footer {
