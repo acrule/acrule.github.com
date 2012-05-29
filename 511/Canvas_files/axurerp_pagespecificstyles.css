@@ -22,53 +22,11 @@ div.main_container {
     background-color: transparent;
 }
 
-.u0_original {
-    background-image: url('../Canvas_files/u0_original.png');
+.u0_line {
+    background-image: url('../Canvas_files/u0_line.png');
 }
 
-.u0_container {
-    position:absolute;
-    left:20px;
-    top:60px;
-    width:250px;
-    height:560px;
-}
-
-#u0_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:256px;
-    height:566px;
-}
-
-.u1 {
-    position:absolute;
-    left:2px;
-    top:272px;
-    width:246px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u0 {
-    position:absolute;
-    left:20px;
-    top:60px;
-    width:250px;
-    height:560px
-}
-
-.u2_line {
-    background-image: url('../Canvas_files/u2_line.png');
-}
-
-.u2_line {
+.u0_line {
     position:absolute;
     left:20px;
     top:634px;
@@ -76,7 +34,7 @@ div.main_container {
     height:3px;
 }
 
-.u2 {
+.u0 {
     position:absolute;
     left:20px;
     top:634px;
@@ -84,7 +42,7 @@ div.main_container {
     height:3px
 }
 
-.u3 {
+.u1 {
     position:absolute;
     left:1040px;
     top:645px;
@@ -98,11 +56,11 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u4_line {
-    background-image: url('../Canvas_files/u4_line.png');
+.u2_line {
+    background-image: url('../Canvas_files/u2_line.png');
 }
 
-.u4_line {
+.u2_line {
     position:absolute;
     left:20px;
     top:44px;
@@ -110,7 +68,7 @@ div.main_container {
     height:3px;
 }
 
-.u4 {
+.u2 {
     position:absolute;
     left:20px;
     top:44px;
@@ -118,7 +76,7 @@ div.main_container {
     height:3px
 }
 
-.u5 {
+.u3 {
     position:absolute;
     left:20px;
     top:20px;
@@ -132,7 +90,7 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u6_text {
+.u4_text {
     position:absolute;
     left:20px;
     top:640px;
@@ -146,7 +104,7 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u6 {
+.u4 {
     position:absolute;
     left:20px;
     top:640px;
@@ -154,27 +112,73 @@ div.main_container {
     height:15px
 }
 
-.u8_container {
+.u6_original {
+    background-image: url('../Canvas_files/u6_original.png');
+}
+
+.u6_container {
     position:absolute;
     left:10px;
     top:0px;
-    width:230px;
-    height:171px;
+    width:573px;
+    height:418px;
+}
+
+#u6_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:573px;
+    height:418px;
+}
+
+.u7 {
+    position:absolute;
+    left:2px;
+    top:201px;
+    width:569px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:10px;
+    top:0px;
+    width:573px;
+    height:418px
+}
+
+.u8_original {
+    background-image: url('../Canvas_files/u8_original.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:10px;
+    top:160px;
+    width:520px;
+    height:260px;
 }
 
 #u8_img {
     position:absolute;
     left:0px;
     top:0px;
-    width:230px;
-    height:171px;
+    width:520px;
+    height:260px;
 }
 
 .u9 {
     position:absolute;
     left:2px;
-    top:78px;
-    width:226px;
+    top:122px;
+    width:516px;
     height:16px;
     ;
     ;
@@ -187,13 +191,9 @@ div.main_container {
 .u8 {
     position:absolute;
     left:10px;
-    top:0px;
-    width:230px;
-    height:171px
-}
-
-.u10_hover {
-    background-image: url('../Canvas_files/u10_hover.png');
+    top:160px;
+    width:520px;
+    height:260px
 }
 
 .u10_original {
@@ -203,24 +203,24 @@ div.main_container {
 .u10_container {
     position:absolute;
     left:10px;
-    top:30px;
-    width:227px;
-    height:120px;
+    top:120px;
+    width:600px;
+    height:299px;
 }
 
 #u10_img {
     position:absolute;
     left:0px;
     top:0px;
-    width:227px;
-    height:120px;
+    width:600px;
+    height:299px;
 }
 
 .u11 {
     position:absolute;
     left:2px;
-    top:52px;
-    width:223px;
+    top:142px;
+    width:596px;
     height:16px;
     ;
     ;
@@ -233,13 +233,9 @@ div.main_container {
 .u10 {
     position:absolute;
     left:10px;
-    top:30px;
-    width:227px;
-    height:120px
-}
-
-.u12_hover {
-    background-image: url('../Canvas_files/u12_hover.png');
+    top:120px;
+    width:600px;
+    height:299px
 }
 
 .u12_original {
@@ -248,25 +244,25 @@ div.main_container {
 
 .u12_container {
     position:absolute;
-    left:12px;
-    top:40px;
-    width:188px;
-    height:110px;
+    left:10px;
+    top:239px;
+    width:220px;
+    height:181px;
 }
 
 #u12_img {
     position:absolute;
     left:0px;
     top:0px;
-    width:188px;
-    height:110px;
+    width:220px;
+    height:181px;
 }
 
 .u13 {
     position:absolute;
     left:2px;
-    top:47px;
-    width:184px;
+    top:82px;
+    width:216px;
     height:16px;
     ;
     ;
@@ -278,14 +274,10 @@ div.main_container {
 
 .u12 {
     position:absolute;
-    left:12px;
-    top:40px;
-    width:188px;
-    height:110px
-}
-
-.u14_hover {
-    background-image: url('../Canvas_files/u14_hover.png');
+    left:10px;
+    top:239px;
+    width:220px;
+    height:181px
 }
 
 .u14_original {
@@ -295,24 +287,24 @@ div.main_container {
 .u14_container {
     position:absolute;
     left:10px;
-    top:30px;
-    width:277px;
-    height:120px;
+    top:259px;
+    width:240px;
+    height:161px;
 }
 
 #u14_img {
     position:absolute;
     left:0px;
     top:0px;
-    width:277px;
-    height:120px;
+    width:240px;
+    height:161px;
 }
 
 .u15 {
     position:absolute;
     left:2px;
-    top:52px;
-    width:273px;
+    top:72px;
+    width:236px;
     height:16px;
     ;
     ;
@@ -325,13 +317,9 @@ div.main_container {
 .u14 {
     position:absolute;
     left:10px;
-    top:30px;
-    width:277px;
-    height:120px
-}
-
-.u16_hover {
-    background-image: url('../Canvas_files/u16_hover.png');
+    top:259px;
+    width:240px;
+    height:161px
 }
 
 .u16_original {
@@ -341,24 +329,24 @@ div.main_container {
 .u16_container {
     position:absolute;
     left:10px;
-    top:30px;
-    width:226px;
-    height:120px;
+    top:195px;
+    width:640px;
+    height:213px;
 }
 
 #u16_img {
     position:absolute;
     left:0px;
     top:0px;
-    width:226px;
-    height:120px;
+    width:640px;
+    height:213px;
 }
 
 .u17 {
     position:absolute;
     left:2px;
-    top:52px;
-    width:222px;
+    top:98px;
+    width:636px;
     height:16px;
     ;
     ;
@@ -371,9 +359,9 @@ div.main_container {
 .u16 {
     position:absolute;
     left:10px;
-    top:30px;
-    width:226px;
-    height:120px
+    top:195px;
+    width:640px;
+    height:213px
 }
 
 .u18_original {
@@ -383,24 +371,24 @@ div.main_container {
 .u18_container {
     position:absolute;
     left:10px;
-    top:30px;
-    width:260px;
-    height:119px;
+    top:135px;
+    width:590px;
+    height:289px;
 }
 
 #u18_img {
     position:absolute;
     left:0px;
     top:0px;
-    width:260px;
-    height:119px;
+    width:590px;
+    height:289px;
 }
 
 .u19 {
     position:absolute;
     left:2px;
-    top:52px;
-    width:256px;
+    top:136px;
+    width:586px;
     height:16px;
     ;
     ;
@@ -413,13 +401,9 @@ div.main_container {
 .u18 {
     position:absolute;
     left:10px;
-    top:30px;
-    width:260px;
-    height:119px
-}
-
-.u20_hover {
-    background-image: url('../Canvas_files/u20_hover.png');
+    top:135px;
+    width:590px;
+    height:289px
 }
 
 .u20_original {
@@ -429,24 +413,24 @@ div.main_container {
 .u20_container {
     position:absolute;
     left:10px;
-    top:20px;
-    width:203px;
-    height:130px;
+    top:213px;
+    width:520px;
+    height:212px;
 }
 
 #u20_img {
     position:absolute;
     left:0px;
     top:0px;
-    width:203px;
-    height:130px;
+    width:520px;
+    height:212px;
 }
 
 .u21 {
     position:absolute;
     left:2px;
-    top:57px;
-    width:199px;
+    top:98px;
+    width:516px;
     height:16px;
     ;
     ;
@@ -459,13 +443,9 @@ div.main_container {
 .u20 {
     position:absolute;
     left:10px;
-    top:20px;
-    width:203px;
-    height:130px
-}
-
-.u22_hover {
-    background-image: url('../Canvas_files/u22_hover.png');
+    top:213px;
+    width:520px;
+    height:212px
 }
 
 .u22_original {
@@ -475,24 +455,24 @@ div.main_container {
 .u22_container {
     position:absolute;
     left:10px;
-    top:30px;
-    width:199px;
-    height:120px;
+    top:263px;
+    width:470px;
+    height:157px;
 }
 
 #u22_img {
     position:absolute;
     left:0px;
     top:0px;
-    width:199px;
-    height:120px;
+    width:470px;
+    height:157px;
 }
 
 .u23 {
     position:absolute;
     left:2px;
-    top:52px;
-    width:195px;
+    top:70px;
+    width:466px;
     height:16px;
     ;
     ;
@@ -505,13 +485,9 @@ div.main_container {
 .u22 {
     position:absolute;
     left:10px;
-    top:30px;
-    width:199px;
-    height:120px
-}
-
-.u24_hover {
-    background-image: url('../Canvas_files/u24_hover.png');
+    top:263px;
+    width:470px;
+    height:157px
 }
 
 .u24_original {
@@ -521,24 +497,24 @@ div.main_container {
 .u24_container {
     position:absolute;
     left:10px;
-    top:30px;
-    width:214px;
-    height:120px;
+    top:266px;
+    width:460px;
+    height:154px;
 }
 
 #u24_img {
     position:absolute;
     left:0px;
     top:0px;
-    width:214px;
-    height:120px;
+    width:460px;
+    height:154px;
 }
 
 .u25 {
     position:absolute;
     left:2px;
-    top:52px;
-    width:210px;
+    top:69px;
+    width:456px;
     height:16px;
     ;
     ;
@@ -551,9 +527,9 @@ div.main_container {
 .u24 {
     position:absolute;
     left:10px;
-    top:30px;
-    width:214px;
-    height:120px
+    top:266px;
+    width:460px;
+    height:154px
 }
 
 .u26_hover {
@@ -567,24 +543,24 @@ div.main_container {
 .u26_container {
     position:absolute;
     left:10px;
-    top:20px;
-    width:210px;
-    height:126px;
+    top:300px;
+    width:227px;
+    height:120px;
 }
 
 #u26_img {
     position:absolute;
     left:0px;
     top:0px;
-    width:210px;
-    height:126px;
+    width:227px;
+    height:120px;
 }
 
 .u27 {
     position:absolute;
     left:2px;
-    top:55px;
-    width:206px;
+    top:52px;
+    width:223px;
     height:16px;
     ;
     ;
@@ -597,112 +573,28 @@ div.main_container {
 .u26 {
     position:absolute;
     left:10px;
-    top:20px;
-    width:210px;
-    height:126px
-}
-
-.u29_container {
-    position:absolute;
-    left:10px;
-    top:0px;
-    width:230px;
-    height:171px;
-}
-
-#u29_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:230px;
-    height:171px;
-}
-
-.u30 {
-    position:absolute;
-    left:2px;
-    top:78px;
-    width:226px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u29 {
-    position:absolute;
-    left:10px;
-    top:0px;
-    width:230px;
-    height:171px
-}
-
-.u31_hover {
-    background-image: url('../Canvas_files/u10_hover.png');
-}
-
-.u31_original {
-    background-image: url('../Canvas_files/u10_original.png');
-}
-
-.u31_container {
-    position:absolute;
-    left:10px;
-    top:30px;
-    width:227px;
-    height:120px;
-}
-
-#u31_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:227px;
-    height:120px;
-}
-
-.u32 {
-    position:absolute;
-    left:2px;
-    top:52px;
-    width:223px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u31 {
-    position:absolute;
-    left:10px;
-    top:30px;
+    top:300px;
     width:227px;
     height:120px
 }
 
-.u33_hover {
-    background-image: url('../Canvas_files/u12_hover.png');
+.u28_hover {
+    background-image: url('../Canvas_files/u28_hover.png');
 }
 
-.u33_original {
-    background-image: url('../Canvas_files/u12_original.png');
+.u28_original {
+    background-image: url('../Canvas_files/u28_original.png');
 }
 
-.u33_container {
+.u28_container {
     position:absolute;
-    left:12px;
-    top:40px;
+    left:10px;
+    top:310px;
     width:188px;
     height:110px;
 }
 
-#u33_img {
+#u28_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -710,7 +602,7 @@ div.main_container {
     height:110px;
 }
 
-.u34 {
+.u29 {
     position:absolute;
     left:2px;
     top:47px;
@@ -724,31 +616,31 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u33 {
+.u28 {
     position:absolute;
-    left:12px;
-    top:40px;
+    left:10px;
+    top:310px;
     width:188px;
     height:110px
 }
 
-.u35_hover {
-    background-image: url('../Canvas_files/u14_hover.png');
+.u30_hover {
+    background-image: url('../Canvas_files/u30_hover.png');
 }
 
-.u35_original {
-    background-image: url('../Canvas_files/u14_original.png');
+.u30_original {
+    background-image: url('../Canvas_files/u30_original.png');
 }
 
-.u35_container {
+.u30_container {
     position:absolute;
     left:10px;
-    top:30px;
+    top:300px;
     width:277px;
     height:120px;
 }
 
-#u35_img {
+#u30_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -756,7 +648,7 @@ div.main_container {
     height:120px;
 }
 
-.u36 {
+.u31 {
     position:absolute;
     left:2px;
     top:52px;
@@ -770,31 +662,31 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u35 {
+.u30 {
     position:absolute;
     left:10px;
-    top:30px;
+    top:300px;
     width:277px;
     height:120px
 }
 
-.u37_hover {
-    background-image: url('../Canvas_files/u16_hover.png');
+.u32_hover {
+    background-image: url('../Canvas_files/u32_hover.png');
 }
 
-.u37_original {
-    background-image: url('../Canvas_files/u16_original.png');
+.u32_original {
+    background-image: url('../Canvas_files/u32_original.png');
 }
 
-.u37_container {
+.u32_container {
     position:absolute;
     left:10px;
-    top:30px;
+    top:300px;
     width:226px;
     height:120px;
 }
 
-#u37_img {
+#u32_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -802,7 +694,7 @@ div.main_container {
     height:120px;
 }
 
-.u38 {
+.u33 {
     position:absolute;
     left:2px;
     top:52px;
@@ -816,27 +708,27 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u37 {
+.u32 {
     position:absolute;
     left:10px;
-    top:30px;
+    top:300px;
     width:226px;
     height:120px
 }
 
-.u39_original {
-    background-image: url('../Canvas_files/u18_original.png');
+.u34_original {
+    background-image: url('../Canvas_files/u34_original.png');
 }
 
-.u39_container {
+.u34_container {
     position:absolute;
     left:10px;
-    top:30px;
+    top:301px;
     width:260px;
     height:119px;
 }
 
-#u39_img {
+#u34_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -844,7 +736,7 @@ div.main_container {
     height:119px;
 }
 
-.u40 {
+.u35 {
     position:absolute;
     left:2px;
     top:52px;
@@ -858,31 +750,31 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u39 {
+.u34 {
     position:absolute;
     left:10px;
-    top:30px;
+    top:301px;
     width:260px;
     height:119px
 }
 
-.u41_hover {
-    background-image: url('../Canvas_files/u20_hover.png');
+.u36_hover {
+    background-image: url('../Canvas_files/u36_hover.png');
 }
 
-.u41_original {
-    background-image: url('../Canvas_files/u20_original.png');
+.u36_original {
+    background-image: url('../Canvas_files/u36_original.png');
 }
 
-.u41_container {
+.u36_container {
     position:absolute;
     left:10px;
-    top:20px;
+    top:290px;
     width:203px;
     height:130px;
 }
 
-#u41_img {
+#u36_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -890,7 +782,7 @@ div.main_container {
     height:130px;
 }
 
-.u42 {
+.u37 {
     position:absolute;
     left:2px;
     top:57px;
@@ -904,31 +796,31 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u41 {
+.u36 {
     position:absolute;
     left:10px;
-    top:20px;
+    top:290px;
     width:203px;
     height:130px
 }
 
-.u43_hover {
-    background-image: url('../Canvas_files/u22_hover.png');
+.u38_hover {
+    background-image: url('../Canvas_files/u38_hover.png');
 }
 
-.u43_original {
-    background-image: url('../Canvas_files/u22_original.png');
+.u38_original {
+    background-image: url('../Canvas_files/u38_original.png');
 }
 
-.u43_container {
+.u38_container {
     position:absolute;
     left:10px;
-    top:30px;
+    top:300px;
     width:199px;
     height:120px;
 }
 
-#u43_img {
+#u38_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -936,7 +828,7 @@ div.main_container {
     height:120px;
 }
 
-.u44 {
+.u39 {
     position:absolute;
     left:2px;
     top:52px;
@@ -950,31 +842,31 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u43 {
+.u38 {
     position:absolute;
     left:10px;
-    top:30px;
+    top:300px;
     width:199px;
     height:120px
 }
 
-.u45_hover {
-    background-image: url('../Canvas_files/u24_hover.png');
+.u40_hover {
+    background-image: url('../Canvas_files/u40_hover.png');
 }
 
-.u45_original {
-    background-image: url('../Canvas_files/u24_original.png');
+.u40_original {
+    background-image: url('../Canvas_files/u40_original.png');
 }
 
-.u45_container {
+.u40_container {
     position:absolute;
     left:10px;
-    top:30px;
+    top:300px;
     width:214px;
     height:120px;
 }
 
-#u45_img {
+#u40_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -982,7 +874,7 @@ div.main_container {
     height:120px;
 }
 
-.u46 {
+.u41 {
     position:absolute;
     left:2px;
     top:52px;
@@ -996,31 +888,31 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u45 {
+.u40 {
     position:absolute;
     left:10px;
-    top:30px;
+    top:300px;
     width:214px;
     height:120px
 }
 
-.u47_hover {
-    background-image: url('../Canvas_files/u26_hover.png');
+.u42_hover {
+    background-image: url('../Canvas_files/u42_hover.png');
 }
 
-.u47_original {
-    background-image: url('../Canvas_files/u26_original.png');
+.u42_original {
+    background-image: url('../Canvas_files/u42_original.png');
 }
 
-.u47_container {
+.u42_container {
     position:absolute;
     left:10px;
-    top:20px;
+    top:294px;
     width:210px;
     height:126px;
 }
 
-#u47_img {
+#u42_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -1028,11 +920,103 @@ div.main_container {
     height:126px;
 }
 
-.u48 {
+.u43 {
     position:absolute;
     left:2px;
     top:55px;
     width:206px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:10px;
+    top:294px;
+    width:210px;
+    height:126px
+}
+
+.u45_hover {
+    background-image: url('../Canvas_files/u45_hover.png');
+}
+
+.u45_original {
+    background-image: url('../Canvas_files/u45_original.png');
+}
+
+.u45_container {
+    position:absolute;
+    left:13px;
+    top:150px;
+    width:67px;
+    height:180px;
+}
+
+#u45_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:67px;
+    height:180px;
+}
+
+.u46 {
+    position:absolute;
+    left:2px;
+    top:82px;
+    width:63px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u45 {
+    position:absolute;
+    left:13px;
+    top:150px;
+    width:67px;
+    height:180px
+}
+
+.u47_hover {
+    background-image: url('../Canvas_files/u47_hover.png');
+}
+
+.u47_original {
+    background-image: url('../Canvas_files/u47_original.png');
+}
+
+.u47_container {
+    position:absolute;
+    left:10px;
+    top:140px;
+    width:120px;
+    height:189px;
+}
+
+#u47_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:120px;
+    height:189px;
+}
+
+.u48 {
+    position:absolute;
+    left:2px;
+    top:86px;
+    width:116px;
     height:16px;
     ;
     ;
@@ -1045,78 +1029,40 @@ div.main_container {
 .u47 {
     position:absolute;
     left:10px;
-    top:20px;
-    width:210px;
-    height:126px
+    top:140px;
+    width:120px;
+    height:189px
 }
 
-.u50_container {
+.u49_hover {
+    background-image: url('../Canvas_files/u49_hover.png');
+}
+
+.u49_original {
+    background-image: url('../Canvas_files/u49_original.png');
+}
+
+.u49_container {
     position:absolute;
     left:10px;
-    top:0px;
-    width:230px;
-    height:171px;
+    top:158px;
+    width:131px;
+    height:172px;
 }
 
-#u50_img {
+#u49_img {
     position:absolute;
     left:0px;
     top:0px;
-    width:230px;
-    height:171px;
-}
-
-.u51 {
-    position:absolute;
-    left:2px;
-    top:78px;
-    width:226px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
+    width:131px;
+    height:172px;
 }
 
 .u50 {
     position:absolute;
-    left:10px;
-    top:0px;
-    width:230px;
-    height:171px
-}
-
-.u52_hover {
-    background-image: url('../Canvas_files/u10_hover.png');
-}
-
-.u52_original {
-    background-image: url('../Canvas_files/u10_original.png');
-}
-
-.u52_container {
-    position:absolute;
-    left:10px;
-    top:30px;
-    width:227px;
-    height:120px;
-}
-
-#u52_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:227px;
-    height:120px;
-}
-
-.u53 {
-    position:absolute;
     left:2px;
-    top:52px;
-    width:223px;
+    top:78px;
+    width:127px;
     height:16px;
     ;
     ;
@@ -1124,45 +1070,45 @@ div.main_container {
     font-family:Arial;
     text-align:left;
     word-wrap:break-word;
+}
+
+.u49 {
+    position:absolute;
+    left:10px;
+    top:158px;
+    width:131px;
+    height:172px
+}
+
+.u51_hover {
+    background-image: url('../Canvas_files/u51_hover.png');
+}
+
+.u51_original {
+    background-image: url('../Canvas_files/u51_original.png');
+}
+
+.u51_container {
+    position:absolute;
+    left:10px;
+    top:156px;
+    width:85px;
+    height:174px;
+}
+
+#u51_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:85px;
+    height:174px;
 }
 
 .u52 {
     position:absolute;
-    left:10px;
-    top:30px;
-    width:227px;
-    height:120px
-}
-
-.u54_hover {
-    background-image: url('../Canvas_files/u12_hover.png');
-}
-
-.u54_original {
-    background-image: url('../Canvas_files/u12_original.png');
-}
-
-.u54_container {
-    position:absolute;
-    left:12px;
-    top:40px;
-    width:188px;
-    height:110px;
-}
-
-#u54_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:188px;
-    height:110px;
-}
-
-.u55 {
-    position:absolute;
     left:2px;
-    top:47px;
-    width:184px;
+    top:79px;
+    width:81px;
     height:16px;
     ;
     ;
@@ -1170,45 +1116,45 @@ div.main_container {
     font-family:Arial;
     text-align:left;
     word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:10px;
+    top:156px;
+    width:85px;
+    height:174px
+}
+
+.u53_hover {
+    background-image: url('../Canvas_files/u53_hover.png');
+}
+
+.u53_original {
+    background-image: url('../Canvas_files/u53_original.png');
+}
+
+.u53_container {
+    position:absolute;
+    left:10px;
+    top:200px;
+    width:63px;
+    height:130px;
+}
+
+#u53_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:63px;
+    height:130px;
 }
 
 .u54 {
     position:absolute;
-    left:12px;
-    top:40px;
-    width:188px;
-    height:110px
-}
-
-.u56_hover {
-    background-image: url('../Canvas_files/u14_hover.png');
-}
-
-.u56_original {
-    background-image: url('../Canvas_files/u14_original.png');
-}
-
-.u56_container {
-    position:absolute;
-    left:10px;
-    top:30px;
-    width:277px;
-    height:120px;
-}
-
-#u56_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:277px;
-    height:120px;
-}
-
-.u57 {
-    position:absolute;
     left:2px;
-    top:52px;
-    width:273px;
+    top:57px;
+    width:59px;
     height:16px;
     ;
     ;
@@ -1216,45 +1162,45 @@ div.main_container {
     font-family:Arial;
     text-align:left;
     word-wrap:break-word;
+}
+
+.u53 {
+    position:absolute;
+    left:10px;
+    top:200px;
+    width:63px;
+    height:130px
+}
+
+.u55_hover {
+    background-image: url('../Canvas_files/u55_hover.png');
+}
+
+.u55_original {
+    background-image: url('../Canvas_files/u55_original.png');
+}
+
+.u55_container {
+    position:absolute;
+    left:10px;
+    top:194px;
+    width:50px;
+    height:135px;
+}
+
+#u55_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:50px;
+    height:135px;
 }
 
 .u56 {
     position:absolute;
-    left:10px;
-    top:30px;
-    width:277px;
-    height:120px
-}
-
-.u58_hover {
-    background-image: url('../Canvas_files/u16_hover.png');
-}
-
-.u58_original {
-    background-image: url('../Canvas_files/u16_original.png');
-}
-
-.u58_container {
-    position:absolute;
-    left:10px;
-    top:30px;
-    width:226px;
-    height:120px;
-}
-
-#u58_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:226px;
-    height:120px;
-}
-
-.u59 {
-    position:absolute;
     left:2px;
-    top:52px;
-    width:222px;
+    top:60px;
+    width:46px;
     height:16px;
     ;
     ;
@@ -1262,41 +1208,45 @@ div.main_container {
     font-family:Arial;
     text-align:left;
     word-wrap:break-word;
+}
+
+.u55 {
+    position:absolute;
+    left:10px;
+    top:194px;
+    width:50px;
+    height:135px
+}
+
+.u57_hover {
+    background-image: url('../Canvas_files/u57_hover.png');
+}
+
+.u57_original {
+    background-image: url('../Canvas_files/u57_original.png');
+}
+
+.u57_container {
+    position:absolute;
+    left:10px;
+    top:155px;
+    width:80px;
+    height:175px;
+}
+
+#u57_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:80px;
+    height:175px;
 }
 
 .u58 {
     position:absolute;
-    left:10px;
-    top:30px;
-    width:226px;
-    height:120px
-}
-
-.u60_original {
-    background-image: url('../Canvas_files/u18_original.png');
-}
-
-.u60_container {
-    position:absolute;
-    left:10px;
-    top:30px;
-    width:260px;
-    height:119px;
-}
-
-#u60_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:260px;
-    height:119px;
-}
-
-.u61 {
-    position:absolute;
     left:2px;
-    top:52px;
-    width:256px;
+    top:80px;
+    width:76px;
     height:16px;
     ;
     ;
@@ -1304,673 +1254,59 @@ div.main_container {
     font-family:Arial;
     text-align:left;
     word-wrap:break-word;
+}
+
+.u57 {
+    position:absolute;
+    left:10px;
+    top:155px;
+    width:80px;
+    height:175px
+}
+
+.u59_hover {
+    background-image: url('../Canvas_files/u59_hover.png');
+}
+
+.u59_original {
+    background-image: url('../Canvas_files/u59_original.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:10px;
+    top:140px;
+    width:70px;
+    height:189px;
+}
+
+#u59_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:70px;
+    height:189px;
 }
 
 .u60 {
     position:absolute;
-    left:10px;
-    top:30px;
-    width:260px;
-    height:119px
+    left:2px;
+    top:86px;
+    width:66px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
 }
 
-.u62_hover {
-    background-image: url('../Canvas_files/u20_hover.png');
-}
-
-.u62_original {
-    background-image: url('../Canvas_files/u20_original.png');
-}
-
-.u62_container {
+.u59 {
     position:absolute;
     left:10px;
-    top:20px;
-    width:203px;
-    height:130px;
-}
-
-#u62_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:203px;
-    height:130px;
-}
-
-.u63 {
-    position:absolute;
-    left:2px;
-    top:57px;
-    width:199px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u62 {
-    position:absolute;
-    left:10px;
-    top:20px;
-    width:203px;
-    height:130px
-}
-
-.u64_hover {
-    background-image: url('../Canvas_files/u22_hover.png');
-}
-
-.u64_original {
-    background-image: url('../Canvas_files/u22_original.png');
-}
-
-.u64_container {
-    position:absolute;
-    left:10px;
-    top:30px;
-    width:199px;
-    height:120px;
-}
-
-#u64_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:199px;
-    height:120px;
-}
-
-.u65 {
-    position:absolute;
-    left:2px;
-    top:52px;
-    width:195px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u64 {
-    position:absolute;
-    left:10px;
-    top:30px;
-    width:199px;
-    height:120px
-}
-
-.u66_hover {
-    background-image: url('../Canvas_files/u24_hover.png');
-}
-
-.u66_original {
-    background-image: url('../Canvas_files/u24_original.png');
-}
-
-.u66_container {
-    position:absolute;
-    left:10px;
-    top:30px;
-    width:214px;
-    height:120px;
-}
-
-#u66_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:214px;
-    height:120px;
-}
-
-.u67 {
-    position:absolute;
-    left:2px;
-    top:52px;
-    width:210px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u66 {
-    position:absolute;
-    left:10px;
-    top:30px;
-    width:214px;
-    height:120px
-}
-
-.u68_hover {
-    background-image: url('../Canvas_files/u26_hover.png');
-}
-
-.u68_original {
-    background-image: url('../Canvas_files/u26_original.png');
-}
-
-.u68_container {
-    position:absolute;
-    left:10px;
-    top:20px;
-    width:210px;
-    height:126px;
-}
-
-#u68_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:210px;
-    height:126px;
-}
-
-.u69 {
-    position:absolute;
-    left:2px;
-    top:55px;
-    width:206px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u68 {
-    position:absolute;
-    left:10px;
-    top:20px;
-    width:210px;
-    height:126px
-}
-
-.u71_original {
-    background-image: url('../Canvas_files/u71_original.png');
-}
-
-.u71_container {
-    position:absolute;
-    left:30px;
-    top:10px;
-    width:50px;
-    height:50px;
-}
-
-#u71_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:50px;
-    height:50px;
-}
-
-.u72 {
-    position:absolute;
-    left:2px;
-    top:17px;
-    width:46px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u71 {
-    position:absolute;
-    left:30px;
-    top:10px;
-    width:50px;
-    height:50px
-}
-
-.u73 {
-    position:absolute;
-    left:52px;
-    top:75px;
-    width:10px;
-    height:15px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u74_original {
-    background-image: url('../Canvas_files/u74_original.png');
-}
-
-.u74_container {
-    position:absolute;
-    left:20px;
-    top:70px;
-    width:20px;
-    height:25px;
-}
-
-#u74_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:26px;
-    height:31px;
-}
-
-.u75 {
-    position:absolute;
-    left:2px;
-    top:4px;
-    width:16px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u74 {
-    position:absolute;
-    left:20px;
-    top:70px;
-    width:20px;
-    height:25px
-}
-
-.u76_original {
-    background-image: url('../Canvas_files/u71_original.png');
-}
-
-.u76_container {
-    position:absolute;
-    left:30px;
-    top:10px;
-    width:50px;
-    height:50px;
-}
-
-#u76_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:50px;
-    height:50px;
-}
-
-.u77 {
-    position:absolute;
-    left:2px;
-    top:17px;
-    width:46px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u76 {
-    position:absolute;
-    left:30px;
-    top:10px;
-    width:50px;
-    height:50px
-}
-
-.u78 {
-    position:absolute;
-    left:52px;
-    top:75px;
-    width:10px;
-    height:15px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u79_original {
-    background-image: url('../Canvas_files/u79_original.png');
-}
-
-.u79_container {
-    position:absolute;
-    left:70px;
-    top:70px;
-    width:20px;
-    height:25px;
-}
-
-#u79_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:26px;
-    height:31px;
-}
-
-.u80 {
-    position:absolute;
-    left:2px;
-    top:4px;
-    width:16px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u79 {
-    position:absolute;
-    left:70px;
-    top:70px;
-    width:20px;
-    height:25px
-}
-
-.u81_original {
-    background-image: url('../Canvas_files/u74_original.png');
-}
-
-.u81_container {
-    position:absolute;
-    left:20px;
-    top:70px;
-    width:20px;
-    height:25px;
-}
-
-#u81_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:26px;
-    height:31px;
-}
-
-.u82 {
-    position:absolute;
-    left:2px;
-    top:4px;
-    width:16px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u81 {
-    position:absolute;
-    left:20px;
-    top:70px;
-    width:20px;
-    height:25px
-}
-
-.u83_original {
-    background-image: url('../Canvas_files/u71_original.png');
-}
-
-.u83_container {
-    position:absolute;
-    left:30px;
-    top:10px;
-    width:50px;
-    height:50px;
-}
-
-#u83_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:50px;
-    height:50px;
-}
-
-.u84 {
-    position:absolute;
-    left:2px;
-    top:17px;
-    width:46px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u83 {
-    position:absolute;
-    left:30px;
-    top:10px;
-    width:50px;
-    height:50px
-}
-
-.u85 {
-    position:absolute;
-    left:52px;
-    top:75px;
-    width:10px;
-    height:15px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u86_original {
-    background-image: url('../Canvas_files/u79_original.png');
-}
-
-.u86_container {
-    position:absolute;
-    left:70px;
-    top:70px;
-    width:20px;
-    height:25px;
-}
-
-#u86_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:26px;
-    height:31px;
-}
-
-.u87 {
-    position:absolute;
-    left:2px;
-    top:4px;
-    width:16px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u86 {
-    position:absolute;
-    left:70px;
-    top:70px;
-    width:20px;
-    height:25px
-}
-
-.u88_original {
-    background-image: url('../Canvas_files/u74_original.png');
-}
-
-.u88_container {
-    position:absolute;
-    left:20px;
-    top:70px;
-    width:20px;
-    height:25px;
-}
-
-#u88_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:26px;
-    height:31px;
-}
-
-.u89 {
-    position:absolute;
-    left:2px;
-    top:4px;
-    width:16px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u88 {
-    position:absolute;
-    left:20px;
-    top:70px;
-    width:20px;
-    height:25px
-}
-
-.u90_original {
-    background-image: url('../Canvas_files/u71_original.png');
-}
-
-.u90_container {
-    position:absolute;
-    left:30px;
-    top:10px;
-    width:50px;
-    height:50px;
-}
-
-#u90_img {
-    position:absolute;
-    left:0px;
-    top:0px;
-    width:50px;
-    height:50px;
-}
-
-.u91 {
-    position:absolute;
-    left:2px;
-    top:17px;
-    width:46px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u90 {
-    position:absolute;
-    left:30px;
-    top:10px;
-    width:50px;
-    height:50px
-}
-
-.u92 {
-    position:absolute;
-    left:50px;
-    top:75px;
-    width:10px;
-    height:15px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u93_original {
-    background-image: url('../Canvas_files/u79_original.png');
-}
-
-.u93_container {
-    position:absolute;
-    left:70px;
-    top:70px;
-    width:20px;
-    height:25px;
-}
-
-#u93_img {
-    position:absolute;
-    left:-3px;
-    top:-3px;
-    width:26px;
-    height:31px;
-}
-
-.u94 {
-    position:absolute;
-    left:2px;
-    top:4px;
-    width:16px;
-    height:16px;
-    ;
-    ;
-    ;
-    font-family:Arial;
-    text-align:left;
-    word-wrap:break-word;
-}
-
-.u93 {
-    position:absolute;
-    left:70px;
-    top:70px;
-    width:20px;
-    height:25px
+    top:140px;
+    width:70px;
+    height:189px
 }
 

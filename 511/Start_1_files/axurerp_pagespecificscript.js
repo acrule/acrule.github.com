@@ -53,16 +53,7 @@ if (true) {
 
 	SetPanelVisibility('u0','','fade',1000);
 
-}
-else
-if (true) {
-function waitu65f166768c2647d6bfcc3ebcf286522c1() {
-
-	SetPanelVisibility('u0','hidden','none',500);
-
-	SetPanelVisibility('u3','hidden','fade',1000);
-}
-setTimeout(waitu65f166768c2647d6bfcc3ebcf286522c1, 3000);
+	SetPanelVisibility('u5','','fade',500);
 
 }
 
@@ -85,11 +76,13 @@ if (true) {
 	SetPanelVisibility('u0','hidden','none',500);
 
 	SetPanelVisibility('u3','hidden','fade',1000);
-function waitue1c9ce20b1774dd285d8c20c2ae9404b1() {
+
+	SetPanelVisibility('u5','hidden','none',500);
+function waitubf9df6b213664a5b83789d608bd3bbc91() {
 
 	self.location.href="Home.html" + GetQuerystring();
 }
-setTimeout(waitue1c9ce20b1774dd285d8c20c2ae9404b1, 1000);
+setTimeout(waitubf9df6b213664a5b83789d608bd3bbc91, 1000);
 
 }
 
@@ -114,14 +107,45 @@ if (true) {
 	SetPanelVisibility('u0','hidden','none',500);
 
 	SetPanelVisibility('u3','hidden','fade',1000);
-function waitu05eb6a5cd29f4c26bebcd92a2e1ca6ed1() {
+
+	SetPanelVisibility('u5','hidden','fade',500);
+function waitu17325981d7944642860040b2cce60a121() {
 
 	self.location.href="Home.html" + GetQuerystring();
 }
-setTimeout(waitu05eb6a5cd29f4c26bebcd92a2e1ca6ed1, 1000);
+setTimeout(waitu17325981d7944642860040b2cce60a121, 1000);
 
 }
 
 }
 gv_vAlignTable['u4'] = 'top';
+var u5 = document.getElementById('u5');
+
+var u6 = document.getElementById('u6');
+
+u6.style.cursor = 'pointer';
+if (bIE) u6.attachEvent("onclick", Clicku6);
+else u6.addEventListener("click", Clicku6, true);
+function Clicku6(e)
+{
+windowEvent = e;
+
+
+if (true) {
+
+	SetPanelVisibility('u0','hidden','none',500);
+
+	SetPanelVisibility('u3','hidden','fade',1000);
+
+	SetPanelVisibility('u5','hidden','fade',500);
+function waitu5623131ffdcb4a24bd754dfc1eda089e1() {
+
+	self.location.href="Canvas.html" + GetQuerystring();
+}
+setTimeout(waitu5623131ffdcb4a24bd754dfc1eda089e1, 1000);
+
+}
+
+}
+gv_vAlignTable['u6'] = 'top';
 if (window.OnLoad) OnLoad();

@@ -1,6 +1,6 @@
-* html .u0_original {
+* html .u0_line {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u0_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u0_line.png");
 }
 
 * html .u2_line {
@@ -8,14 +8,14 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u2_line.png");
 }
 
-* html .u4_line {
+* html .u6_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u4_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u6_original.png");
 }
 
-* html .u10_hover {
+* html .u8_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u10_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u8_original.png");
 }
 
 * html .u10_original {
@@ -23,29 +23,14 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u10_original.png");
 }
 
-* html .u12_hover {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u12_hover.png");
-}
-
 * html .u12_original {
     background-image: none;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u12_original.png");
 }
 
-* html .u14_hover {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u14_hover.png");
-}
-
 * html .u14_original {
     background-image: none;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u14_original.png");
-}
-
-* html .u16_hover {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u16_hover.png");
 }
 
 * html .u16_original {
@@ -58,29 +43,14 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u18_original.png");
 }
 
-* html .u20_hover {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u20_hover.png");
-}
-
 * html .u20_original {
     background-image: none;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u20_original.png");
 }
 
-* html .u22_hover {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u22_hover.png");
-}
-
 * html .u22_original {
     background-image: none;
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u22_original.png");
-}
-
-* html .u24_hover {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u24_hover.png");
 }
 
 * html .u24_original {
@@ -98,223 +68,158 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u26_original.png");
 }
 
-* html .u31_hover {
+* html .u28_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u10_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u28_hover.png");
 }
 
-* html .u31_original {
+* html .u28_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u10_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u28_original.png");
 }
 
-* html .u33_hover {
+* html .u30_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u12_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u30_hover.png");
 }
 
-* html .u33_original {
+* html .u30_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u12_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u30_original.png");
 }
 
-* html .u35_hover {
+* html .u32_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u14_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u32_hover.png");
 }
 
-* html .u35_original {
+* html .u32_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u14_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u32_original.png");
 }
 
-* html .u37_hover {
+* html .u34_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u16_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u34_original.png");
 }
 
-* html .u37_original {
+* html .u36_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u16_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u36_hover.png");
 }
 
-* html .u39_original {
+* html .u36_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u18_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u36_original.png");
 }
 
-* html .u41_hover {
+* html .u38_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u20_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u38_hover.png");
 }
 
-* html .u41_original {
+* html .u38_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u20_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u38_original.png");
 }
 
-* html .u43_hover {
+* html .u40_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u22_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u40_hover.png");
 }
 
-* html .u43_original {
+* html .u40_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u22_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u40_original.png");
+}
+
+* html .u42_hover {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u42_hover.png");
+}
+
+* html .u42_original {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u42_original.png");
 }
 
 * html .u45_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u24_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u45_hover.png");
 }
 
 * html .u45_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u24_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u45_original.png");
 }
 
 * html .u47_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u26_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u47_hover.png");
 }
 
 * html .u47_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u26_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u47_original.png");
 }
 
-* html .u52_hover {
+* html .u49_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u10_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u49_hover.png");
 }
 
-* html .u52_original {
+* html .u49_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u10_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u49_original.png");
 }
 
-* html .u54_hover {
+* html .u51_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u12_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u51_hover.png");
 }
 
-* html .u54_original {
+* html .u51_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u12_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u51_original.png");
 }
 
-* html .u56_hover {
+* html .u53_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u14_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u53_hover.png");
 }
 
-* html .u56_original {
+* html .u53_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u14_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u53_original.png");
 }
 
-* html .u58_hover {
+* html .u55_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u16_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u55_hover.png");
 }
 
-* html .u58_original {
+* html .u55_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u16_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u55_original.png");
 }
 
-* html .u60_original {
+* html .u57_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u18_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u57_hover.png");
 }
 
-* html .u62_hover {
+* html .u57_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u20_hover.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u57_original.png");
 }
 
-* html .u62_original {
+* html .u59_hover {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u20_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u59_hover.png");
 }
 
-* html .u64_hover {
+* html .u59_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u22_hover.png");
-}
-
-* html .u64_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u22_original.png");
-}
-
-* html .u66_hover {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u24_hover.png");
-}
-
-* html .u66_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u24_original.png");
-}
-
-* html .u68_hover {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u26_hover.png");
-}
-
-* html .u68_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u26_original.png");
-}
-
-* html .u71_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u71_original.png");
-}
-
-* html .u74_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u74_original.png");
-}
-
-* html .u76_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u71_original.png");
-}
-
-* html .u79_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u79_original.png");
-}
-
-* html .u81_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u74_original.png");
-}
-
-* html .u83_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u71_original.png");
-}
-
-* html .u86_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u79_original.png");
-}
-
-* html .u88_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u74_original.png");
-}
-
-* html .u90_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u71_original.png");
-}
-
-* html .u93_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u79_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Canvas_files/u59_original.png");
 }
 

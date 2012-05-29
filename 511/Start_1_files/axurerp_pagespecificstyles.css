@@ -72,7 +72,7 @@ div.main_container {
     position:absolute;
     left:0px;
     top:0px;
-    width:430px;
+    width:540px;
     height:55px;
     ;
     ;
@@ -86,7 +86,29 @@ div.main_container {
     position:absolute;
     left:0px;
     top:0px;
-    width:430px;
+    width:540px;
     height:55px
+}
+
+.u6_text {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:150px;
+    height:15px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:150px;
+    height:15px
 }
 
