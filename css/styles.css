@@ -1,0 +1,245 @@
+/* ============================== */
+/* ! Layout for desktop version   */
+/* ============================== */
+
+a.current{
+	display: block;
+	text-decoration: none;
+}
+
+a.current:link, a.current:visited {
+	color: #69d;
+}
+
+a.current:hover, a.current:active{
+	color: #69d;
+}
+
+a:link, a:visited {
+	/*display: block;*/
+	color: #47b;
+	text-decoration: none;
+}
+
+a:hover, a:active {
+	color: #999;
+}
+
+a.nav{
+	display: block;
+	text-decoration: none;
+}
+
+a.nav:link, a.nav:visited {
+	color: #ccc;
+}
+
+a.nav:hover, a.nav:active{
+	color: #69d;
+}
+
+body {
+	background:#fff;
+	font-family: helvetica neue, helvetica, arial, verdana, sans-serif;
+	font-size: 100%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #222;
+}
+
+h4 {
+	margin-top: 0px;
+	margin-bottom: 10px;
+}
+
+p {
+	line-height: 150%;
+}
+
+li {
+	line-height: 140%;
+}
+
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 1.2em;
+}
+
+li.nav {
+	float:left;
+	padding-left:25px;
+	padding-top: 4px;
+	padding-bottom: 4px;
+}
+
+#footer {
+	text-align: right;
+	margin-top: 25px;
+	margin-bottom: 25px; 
+	clear: both;
+	font-size: 0.75em;
+}
+
+#header {
+	margin-top: 20px;
+	margin-bottom: 25px;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #CCC;
+}
+
+#logo {
+	margin-left: -10px;
+	margin-bottom: 10px;
+}
+
+#main_image{
+	float: left;
+	margin-right: 25px;
+}
+
+#portrait{
+	float: left;
+	margin-right: 25px;
+	margin-bottom: 15px;
+}
+
+#navigation {
+	width: 800px;
+	border-color: #ccc;
+	border-bottom-style: solid;
+	border-width: 1px;
+}
+
+.cv_section{
+	padding-top: 10px;
+	padding-bottom: 10px;
+	border-width: 2px;
+	border-color: #CCC;
+	border-bottom-style:solid;
+
+}
+
+p.nospace {
+	line-height:110%;
+	margin-top:0px;
+	padding:0px;
+}
+
+#contact{
+	padding-bottom: 30px;
+}
+
+h1{
+	font-size: 2em;
+	margin-bottom: 10px;
+	margin-top:30px;
+	font-weight:normal;
+	color: #777;
+}
+
+h2{
+	margin-top: 20px;
+	padding-top: 0px;
+	margin-bottom: 10px;
+	font-size: 1.5em;
+	font-weight: normal;
+	color: #777;
+}
+
+h3{
+	margin-top: 0px;
+	font-weight:normal;
+	font-size: 1em;
+	color: #777;
+}
+
+h3.alt{
+	margin-top: 0px;
+	font-weight: normal;
+	font-style: italic;
+}
+
+
+h1.cv{
+	font-size:2em;
+	font-weight:normal;
+	margin-top:0px;
+	color:#000;
+}
+
+h2.cv{
+	font-size:1.4em;
+	font-weight:normal;
+	margin-top: 0px;
+	color:#999;
+}
+
+h3.cv{
+	font-size:1.1em;
+	font-weight: bold;
+	color:#000;
+
+}
+
+h4.cv{
+	font-size: 1em;
+	font-weight: normal;
+	color: #999;
+}
+
+
+.section{
+	padding-left: 25px;
+}
+
+.right {
+	text-align: right;
+}
+
+.left {
+	float: left;
+}
+
+	
+
+/* ============================= */
+/* ! Layout for mobile version   */
+/* ============================= */
+
+@media handheld, only screen and (max-width: 767px) {
+
+	body {
+	background:#fff;
+	font-family: helvetica neue, helvetica, arial, verdana, sans-serif;
+	font-size: 80%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #333;
+	}
+
+}
+
+
+/* ========================================== */
+/* ! Provide higher res assets for iPhone 4   */
+/* ========================================== */
+
+@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+
+	body {
+	background:#fff;
+	font-family: helvetica neue, helvetica, arial, verdana, sans-serif;
+	font-size: 70%;
+	margin: 0;
+	padding: 0;
+	text-align: left;
+	color: #333;
+	}
+
+}
