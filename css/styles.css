@@ -71,7 +71,7 @@ ul.nav {
 
 li.nav {
 	float:left;
-	padding-left:25px;
+	padding-right:25px;
 	padding-top: 4px;
 	padding-bottom: 4px;
 }
@@ -153,9 +153,9 @@ h2{
 
 h3{
 	margin-top: 0px;
-	font-weight:normal;
+	font-weight:bold;
 	font-size: 1em;
-	color: #777;
+	color: #000;
 }
 
 h3.alt{
@@ -223,6 +223,28 @@ h4.cv{
 	color: #333;
 	}
 
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+.right {
+	text-align: left;
+}
+
 }
 
 
@@ -241,5 +263,28 @@ h4.cv{
 	text-align: left;
 	color: #333;
 	}
+	
+	.row, body, .container {
+	width: 100%;
+	min-width: 0;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 0px;
+	padding-right: 0px;
+	}
+
+	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
+	width: auto;
+	float: none;
+	margin-left: 0px;
+	margin-right: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	}
+
+
+	.right {
+	text-align: left;
+}
 
 }
