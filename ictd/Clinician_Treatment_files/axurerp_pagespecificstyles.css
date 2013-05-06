@@ -1,0 +1,1197 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+    position: relative;
+    left: -0px;
+    width: 336px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../Clinician_Treatment_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:320px;
+    height:480px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:486px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:232px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u0 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:320px;
+    height:480px
+}
+
+.u2_original {
+    background-image: url('../Clinician_Treatment_files/u2_original.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:320px;
+    height:16px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:22px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:320px;
+    height:16px
+}
+
+.u4_original {
+    background-image: url('../Clinician_Treatment_files/u4_original.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:0px;
+    top:17px;
+    width:320px;
+    height:63px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:69px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:24px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:0px;
+    top:17px;
+    width:320px;
+    height:63px
+}
+
+.u6_down {
+    background-image: url('../Clinician_Treatment_files/u6_down.png');
+}
+
+.u6_selected {
+    background-image: url('../Clinician_Treatment_files/u6_down.png');
+}
+
+.u6_original {
+    background-image: url('../Clinician_Treatment_files/u6_original.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:16px;
+    top:28px;
+    width:96px;
+    height:40px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:102px;
+    height:46px;
+}
+
+.u7 {
+    position:absolute;
+    left:8px;
+    top:11px;
+    width:80px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:16px;
+    top:28px;
+    width:96px;
+    height:40px
+}
+
+.u8_down {
+    background-image: url('../Clinician_Treatment_files/u8_down.png');
+}
+
+.u8_selected {
+    background-image: url('../Clinician_Treatment_files/u8_down.png');
+}
+
+.u8_original {
+    background-image: url('../Clinician_Treatment_files/u8_original.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:216px;
+    top:27px;
+    width:88px;
+    height:40px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:94px;
+    height:46px;
+}
+
+.u9 {
+    position:absolute;
+    left:8px;
+    top:11px;
+    width:72px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:216px;
+    top:27px;
+    width:88px;
+    height:40px
+}
+
+.u10_original {
+    background-image: url('../Clinician_Treatment_files/u10_original.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:272px;
+    top:32px;
+    width:32px;
+    height:32px;
+}
+
+#u10_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10 {
+    position:absolute;
+    left:272px;
+    top:32px;
+    width:32px;
+    height:32px
+}
+
+.u13 {
+    position:absolute;
+    left:24px;
+    top:128px;
+    width:150px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14_down {
+    background-image: url('../Clinician_Treatment_files/u14_down.png');
+}
+
+.u14_selected {
+    background-image: url('../Clinician_Treatment_files/u14_down.png');
+}
+
+.u14_original {
+    background-image: url('../Clinician_Treatment_files/u14_original.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:16px;
+    top:152px;
+    width:232px;
+    height:48px;
+}
+
+#u14_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:238px;
+    height:54px;
+}
+
+.u15 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:222px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14 {
+    position:absolute;
+    left:16px;
+    top:152px;
+    width:232px;
+    height:48px
+}
+
+.u16_down {
+    background-image: url('../Clinician_Treatment_files/u14_down.png');
+}
+
+.u16_selected {
+    background-image: url('../Clinician_Treatment_files/u14_down.png');
+}
+
+.u16_original {
+    background-image: url('../Clinician_Treatment_files/u14_original.png');
+}
+
+.u16_container {
+    position:absolute;
+    left:16px;
+    top:208px;
+    width:232px;
+    height:48px;
+}
+
+#u16_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:238px;
+    height:54px;
+}
+
+.u17 {
+    position:absolute;
+    left:8px;
+    top:15px;
+    width:222px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u16 {
+    position:absolute;
+    left:16px;
+    top:208px;
+    width:232px;
+    height:48px
+}
+
+.u18_down {
+    background-image: url('../Clinician_Treatment_files/u14_down.png');
+}
+
+.u18_selected {
+    background-image: url('../Clinician_Treatment_files/u14_down.png');
+}
+
+.u18_original {
+    background-image: url('../Clinician_Treatment_files/u14_original.png');
+}
+
+.u18_container {
+    position:absolute;
+    left:16px;
+    top:376px;
+    width:232px;
+    height:48px;
+}
+
+#u18_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:238px;
+    height:54px;
+}
+
+.u19 {
+    position:absolute;
+    left:8px;
+    top:8px;
+    width:222px;
+    height:32px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u18 {
+    position:absolute;
+    left:16px;
+    top:376px;
+    width:232px;
+    height:48px
+}
+
+.u20_down {
+    background-image: url('../Clinician_Treatment_files/u14_down.png');
+}
+
+.u20_selected {
+    background-image: url('../Clinician_Treatment_files/u14_down.png');
+}
+
+.u20_original {
+    background-image: url('../Clinician_Treatment_files/u14_original.png');
+}
+
+.u20_container {
+    position:absolute;
+    left:16px;
+    top:264px;
+    width:232px;
+    height:48px;
+}
+
+#u20_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:238px;
+    height:54px;
+}
+
+.u21 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:222px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u20 {
+    position:absolute;
+    left:16px;
+    top:264px;
+    width:232px;
+    height:48px
+}
+
+.u22_down {
+    background-image: url('../Clinician_Treatment_files/u14_down.png');
+}
+
+.u22_selected {
+    background-image: url('../Clinician_Treatment_files/u14_down.png');
+}
+
+.u22_original {
+    background-image: url('../Clinician_Treatment_files/u14_original.png');
+}
+
+.u22_container {
+    position:absolute;
+    left:16px;
+    top:320px;
+    width:232px;
+    height:48px;
+}
+
+#u22_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:238px;
+    height:54px;
+}
+
+.u23 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:222px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22 {
+    position:absolute;
+    left:16px;
+    top:320px;
+    width:232px;
+    height:48px
+}
+
+.u24_down {
+    background-image: url('../Clinician_Treatment_files/u24_down.png');
+}
+
+.u24_selected {
+    background-image: url('../Clinician_Treatment_files/u24_down.png');
+}
+
+.u24_original {
+    background-image: url('../Clinician_Treatment_files/u24_original.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:256px;
+    top:208px;
+    width:48px;
+    height:48px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:54px;
+    height:54px;
+}
+
+.u25 {
+    position:absolute;
+    left:32px;
+    top:16px;
+    width:14px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24 {
+    position:absolute;
+    left:256px;
+    top:208px;
+    width:48px;
+    height:48px
+}
+
+.u26_original {
+    background-image: url('../Clinician_Treatment_files/u26_original.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:264px;
+    top:216px;
+    width:32px;
+    height:32px;
+}
+
+#u26_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:264px;
+    top:216px;
+    width:32px;
+    height:32px
+}
+
+.u28_down {
+    background-image: url('../Clinician_Treatment_files/u24_down.png');
+}
+
+.u28_selected {
+    background-image: url('../Clinician_Treatment_files/u24_down.png');
+}
+
+.u28_original {
+    background-image: url('../Clinician_Treatment_files/u24_original.png');
+}
+
+.u28_container {
+    position:absolute;
+    left:256px;
+    top:152px;
+    width:48px;
+    height:48px;
+}
+
+#u28_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:54px;
+    height:54px;
+}
+
+.u29 {
+    position:absolute;
+    left:32px;
+    top:16px;
+    width:14px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u28 {
+    position:absolute;
+    left:256px;
+    top:152px;
+    width:48px;
+    height:48px
+}
+
+.u30_original {
+    background-image: url('../Clinician_Treatment_files/u26_original.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:264px;
+    top:160px;
+    width:32px;
+    height:32px;
+}
+
+#u30_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30 {
+    position:absolute;
+    left:264px;
+    top:160px;
+    width:32px;
+    height:32px
+}
+
+.u32_down {
+    background-image: url('../Clinician_Treatment_files/u24_down.png');
+}
+
+.u32_selected {
+    background-image: url('../Clinician_Treatment_files/u24_down.png');
+}
+
+.u32_original {
+    background-image: url('../Clinician_Treatment_files/u24_original.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:256px;
+    top:264px;
+    width:48px;
+    height:48px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:54px;
+    height:54px;
+}
+
+.u33 {
+    position:absolute;
+    left:32px;
+    top:16px;
+    width:14px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:256px;
+    top:264px;
+    width:48px;
+    height:48px
+}
+
+.u34_original {
+    background-image: url('../Clinician_Treatment_files/u26_original.png');
+}
+
+.u34_container {
+    position:absolute;
+    left:264px;
+    top:272px;
+    width:32px;
+    height:32px;
+}
+
+#u34_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u35 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u34 {
+    position:absolute;
+    left:264px;
+    top:272px;
+    width:32px;
+    height:32px
+}
+
+.u36_down {
+    background-image: url('../Clinician_Treatment_files/u24_down.png');
+}
+
+.u36_selected {
+    background-image: url('../Clinician_Treatment_files/u24_down.png');
+}
+
+.u36_original {
+    background-image: url('../Clinician_Treatment_files/u24_original.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:256px;
+    top:320px;
+    width:48px;
+    height:48px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:54px;
+    height:54px;
+}
+
+.u37 {
+    position:absolute;
+    left:32px;
+    top:16px;
+    width:14px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36 {
+    position:absolute;
+    left:256px;
+    top:320px;
+    width:48px;
+    height:48px
+}
+
+.u38_original {
+    background-image: url('../Clinician_Treatment_files/u26_original.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:264px;
+    top:328px;
+    width:32px;
+    height:32px;
+}
+
+#u38_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38 {
+    position:absolute;
+    left:264px;
+    top:328px;
+    width:32px;
+    height:32px
+}
+
+.u40_down {
+    background-image: url('../Clinician_Treatment_files/u24_down.png');
+}
+
+.u40_selected {
+    background-image: url('../Clinician_Treatment_files/u24_down.png');
+}
+
+.u40_original {
+    background-image: url('../Clinician_Treatment_files/u24_original.png');
+}
+
+.u40_container {
+    position:absolute;
+    left:256px;
+    top:376px;
+    width:48px;
+    height:48px;
+}
+
+#u40_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:54px;
+    height:54px;
+}
+
+.u41 {
+    position:absolute;
+    left:32px;
+    top:16px;
+    width:14px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u40 {
+    position:absolute;
+    left:256px;
+    top:376px;
+    width:48px;
+    height:48px
+}
+
+.u42_original {
+    background-image: url('../Clinician_Treatment_files/u26_original.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:264px;
+    top:384px;
+    width:32px;
+    height:32px;
+}
+
+#u42_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:264px;
+    top:384px;
+    width:32px;
+    height:32px
+}
+
+.u44_disabled {
+    background-image: url('../Clinician_Treatment_files/u44_disabled.png');
+}
+
+.u44_original {
+    background-image: url('../Clinician_Treatment_files/u44_original.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:16px;
+    top:464px;
+    width:288px;
+    height:48px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:284px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44 {
+    position:absolute;
+    left:16px;
+    top:464px;
+    width:288px;
+    height:48px
+}
+
+.u46 {
+    position:absolute;
+    left:16px;
+    top:48px;
+    width:288px;
+    height:45px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u47 {
+    position:absolute;
+    left:16px;
+    top:16px;
+    width:240px;
+    height:28px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49_down {
+    background-image: url('../Clinician_Treatment_files/u49_down.png');
+}
+
+.u49_selected {
+    background-image: url('../Clinician_Treatment_files/u49_down.png');
+}
+
+.u49_original {
+    background-image: url('../Clinician_Treatment_files/u49_original.png');
+}
+
+.u49_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:208px;
+    height:48px;
+}
+
+#u49_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:214px;
+    height:54px;
+}
+
+.u50 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:204px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u49 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:208px;
+    height:48px
+}
+
+.u51_down {
+    background-image: url('../Clinician_Treatment_files/u49_down.png');
+}
+
+.u51_selected {
+    background-image: url('../Clinician_Treatment_files/u49_down.png');
+}
+
+.u51_original {
+    background-image: url('../Clinician_Treatment_files/u49_original.png');
+}
+
+.u51_container {
+    position:absolute;
+    left:0px;
+    top:48px;
+    width:208px;
+    height:48px;
+}
+
+#u51_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:214px;
+    height:54px;
+}
+
+.u52 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:204px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u51 {
+    position:absolute;
+    left:0px;
+    top:48px;
+    width:208px;
+    height:48px
+}
+
