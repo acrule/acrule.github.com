@@ -1,0 +1,5031 @@
+body {
+    margin: 0px;
+    text-align: center;
+}
+
+div {
+    background-repeat: no-repeat;
+}
+
+.raw_image {
+    width: 100%;
+    height: 100%;
+}
+
+.preload {
+    display: none;
+}
+div.main_container {
+    position: relative;
+    left: -0px;
+    width: 336px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: left;
+}
+
+.form_sketch {
+    border-color: transparent;
+    background-color: transparent;
+}
+
+.u0_original {
+    background-image: url('../Clinician_Questions_files/u0_original.png');
+}
+
+.u0_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:320px;
+    height:480px;
+}
+
+#u0_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:486px;
+}
+
+.u1 {
+    position:absolute;
+    left:2px;
+    top:232px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u0 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:320px;
+    height:480px
+}
+
+.u2_original {
+    background-image: url('../Clinician_Questions_files/u2_original.png');
+}
+
+.u2_container {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:320px;
+    height:16px;
+}
+
+#u2_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:22px;
+}
+
+.u3 {
+    position:absolute;
+    left:2px;
+    top:0px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u2 {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:320px;
+    height:16px
+}
+
+.u4_original {
+    background-image: url('../Clinician_Questions_files/u4_original.png');
+}
+
+.u4_container {
+    position:absolute;
+    left:0px;
+    top:16px;
+    width:320px;
+    height:64px;
+}
+
+#u4_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:326px;
+    height:70px;
+}
+
+.u5 {
+    position:absolute;
+    left:2px;
+    top:24px;
+    width:316px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u4 {
+    position:absolute;
+    left:0px;
+    top:16px;
+    width:320px;
+    height:64px
+}
+
+.u6_down {
+    background-image: url('../Clinician_Questions_files/u6_down.png');
+}
+
+.u6_selected {
+    background-image: url('../Clinician_Questions_files/u6_down.png');
+}
+
+.u6_original {
+    background-image: url('../Clinician_Questions_files/u6_original.png');
+}
+
+.u6_container {
+    position:absolute;
+    left:112px;
+    top:28px;
+    width:96px;
+    height:40px;
+}
+
+#u6_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:102px;
+    height:46px;
+}
+
+.u7 {
+    position:absolute;
+    left:8px;
+    top:11px;
+    width:80px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u6 {
+    position:absolute;
+    left:112px;
+    top:28px;
+    width:96px;
+    height:40px
+}
+
+.u8_down {
+    background-image: url('../Clinician_Questions_files/u8_down.png');
+}
+
+.u8_selected {
+    background-image: url('../Clinician_Questions_files/u8_down.png');
+}
+
+.u8_original {
+    background-image: url('../Clinician_Questions_files/u8_original.png');
+}
+
+.u8_container {
+    position:absolute;
+    left:224px;
+    top:28px;
+    width:80px;
+    height:40px;
+}
+
+#u8_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:46px;
+}
+
+.u9 {
+    position:absolute;
+    left:8px;
+    top:11px;
+    width:64px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u8 {
+    position:absolute;
+    left:224px;
+    top:28px;
+    width:80px;
+    height:40px
+}
+
+.u10_original {
+    background-image: url('../Clinician_Questions_files/u10_original.png');
+}
+
+.u10_container {
+    position:absolute;
+    left:268px;
+    top:32px;
+    width:32px;
+    height:32px;
+}
+
+#u10_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u11 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u10 {
+    position:absolute;
+    left:268px;
+    top:32px;
+    width:32px;
+    height:32px
+}
+
+.u12_down {
+    background-image: url('../Clinician_Questions_files/u8_down.png');
+}
+
+.u12_selected {
+    background-image: url('../Clinician_Questions_files/u8_down.png');
+}
+
+.u12_original {
+    background-image: url('../Clinician_Questions_files/u8_original.png');
+}
+
+.u12_container {
+    position:absolute;
+    left:16px;
+    top:28px;
+    width:80px;
+    height:40px;
+}
+
+#u12_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:86px;
+    height:46px;
+}
+
+.u13 {
+    position:absolute;
+    left:8px;
+    top:11px;
+    width:64px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u12 {
+    position:absolute;
+    left:16px;
+    top:28px;
+    width:80px;
+    height:40px
+}
+
+.u14_original {
+    background-image: url('../Clinician_Questions_files/u14_original.png');
+}
+
+.u14_container {
+    position:absolute;
+    left:20px;
+    top:32px;
+    width:32px;
+    height:32px;
+}
+
+#u14_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u15 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u14 {
+    position:absolute;
+    left:20px;
+    top:32px;
+    width:32px;
+    height:32px
+}
+
+.u17_original {
+    background-image: url('../Clinician_Questions_files/u17_original.png');
+}
+
+.u17_container {
+    position:absolute;
+    left:128px;
+    top:688px;
+    width:176px;
+    height:48px;
+}
+
+#u17_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:182px;
+    height:54px;
+}
+
+.u18 {
+    position:absolute;
+    left:8px;
+    top:15px;
+    width:160px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u17 {
+    position:absolute;
+    left:128px;
+    top:688px;
+    width:176px;
+    height:48px
+}
+
+.u19_original {
+    background-image: url('../Clinician_Questions_files/u10_original.png');
+}
+
+.u19_container {
+    position:absolute;
+    left:256px;
+    top:696px;
+    width:32px;
+    height:32px;
+}
+
+#u19_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u20 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u19 {
+    position:absolute;
+    left:256px;
+    top:696px;
+    width:32px;
+    height:32px
+}
+
+.u21 {
+    position:absolute;
+    left:16px;
+    top:96px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u22_line {
+    background-image: url('../Clinician_Questions_files/u22_line.png');
+}
+
+.u22_line {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:3px;
+}
+
+.u22 {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:3px
+}
+
+.u23 {
+    position:absolute;
+    left:16px;
+    top:17px;
+    width:288px;
+    height:42px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u24_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u24_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u24_container {
+    position:absolute;
+    left:48px;
+    top:162px;
+    width:116px;
+    height:48px;
+}
+
+#u24_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u25 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u24 {
+    position:absolute;
+    left:48px;
+    top:162px;
+    width:116px;
+    height:48px
+}
+
+.u26_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u26_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u26_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u26_container {
+    position:absolute;
+    left:164px;
+    top:162px;
+    width:112px;
+    height:48px;
+}
+
+#u26_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u27 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u26 {
+    position:absolute;
+    left:164px;
+    top:162px;
+    width:112px;
+    height:48px
+}
+
+.u28_line {
+    background-image: url('../Clinician_Questions_files/u28_line.png');
+}
+
+.u28_line {
+    position:absolute;
+    left:163px;
+    top:162px;
+    width:3px;
+    height:48px;
+}
+
+.u28 {
+    position:absolute;
+    left:163px;
+    top:162px;
+    width:3px;
+    height:48px
+}
+
+.u29 {
+    position:absolute;
+    left:16px;
+    top:128px;
+    width:280px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u30_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u30_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u30_container {
+    position:absolute;
+    left:48px;
+    top:288px;
+    width:116px;
+    height:48px;
+}
+
+#u30_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u31 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u30 {
+    position:absolute;
+    left:48px;
+    top:288px;
+    width:116px;
+    height:48px
+}
+
+.u32_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u32_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u32_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u32_container {
+    position:absolute;
+    left:164px;
+    top:288px;
+    width:112px;
+    height:48px;
+}
+
+#u32_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u33 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u32 {
+    position:absolute;
+    left:164px;
+    top:288px;
+    width:112px;
+    height:48px
+}
+
+.u34_line {
+    background-image: url('../Clinician_Questions_files/u34_line.png');
+}
+
+.u34_line {
+    position:absolute;
+    left:163px;
+    top:288px;
+    width:3px;
+    height:48px;
+}
+
+.u34 {
+    position:absolute;
+    left:163px;
+    top:288px;
+    width:3px;
+    height:48px
+}
+
+.u35 {
+    position:absolute;
+    left:16px;
+    top:254px;
+    width:280px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u36_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u36_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u36_container {
+    position:absolute;
+    left:48px;
+    top:576px;
+    width:116px;
+    height:48px;
+}
+
+#u36_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u37 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u36 {
+    position:absolute;
+    left:48px;
+    top:576px;
+    width:116px;
+    height:48px
+}
+
+.u38_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u38_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u38_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u38_container {
+    position:absolute;
+    left:164px;
+    top:576px;
+    width:112px;
+    height:48px;
+}
+
+#u38_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u39 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u38 {
+    position:absolute;
+    left:164px;
+    top:576px;
+    width:112px;
+    height:48px
+}
+
+.u40_line {
+    background-image: url('../Clinician_Questions_files/u40_line.png');
+}
+
+.u40_line {
+    position:absolute;
+    left:163px;
+    top:576px;
+    width:3px;
+    height:48px;
+}
+
+.u40 {
+    position:absolute;
+    left:163px;
+    top:576px;
+    width:3px;
+    height:48px
+}
+
+.u41 {
+    position:absolute;
+    left:16px;
+    top:526px;
+    width:280px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u42_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u42_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u42_container {
+    position:absolute;
+    left:48px;
+    top:432px;
+    width:116px;
+    height:48px;
+}
+
+#u42_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u43 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u42 {
+    position:absolute;
+    left:48px;
+    top:432px;
+    width:116px;
+    height:48px
+}
+
+.u44_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u44_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u44_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u44_container {
+    position:absolute;
+    left:164px;
+    top:432px;
+    width:112px;
+    height:48px;
+}
+
+#u44_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u45 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u44 {
+    position:absolute;
+    left:164px;
+    top:432px;
+    width:112px;
+    height:48px
+}
+
+.u46_line {
+    background-image: url('../Clinician_Questions_files/u46_line.png');
+}
+
+.u46_line {
+    position:absolute;
+    left:163px;
+    top:432px;
+    width:3px;
+    height:48px;
+}
+
+.u46 {
+    position:absolute;
+    left:163px;
+    top:432px;
+    width:3px;
+    height:48px
+}
+
+.u47 {
+    position:absolute;
+    left:16px;
+    top:382px;
+    width:280px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48_original {
+    background-image: url('../Clinician_Questions_files/u48_original.png');
+}
+
+.u48_container {
+    position:absolute;
+    left:186px;
+    top:576px;
+    width:112px;
+    height:48px;
+}
+
+#u48_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u49 {
+    position:absolute;
+    left:8px;
+    top:15px;
+    width:96px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u48 {
+    position:absolute;
+    left:186px;
+    top:576px;
+    width:112px;
+    height:48px
+}
+
+.u50_original {
+    background-image: url('../Clinician_Questions_files/u10_original.png');
+}
+
+.u50_container {
+    position:absolute;
+    left:250px;
+    top:584px;
+    width:32px;
+    height:32px;
+}
+
+#u50_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u51 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u50 {
+    position:absolute;
+    left:250px;
+    top:584px;
+    width:32px;
+    height:32px
+}
+
+.u52 {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u53_line {
+    background-image: url('../Clinician_Questions_files/u53_line.png');
+}
+
+.u53_line {
+    position:absolute;
+    left:16px;
+    top:132px;
+    width:288px;
+    height:3px;
+}
+
+.u53 {
+    position:absolute;
+    left:16px;
+    top:132px;
+    width:288px;
+    height:3px
+}
+
+.u54 {
+    position:absolute;
+    left:16px;
+    top:256px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u55_line {
+    background-image: url('../Clinician_Questions_files/u55_line.png');
+}
+
+.u55_line {
+    position:absolute;
+    left:16px;
+    top:272px;
+    width:288px;
+    height:3px;
+}
+
+.u55 {
+    position:absolute;
+    left:16px;
+    top:272px;
+    width:288px;
+    height:3px
+}
+
+.u56 {
+    position:absolute;
+    left:16px;
+    top:17px;
+    width:150px;
+    height:42px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u57_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u57_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u57_container {
+    position:absolute;
+    left:16px;
+    top:144px;
+    width:288px;
+    height:48px;
+}
+
+#u57_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u58 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u57 {
+    position:absolute;
+    left:16px;
+    top:144px;
+    width:288px;
+    height:48px
+}
+
+.u59_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u59_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u59_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u59_container {
+    position:absolute;
+    left:48px;
+    top:336px;
+    width:116px;
+    height:48px;
+}
+
+#u59_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u60 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u59 {
+    position:absolute;
+    left:48px;
+    top:336px;
+    width:116px;
+    height:48px
+}
+
+.u61_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u61_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u61_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u61_container {
+    position:absolute;
+    left:164px;
+    top:336px;
+    width:112px;
+    height:48px;
+}
+
+#u61_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u62 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u61 {
+    position:absolute;
+    left:164px;
+    top:336px;
+    width:112px;
+    height:48px
+}
+
+.u63_line {
+    background-image: url('../Clinician_Questions_files/u63_line.png');
+}
+
+.u63_line {
+    position:absolute;
+    left:163px;
+    top:336px;
+    width:3px;
+    height:48px;
+}
+
+.u63 {
+    position:absolute;
+    left:163px;
+    top:336px;
+    width:3px;
+    height:48px
+}
+
+.u64 {
+    position:absolute;
+    left:16px;
+    top:302px;
+    width:280px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u65_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u65_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u65_container {
+    position:absolute;
+    left:48px;
+    top:464px;
+    width:116px;
+    height:48px;
+}
+
+#u65_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u66 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u65 {
+    position:absolute;
+    left:48px;
+    top:464px;
+    width:116px;
+    height:48px
+}
+
+.u67_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u67_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u67_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u67_container {
+    position:absolute;
+    left:164px;
+    top:464px;
+    width:112px;
+    height:48px;
+}
+
+#u67_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u68 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u67 {
+    position:absolute;
+    left:164px;
+    top:464px;
+    width:112px;
+    height:48px
+}
+
+.u69_line {
+    background-image: url('../Clinician_Questions_files/u69_line.png');
+}
+
+.u69_line {
+    position:absolute;
+    left:163px;
+    top:464px;
+    width:3px;
+    height:48px;
+}
+
+.u69 {
+    position:absolute;
+    left:163px;
+    top:464px;
+    width:3px;
+    height:48px
+}
+
+.u70 {
+    position:absolute;
+    left:16px;
+    top:414px;
+    width:280px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71_original {
+    background-image: url('../Clinician_Questions_files/u48_original.png');
+}
+
+.u71_container {
+    position:absolute;
+    left:186px;
+    top:1104px;
+    width:112px;
+    height:48px;
+}
+
+#u71_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u72 {
+    position:absolute;
+    left:8px;
+    top:15px;
+    width:96px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u71 {
+    position:absolute;
+    left:186px;
+    top:1104px;
+    width:112px;
+    height:48px
+}
+
+.u73_original {
+    background-image: url('../Clinician_Questions_files/u10_original.png');
+}
+
+.u73_container {
+    position:absolute;
+    left:250px;
+    top:1112px;
+    width:32px;
+    height:32px;
+}
+
+#u73_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u74 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u73 {
+    position:absolute;
+    left:250px;
+    top:1112px;
+    width:32px;
+    height:32px
+}
+
+.u75 {
+    position:absolute;
+    left:16px;
+    top:80px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u76_line {
+    background-image: url('../Clinician_Questions_files/u76_line.png');
+}
+
+.u76_line {
+    position:absolute;
+    left:16px;
+    top:100px;
+    width:288px;
+    height:3px;
+}
+
+.u76 {
+    position:absolute;
+    left:16px;
+    top:100px;
+    width:288px;
+    height:3px
+}
+
+.u77 {
+    position:absolute;
+    left:16px;
+    top:224px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u78_line {
+    background-image: url('../Clinician_Questions_files/u78_line.png');
+}
+
+.u78_line {
+    position:absolute;
+    left:16px;
+    top:240px;
+    width:288px;
+    height:3px;
+}
+
+.u78 {
+    position:absolute;
+    left:16px;
+    top:240px;
+    width:288px;
+    height:3px
+}
+
+.u79 {
+    position:absolute;
+    left:16px;
+    top:17px;
+    width:150px;
+    height:42px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u80_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u80_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u80_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u80_container {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:48px;
+}
+
+#u80_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u81 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u80 {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:48px
+}
+
+.u82_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u82_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u82_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u82_container {
+    position:absolute;
+    left:48px;
+    top:306px;
+    width:116px;
+    height:48px;
+}
+
+#u82_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u83 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u82 {
+    position:absolute;
+    left:48px;
+    top:306px;
+    width:116px;
+    height:48px
+}
+
+.u84_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u84_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u84_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u84_container {
+    position:absolute;
+    left:164px;
+    top:306px;
+    width:112px;
+    height:48px;
+}
+
+#u84_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u85 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u84 {
+    position:absolute;
+    left:164px;
+    top:306px;
+    width:112px;
+    height:48px
+}
+
+.u86_line {
+    background-image: url('../Clinician_Questions_files/u86_line.png');
+}
+
+.u86_line {
+    position:absolute;
+    left:163px;
+    top:306px;
+    width:3px;
+    height:48px;
+}
+
+.u86 {
+    position:absolute;
+    left:163px;
+    top:306px;
+    width:3px;
+    height:48px
+}
+
+.u87 {
+    position:absolute;
+    left:16px;
+    top:272px;
+    width:280px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u88_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u88_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u88_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u88_container {
+    position:absolute;
+    left:48px;
+    top:432px;
+    width:116px;
+    height:48px;
+}
+
+#u88_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u89 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u88 {
+    position:absolute;
+    left:48px;
+    top:432px;
+    width:116px;
+    height:48px
+}
+
+.u90_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u90_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u90_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u90_container {
+    position:absolute;
+    left:164px;
+    top:432px;
+    width:112px;
+    height:48px;
+}
+
+#u90_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u91 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u90 {
+    position:absolute;
+    left:164px;
+    top:432px;
+    width:112px;
+    height:48px
+}
+
+.u92_line {
+    background-image: url('../Clinician_Questions_files/u92_line.png');
+}
+
+.u92_line {
+    position:absolute;
+    left:163px;
+    top:432px;
+    width:3px;
+    height:48px;
+}
+
+.u92 {
+    position:absolute;
+    left:163px;
+    top:432px;
+    width:3px;
+    height:48px
+}
+
+.u93 {
+    position:absolute;
+    left:16px;
+    top:398px;
+    width:280px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u94_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u94_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u94_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u94_container {
+    position:absolute;
+    left:48px;
+    top:560px;
+    width:116px;
+    height:48px;
+}
+
+#u94_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u95 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u94 {
+    position:absolute;
+    left:48px;
+    top:560px;
+    width:116px;
+    height:48px
+}
+
+.u96_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u96_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u96_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u96_container {
+    position:absolute;
+    left:164px;
+    top:560px;
+    width:112px;
+    height:48px;
+}
+
+#u96_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u97 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u96 {
+    position:absolute;
+    left:164px;
+    top:560px;
+    width:112px;
+    height:48px
+}
+
+.u98_line {
+    background-image: url('../Clinician_Questions_files/u98_line.png');
+}
+
+.u98_line {
+    position:absolute;
+    left:163px;
+    top:560px;
+    width:3px;
+    height:48px;
+}
+
+.u98 {
+    position:absolute;
+    left:163px;
+    top:560px;
+    width:3px;
+    height:48px
+}
+
+.u99 {
+    position:absolute;
+    left:16px;
+    top:526px;
+    width:280px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u100_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u100_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u100_container {
+    position:absolute;
+    left:48px;
+    top:720px;
+    width:116px;
+    height:48px;
+}
+
+#u100_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u101 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u100 {
+    position:absolute;
+    left:48px;
+    top:720px;
+    width:116px;
+    height:48px
+}
+
+.u102_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u102_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u102_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u102_container {
+    position:absolute;
+    left:164px;
+    top:720px;
+    width:112px;
+    height:48px;
+}
+
+#u102_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u103 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u102 {
+    position:absolute;
+    left:164px;
+    top:720px;
+    width:112px;
+    height:48px
+}
+
+.u104_line {
+    background-image: url('../Clinician_Questions_files/u104_line.png');
+}
+
+.u104_line {
+    position:absolute;
+    left:163px;
+    top:720px;
+    width:3px;
+    height:48px;
+}
+
+.u104 {
+    position:absolute;
+    left:163px;
+    top:720px;
+    width:3px;
+    height:48px
+}
+
+.u105 {
+    position:absolute;
+    left:16px;
+    top:654px;
+    width:280px;
+    height:54px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u106_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u106_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u106_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u106_container {
+    position:absolute;
+    left:48px;
+    top:848px;
+    width:116px;
+    height:48px;
+}
+
+#u106_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u107 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u106 {
+    position:absolute;
+    left:48px;
+    top:848px;
+    width:116px;
+    height:48px
+}
+
+.u108_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u108_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u108_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u108_container {
+    position:absolute;
+    left:164px;
+    top:848px;
+    width:112px;
+    height:48px;
+}
+
+#u108_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u109 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u108 {
+    position:absolute;
+    left:164px;
+    top:848px;
+    width:112px;
+    height:48px
+}
+
+.u110_line {
+    background-image: url('../Clinician_Questions_files/u110_line.png');
+}
+
+.u110_line {
+    position:absolute;
+    left:163px;
+    top:848px;
+    width:3px;
+    height:48px;
+}
+
+.u110 {
+    position:absolute;
+    left:163px;
+    top:848px;
+    width:3px;
+    height:48px
+}
+
+.u111 {
+    position:absolute;
+    left:16px;
+    top:814px;
+    width:280px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u112_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u112_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u112_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u112_container {
+    position:absolute;
+    left:48px;
+    top:992px;
+    width:116px;
+    height:48px;
+}
+
+#u112_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u113 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u112 {
+    position:absolute;
+    left:48px;
+    top:992px;
+    width:116px;
+    height:48px
+}
+
+.u114_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u114_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u114_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u114_container {
+    position:absolute;
+    left:164px;
+    top:992px;
+    width:112px;
+    height:48px;
+}
+
+#u114_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u115 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u114 {
+    position:absolute;
+    left:164px;
+    top:992px;
+    width:112px;
+    height:48px
+}
+
+.u116_line {
+    background-image: url('../Clinician_Questions_files/u116_line.png');
+}
+
+.u116_line {
+    position:absolute;
+    left:163px;
+    top:992px;
+    width:3px;
+    height:48px;
+}
+
+.u116 {
+    position:absolute;
+    left:163px;
+    top:992px;
+    width:3px;
+    height:48px
+}
+
+.u117 {
+    position:absolute;
+    left:16px;
+    top:942px;
+    width:280px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u118 {
+    position:absolute;
+    left:16px;
+    top:256px;
+    width:280px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u119_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u119_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u119_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u119_container {
+    position:absolute;
+    left:48px;
+    top:384px;
+    width:116px;
+    height:48px;
+}
+
+#u119_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u120 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u119 {
+    position:absolute;
+    left:48px;
+    top:384px;
+    width:116px;
+    height:48px
+}
+
+.u121_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u121_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u121_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u121_container {
+    position:absolute;
+    left:164px;
+    top:384px;
+    width:112px;
+    height:48px;
+}
+
+#u121_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u122 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u121 {
+    position:absolute;
+    left:164px;
+    top:384px;
+    width:112px;
+    height:48px
+}
+
+.u123_line {
+    background-image: url('../Clinician_Questions_files/u123_line.png');
+}
+
+.u123_line {
+    position:absolute;
+    left:163px;
+    top:384px;
+    width:3px;
+    height:48px;
+}
+
+.u123 {
+    position:absolute;
+    left:163px;
+    top:384px;
+    width:3px;
+    height:48px
+}
+
+.u124_original {
+    background-image: url('../Clinician_Questions_files/u48_original.png');
+}
+
+.u124_container {
+    position:absolute;
+    left:192px;
+    top:752px;
+    width:112px;
+    height:48px;
+}
+
+#u124_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u125 {
+    position:absolute;
+    left:8px;
+    top:15px;
+    width:96px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u124 {
+    position:absolute;
+    left:192px;
+    top:752px;
+    width:112px;
+    height:48px
+}
+
+.u126_original {
+    background-image: url('../Clinician_Questions_files/u10_original.png');
+}
+
+.u126_container {
+    position:absolute;
+    left:256px;
+    top:760px;
+    width:32px;
+    height:32px;
+}
+
+#u126_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u127 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u126 {
+    position:absolute;
+    left:256px;
+    top:760px;
+    width:32px;
+    height:32px
+}
+
+.u128 {
+    position:absolute;
+    left:16px;
+    top:80px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u129_line {
+    background-image: url('../Clinician_Questions_files/u129_line.png');
+}
+
+.u129_line {
+    position:absolute;
+    left:16px;
+    top:100px;
+    width:288px;
+    height:3px;
+}
+
+.u129 {
+    position:absolute;
+    left:16px;
+    top:100px;
+    width:288px;
+    height:3px
+}
+
+.u130 {
+    position:absolute;
+    left:16px;
+    top:224px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u131_line {
+    background-image: url('../Clinician_Questions_files/u131_line.png');
+}
+
+.u131_line {
+    position:absolute;
+    left:16px;
+    top:240px;
+    width:288px;
+    height:3px;
+}
+
+.u131 {
+    position:absolute;
+    left:16px;
+    top:240px;
+    width:288px;
+    height:3px
+}
+
+.u132 {
+    position:absolute;
+    left:16px;
+    top:17px;
+    width:150px;
+    height:42px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u133_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u133_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u133_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u133_container {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:48px;
+}
+
+#u133_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u134 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u133 {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:48px
+}
+
+.u135 {
+    position:absolute;
+    left:16px;
+    top:288px;
+    width:288px;
+    height:22px;
+    ;
+    ;
+    ;
+    font-family:'Arial';
+    font-size: 16px;
+    color:#000000;
+    font-style:normal;
+    font-weight:normal;
+    text-decoration:none;
+    
+}
+
+.u136 {
+    position:absolute;
+    left:16px;
+    top:350px;
+    width:280px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u137_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u137_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u137_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u137_container {
+    position:absolute;
+    left:48px;
+    top:512px;
+    width:116px;
+    height:48px;
+}
+
+#u137_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u138 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u137 {
+    position:absolute;
+    left:48px;
+    top:512px;
+    width:116px;
+    height:48px
+}
+
+.u139_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u139_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u139_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u139_container {
+    position:absolute;
+    left:164px;
+    top:512px;
+    width:112px;
+    height:48px;
+}
+
+#u139_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u140 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u139 {
+    position:absolute;
+    left:164px;
+    top:512px;
+    width:112px;
+    height:48px
+}
+
+.u141_line {
+    background-image: url('../Clinician_Questions_files/u141_line.png');
+}
+
+.u141_line {
+    position:absolute;
+    left:163px;
+    top:512px;
+    width:3px;
+    height:48px;
+}
+
+.u141 {
+    position:absolute;
+    left:163px;
+    top:512px;
+    width:3px;
+    height:48px
+}
+
+.u142 {
+    position:absolute;
+    left:16px;
+    top:478px;
+    width:280px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u143_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u143_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u143_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u143_container {
+    position:absolute;
+    left:48px;
+    top:640px;
+    width:116px;
+    height:48px;
+}
+
+#u143_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u144 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u143 {
+    position:absolute;
+    left:48px;
+    top:640px;
+    width:116px;
+    height:48px
+}
+
+.u145_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u145_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u145_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u145_container {
+    position:absolute;
+    left:164px;
+    top:640px;
+    width:112px;
+    height:48px;
+}
+
+#u145_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u146 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u145 {
+    position:absolute;
+    left:164px;
+    top:640px;
+    width:112px;
+    height:48px
+}
+
+.u147_line {
+    background-image: url('../Clinician_Questions_files/u147_line.png');
+}
+
+.u147_line {
+    position:absolute;
+    left:163px;
+    top:640px;
+    width:3px;
+    height:48px;
+}
+
+.u147 {
+    position:absolute;
+    left:163px;
+    top:640px;
+    width:3px;
+    height:48px
+}
+
+.u148 {
+    position:absolute;
+    left:16px;
+    top:606px;
+    width:280px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u149_original {
+    background-image: url('../Clinician_Questions_files/u48_original.png');
+}
+
+.u149_container {
+    position:absolute;
+    left:192px;
+    top:902px;
+    width:112px;
+    height:48px;
+}
+
+#u149_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u150 {
+    position:absolute;
+    left:8px;
+    top:15px;
+    width:96px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u149 {
+    position:absolute;
+    left:192px;
+    top:902px;
+    width:112px;
+    height:48px
+}
+
+.u151_original {
+    background-image: url('../Clinician_Questions_files/u10_original.png');
+}
+
+.u151_container {
+    position:absolute;
+    left:256px;
+    top:910px;
+    width:32px;
+    height:32px;
+}
+
+#u151_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u152 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u151 {
+    position:absolute;
+    left:256px;
+    top:910px;
+    width:32px;
+    height:32px
+}
+
+.u153 {
+    position:absolute;
+    left:16px;
+    top:80px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u154_line {
+    background-image: url('../Clinician_Questions_files/u154_line.png');
+}
+
+.u154_line {
+    position:absolute;
+    left:16px;
+    top:100px;
+    width:288px;
+    height:3px;
+}
+
+.u154 {
+    position:absolute;
+    left:16px;
+    top:100px;
+    width:288px;
+    height:3px
+}
+
+.u155 {
+    position:absolute;
+    left:16px;
+    top:320px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u156_line {
+    background-image: url('../Clinician_Questions_files/u156_line.png');
+}
+
+.u156_line {
+    position:absolute;
+    left:16px;
+    top:336px;
+    width:288px;
+    height:3px;
+}
+
+.u156 {
+    position:absolute;
+    left:16px;
+    top:336px;
+    width:288px;
+    height:3px
+}
+
+.u157 {
+    position:absolute;
+    left:16px;
+    top:358px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u158 {
+    position:absolute;
+    left:16px;
+    top:484px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u159_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u159_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u159_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u159_container {
+    position:absolute;
+    left:36px;
+    top:390px;
+    width:116px;
+    height:48px;
+}
+
+#u159_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u160 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u159 {
+    position:absolute;
+    left:36px;
+    top:390px;
+    width:116px;
+    height:48px
+}
+
+.u161_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u161_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u161_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u161_container {
+    position:absolute;
+    left:152px;
+    top:390px;
+    width:112px;
+    height:48px;
+}
+
+#u161_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u162 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u161 {
+    position:absolute;
+    left:152px;
+    top:390px;
+    width:112px;
+    height:48px
+}
+
+.u163_line {
+    background-image: url('../Clinician_Questions_files/u163_line.png');
+}
+
+.u163_line {
+    position:absolute;
+    left:151px;
+    top:390px;
+    width:3px;
+    height:48px;
+}
+
+.u163 {
+    position:absolute;
+    left:151px;
+    top:390px;
+    width:3px;
+    height:48px
+}
+
+.u164_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u164_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u164_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u164_container {
+    position:absolute;
+    left:36px;
+    top:518px;
+    width:116px;
+    height:48px;
+}
+
+#u164_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u165 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u164 {
+    position:absolute;
+    left:36px;
+    top:518px;
+    width:116px;
+    height:48px
+}
+
+.u166_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u166_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u166_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u166_container {
+    position:absolute;
+    left:152px;
+    top:518px;
+    width:112px;
+    height:48px;
+}
+
+#u166_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u167 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u166 {
+    position:absolute;
+    left:152px;
+    top:518px;
+    width:112px;
+    height:48px
+}
+
+.u168_line {
+    background-image: url('../Clinician_Questions_files/u168_line.png');
+}
+
+.u168_line {
+    position:absolute;
+    left:151px;
+    top:518px;
+    width:3px;
+    height:48px;
+}
+
+.u168 {
+    position:absolute;
+    left:151px;
+    top:518px;
+    width:3px;
+    height:48px
+}
+
+.u169 {
+    position:absolute;
+    left:16px;
+    top:16px;
+    width:262px;
+    height:42px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u170_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u170_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u170_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u170_container {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:48px;
+}
+
+#u170_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u171 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u170 {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:48px
+}
+
+.u172_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u172_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u172_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u172_container {
+    position:absolute;
+    left:16px;
+    top:168px;
+    width:288px;
+    height:48px;
+}
+
+#u172_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u173 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u172 {
+    position:absolute;
+    left:16px;
+    top:168px;
+    width:288px;
+    height:48px
+}
+
+.u174_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u174_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u174_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u174_container {
+    position:absolute;
+    left:16px;
+    top:224px;
+    width:288px;
+    height:48px;
+}
+
+#u174_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u175 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u174 {
+    position:absolute;
+    left:16px;
+    top:224px;
+    width:288px;
+    height:48px
+}
+
+.u176 {
+    position:absolute;
+    left:14px;
+    top:614px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u177 {
+    position:absolute;
+    left:14px;
+    top:740px;
+    width:288px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u178_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u178_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u178_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u178_container {
+    position:absolute;
+    left:34px;
+    top:646px;
+    width:116px;
+    height:48px;
+}
+
+#u178_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u179 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u178 {
+    position:absolute;
+    left:34px;
+    top:646px;
+    width:116px;
+    height:48px
+}
+
+.u180_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u180_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u180_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u180_container {
+    position:absolute;
+    left:150px;
+    top:646px;
+    width:112px;
+    height:48px;
+}
+
+#u180_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u181 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u180 {
+    position:absolute;
+    left:150px;
+    top:646px;
+    width:112px;
+    height:48px
+}
+
+.u182_line {
+    background-image: url('../Clinician_Questions_files/u182_line.png');
+}
+
+.u182_line {
+    position:absolute;
+    left:149px;
+    top:646px;
+    width:3px;
+    height:48px;
+}
+
+.u182 {
+    position:absolute;
+    left:149px;
+    top:646px;
+    width:3px;
+    height:48px
+}
+
+.u183_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u183_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u183_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u183_container {
+    position:absolute;
+    left:34px;
+    top:785px;
+    width:116px;
+    height:48px;
+}
+
+#u183_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u184 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u183 {
+    position:absolute;
+    left:34px;
+    top:785px;
+    width:116px;
+    height:48px
+}
+
+.u185_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u185_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u185_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u185_container {
+    position:absolute;
+    left:150px;
+    top:785px;
+    width:112px;
+    height:48px;
+}
+
+#u185_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u186 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u185 {
+    position:absolute;
+    left:150px;
+    top:785px;
+    width:112px;
+    height:48px
+}
+
+.u187_line {
+    background-image: url('../Clinician_Questions_files/u187_line.png');
+}
+
+.u187_line {
+    position:absolute;
+    left:149px;
+    top:785px;
+    width:3px;
+    height:48px;
+}
+
+.u187 {
+    position:absolute;
+    left:149px;
+    top:785px;
+    width:3px;
+    height:48px
+}
+
+.u188_original {
+    background-image: url('../Clinician_Questions_files/u48_original.png');
+}
+
+.u188_container {
+    position:absolute;
+    left:192px;
+    top:624px;
+    width:112px;
+    height:48px;
+}
+
+#u188_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u189 {
+    position:absolute;
+    left:8px;
+    top:15px;
+    width:96px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u188 {
+    position:absolute;
+    left:192px;
+    top:624px;
+    width:112px;
+    height:48px
+}
+
+.u190_original {
+    background-image: url('../Clinician_Questions_files/u10_original.png');
+}
+
+.u190_container {
+    position:absolute;
+    left:256px;
+    top:632px;
+    width:32px;
+    height:32px;
+}
+
+#u190_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u191 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u190 {
+    position:absolute;
+    left:256px;
+    top:632px;
+    width:32px;
+    height:32px
+}
+
+.u192 {
+    position:absolute;
+    left:16px;
+    top:80px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u193_line {
+    background-image: url('../Clinician_Questions_files/u193_line.png');
+}
+
+.u193_line {
+    position:absolute;
+    left:16px;
+    top:100px;
+    width:288px;
+    height:3px;
+}
+
+.u193 {
+    position:absolute;
+    left:16px;
+    top:100px;
+    width:288px;
+    height:3px
+}
+
+.u194 {
+    position:absolute;
+    left:16px;
+    top:320px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u195_line {
+    background-image: url('../Clinician_Questions_files/u195_line.png');
+}
+
+.u195_line {
+    position:absolute;
+    left:16px;
+    top:336px;
+    width:288px;
+    height:3px;
+}
+
+.u195 {
+    position:absolute;
+    left:16px;
+    top:336px;
+    width:288px;
+    height:3px
+}
+
+.u196 {
+    position:absolute;
+    left:16px;
+    top:358px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u197 {
+    position:absolute;
+    left:16px;
+    top:484px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u198_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u198_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u198_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u198_container {
+    position:absolute;
+    left:36px;
+    top:390px;
+    width:116px;
+    height:48px;
+}
+
+#u198_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u199 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u198 {
+    position:absolute;
+    left:36px;
+    top:390px;
+    width:116px;
+    height:48px
+}
+
+.u200_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u200_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u200_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u200_container {
+    position:absolute;
+    left:152px;
+    top:390px;
+    width:112px;
+    height:48px;
+}
+
+#u200_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u201 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u200 {
+    position:absolute;
+    left:152px;
+    top:390px;
+    width:112px;
+    height:48px
+}
+
+.u202_line {
+    background-image: url('../Clinician_Questions_files/u202_line.png');
+}
+
+.u202_line {
+    position:absolute;
+    left:151px;
+    top:390px;
+    width:3px;
+    height:48px;
+}
+
+.u202 {
+    position:absolute;
+    left:151px;
+    top:390px;
+    width:3px;
+    height:48px
+}
+
+.u203_down {
+    background-image: url('../Clinician_Questions_files/u24_down.png');
+}
+
+.u203_selected {
+    background-image: url('../Clinician_Questions_files/u24_selected.png');
+}
+
+.u203_original {
+    background-image: url('../Clinician_Questions_files/u24_original.png');
+}
+
+.u203_container {
+    position:absolute;
+    left:36px;
+    top:518px;
+    width:116px;
+    height:48px;
+}
+
+#u203_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:122px;
+    height:54px;
+}
+
+.u204 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:112px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u203 {
+    position:absolute;
+    left:36px;
+    top:518px;
+    width:116px;
+    height:48px
+}
+
+.u205_down {
+    background-image: url('../Clinician_Questions_files/u26_down.png');
+}
+
+.u205_selected {
+    background-image: url('../Clinician_Questions_files/u26_selected.png');
+}
+
+.u205_original {
+    background-image: url('../Clinician_Questions_files/u26_original.png');
+}
+
+.u205_container {
+    position:absolute;
+    left:152px;
+    top:518px;
+    width:112px;
+    height:48px;
+}
+
+#u205_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u206 {
+    position:absolute;
+    left:2px;
+    top:15px;
+    width:108px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u205 {
+    position:absolute;
+    left:152px;
+    top:518px;
+    width:112px;
+    height:48px
+}
+
+.u207_line {
+    background-image: url('../Clinician_Questions_files/u207_line.png');
+}
+
+.u207_line {
+    position:absolute;
+    left:151px;
+    top:518px;
+    width:3px;
+    height:48px;
+}
+
+.u207 {
+    position:absolute;
+    left:151px;
+    top:518px;
+    width:3px;
+    height:48px
+}
+
+.u208 {
+    position:absolute;
+    left:16px;
+    top:17px;
+    width:150px;
+    height:42px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u209_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u209_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u209_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u209_container {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:48px;
+}
+
+#u209_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u210 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u209 {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:48px
+}
+
+.u211_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u211_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u211_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u211_container {
+    position:absolute;
+    left:16px;
+    top:168px;
+    width:288px;
+    height:48px;
+}
+
+#u211_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u212 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u211 {
+    position:absolute;
+    left:16px;
+    top:168px;
+    width:288px;
+    height:48px
+}
+
+.u213_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u213_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u213_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u213_container {
+    position:absolute;
+    left:16px;
+    top:224px;
+    width:288px;
+    height:48px;
+}
+
+#u213_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u214 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u213 {
+    position:absolute;
+    left:16px;
+    top:224px;
+    width:288px;
+    height:48px
+}
+
+.u215_original {
+    background-image: url('../Clinician_Questions_files/u48_original.png');
+}
+
+.u215_container {
+    position:absolute;
+    left:192px;
+    top:432px;
+    width:112px;
+    height:48px;
+}
+
+#u215_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:118px;
+    height:54px;
+}
+
+.u216 {
+    position:absolute;
+    left:8px;
+    top:15px;
+    width:96px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u215 {
+    position:absolute;
+    left:192px;
+    top:432px;
+    width:112px;
+    height:48px
+}
+
+.u217_original {
+    background-image: url('../Clinician_Questions_files/u10_original.png');
+}
+
+.u217_container {
+    position:absolute;
+    left:256px;
+    top:440px;
+    width:32px;
+    height:32px;
+}
+
+#u217_img {
+    position:absolute;
+    left:0px;
+    top:0px;
+    width:32px;
+    height:32px;
+}
+
+.u218 {
+    position:absolute;
+    left:2px;
+    top:8px;
+    width:28px;
+    height:16px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u217 {
+    position:absolute;
+    left:256px;
+    top:440px;
+    width:32px;
+    height:32px
+}
+
+.u219 {
+    position:absolute;
+    left:16px;
+    top:80px;
+    width:288px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u220_line {
+    background-image: url('../Clinician_Questions_files/u220_line.png');
+}
+
+.u220_line {
+    position:absolute;
+    left:16px;
+    top:100px;
+    width:288px;
+    height:3px;
+}
+
+.u220 {
+    position:absolute;
+    left:16px;
+    top:100px;
+    width:288px;
+    height:3px
+}
+
+.u221 {
+    position:absolute;
+    left:16px;
+    top:17px;
+    width:199px;
+    height:42px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u222_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u222_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u222_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u222_container {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:48px;
+}
+
+#u222_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u223 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u222 {
+    position:absolute;
+    left:16px;
+    top:112px;
+    width:288px;
+    height:48px
+}
+
+.u224_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u224_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u224_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u224_container {
+    position:absolute;
+    left:16px;
+    top:168px;
+    width:288px;
+    height:48px;
+}
+
+#u224_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u225 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u224 {
+    position:absolute;
+    left:16px;
+    top:168px;
+    width:288px;
+    height:48px
+}
+
+.u226_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u226_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u226_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u226_container {
+    position:absolute;
+    left:16px;
+    top:224px;
+    width:288px;
+    height:48px;
+}
+
+#u226_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u227 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u226 {
+    position:absolute;
+    left:16px;
+    top:224px;
+    width:288px;
+    height:48px
+}
+
+.u228_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u228_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u228_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u228_container {
+    position:absolute;
+    left:16px;
+    top:280px;
+    width:288px;
+    height:48px;
+}
+
+#u228_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u229 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u228 {
+    position:absolute;
+    left:16px;
+    top:280px;
+    width:288px;
+    height:48px
+}
+
+.u230_down {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u230_selected {
+    background-image: url('../Clinician_Questions_files/u57_down.png');
+}
+
+.u230_original {
+    background-image: url('../Clinician_Questions_files/u57_original.png');
+}
+
+.u230_container {
+    position:absolute;
+    left:16px;
+    top:336px;
+    width:288px;
+    height:48px;
+}
+
+#u230_img {
+    position:absolute;
+    left:-3px;
+    top:-3px;
+    width:294px;
+    height:54px;
+}
+
+.u231 {
+    position:absolute;
+    left:8px;
+    top:6px;
+    width:278px;
+    height:36px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
+}
+
+.u230 {
+    position:absolute;
+    left:16px;
+    top:336px;
+    width:288px;
+    height:48px
+}
+
