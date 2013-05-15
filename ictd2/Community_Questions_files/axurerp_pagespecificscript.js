@@ -113,16 +113,6 @@ if (true) {
 
 }
 
-if ((GetGlobalVariableValue('$Pnemonia')) == ('1')) {
-
-SetWidgetSelected('u80');
-}
-else
-if (true) {
-
-SetWidgetSelected('u82');
-}
-
 }
 
 var u37 = document.getElementById('u37');
