@@ -1799,22 +1799,22 @@ div.main_container {
 }
 
 .u84_down {
-    background-image: url('../Clinician_Questions_files/u84_down.png');
+    background-image: url('../Clinician_Questions_files/u18_down.png');
 }
 
 .u84_selected {
-    background-image: url('../Clinician_Questions_files/u84_selected.png');
+    background-image: url('../Clinician_Questions_files/u18_selected.png');
 }
 
 .u84_original {
-    background-image: url('../Clinician_Questions_files/u84_original.png');
+    background-image: url('../Clinician_Questions_files/u18_original.png');
 }
 
 .u84_container {
     position:absolute;
-    left:48px;
+    left:32px;
     top:578px;
-    width:116px;
+    width:132px;
     height:48px;
 }
 
@@ -1822,7 +1822,7 @@ div.main_container {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:122px;
+    width:138px;
     height:54px;
 }
 
@@ -1830,7 +1830,7 @@ div.main_container {
     position:absolute;
     left:2px;
     top:15px;
-    width:112px;
+    width:128px;
     height:18px;
     ;
     ;
@@ -1842,29 +1842,29 @@ div.main_container {
 
 .u84 {
     position:absolute;
-    left:48px;
+    left:32px;
     top:578px;
-    width:116px;
+    width:132px;
     height:48px
 }
 
 .u86_down {
-    background-image: url('../Clinician_Questions_files/u86_down.png');
+    background-image: url('../Clinician_Questions_files/u20_down.png');
 }
 
 .u86_selected {
-    background-image: url('../Clinician_Questions_files/u86_selected.png');
+    background-image: url('../Clinician_Questions_files/u20_selected.png');
 }
 
 .u86_original {
-    background-image: url('../Clinician_Questions_files/u86_original.png');
+    background-image: url('../Clinician_Questions_files/u20_original.png');
 }
 
 .u86_container {
     position:absolute;
     left:164px;
     top:578px;
-    width:112px;
+    width:124px;
     height:48px;
 }
 
@@ -1872,7 +1872,7 @@ div.main_container {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:118px;
+    width:130px;
     height:54px;
 }
 
@@ -1880,7 +1880,7 @@ div.main_container {
     position:absolute;
     left:2px;
     top:15px;
-    width:108px;
+    width:120px;
     height:18px;
     ;
     ;
@@ -1894,7 +1894,7 @@ div.main_container {
     position:absolute;
     left:164px;
     top:578px;
-    width:112px;
+    width:124px;
     height:48px
 }
 
@@ -1933,22 +1933,22 @@ div.main_container {
 }
 
 .u90_down {
-    background-image: url('../Clinician_Questions_files/u84_down.png');
+    background-image: url('../Clinician_Questions_files/u18_down.png');
 }
 
 .u90_selected {
-    background-image: url('../Clinician_Questions_files/u84_selected.png');
+    background-image: url('../Clinician_Questions_files/u18_selected.png');
 }
 
 .u90_original {
-    background-image: url('../Clinician_Questions_files/u84_original.png');
+    background-image: url('../Clinician_Questions_files/u18_original.png');
 }
 
 .u90_container {
     position:absolute;
-    left:48px;
+    left:32px;
     top:706px;
-    width:116px;
+    width:132px;
     height:48px;
 }
 
@@ -1956,7 +1956,7 @@ div.main_container {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:122px;
+    width:138px;
     height:54px;
 }
 
@@ -1964,7 +1964,7 @@ div.main_container {
     position:absolute;
     left:2px;
     top:15px;
-    width:112px;
+    width:128px;
     height:18px;
     ;
     ;
@@ -1976,29 +1976,29 @@ div.main_container {
 
 .u90 {
     position:absolute;
-    left:48px;
+    left:32px;
     top:706px;
-    width:116px;
+    width:132px;
     height:48px
 }
 
 .u92_down {
-    background-image: url('../Clinician_Questions_files/u86_down.png');
+    background-image: url('../Clinician_Questions_files/u20_down.png');
 }
 
 .u92_selected {
-    background-image: url('../Clinician_Questions_files/u86_selected.png');
+    background-image: url('../Clinician_Questions_files/u20_selected.png');
 }
 
 .u92_original {
-    background-image: url('../Clinician_Questions_files/u86_original.png');
+    background-image: url('../Clinician_Questions_files/u20_original.png');
 }
 
 .u92_container {
     position:absolute;
     left:164px;
     top:706px;
-    width:112px;
+    width:124px;
     height:48px;
 }
 
@@ -2006,7 +2006,7 @@ div.main_container {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:118px;
+    width:130px;
     height:54px;
 }
 
@@ -2014,7 +2014,7 @@ div.main_container {
     position:absolute;
     left:2px;
     top:15px;
-    width:108px;
+    width:120px;
     height:18px;
     ;
     ;
@@ -2028,7 +2028,7 @@ div.main_container {
     position:absolute;
     left:164px;
     top:706px;
-    width:112px;
+    width:124px;
     height:48px
 }
 
@@ -2067,22 +2067,22 @@ div.main_container {
 }
 
 .u96_down {
-    background-image: url('../Clinician_Questions_files/u84_down.png');
+    background-image: url('../Clinician_Questions_files/u18_down.png');
 }
 
 .u96_selected {
-    background-image: url('../Clinician_Questions_files/u84_selected.png');
+    background-image: url('../Clinician_Questions_files/u18_selected.png');
 }
 
 .u96_original {
-    background-image: url('../Clinician_Questions_files/u84_original.png');
+    background-image: url('../Clinician_Questions_files/u18_original.png');
 }
 
 .u96_container {
     position:absolute;
-    left:48px;
+    left:32px;
     top:850px;
-    width:116px;
+    width:132px;
     height:48px;
 }
 
@@ -2090,7 +2090,7 @@ div.main_container {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:122px;
+    width:138px;
     height:54px;
 }
 
@@ -2098,7 +2098,7 @@ div.main_container {
     position:absolute;
     left:2px;
     top:15px;
-    width:112px;
+    width:128px;
     height:18px;
     ;
     ;
@@ -2110,29 +2110,29 @@ div.main_container {
 
 .u96 {
     position:absolute;
-    left:48px;
+    left:32px;
     top:850px;
-    width:116px;
+    width:132px;
     height:48px
 }
 
 .u98_down {
-    background-image: url('../Clinician_Questions_files/u86_down.png');
+    background-image: url('../Clinician_Questions_files/u20_down.png');
 }
 
 .u98_selected {
-    background-image: url('../Clinician_Questions_files/u86_selected.png');
+    background-image: url('../Clinician_Questions_files/u20_selected.png');
 }
 
 .u98_original {
-    background-image: url('../Clinician_Questions_files/u86_original.png');
+    background-image: url('../Clinician_Questions_files/u20_original.png');
 }
 
 .u98_container {
     position:absolute;
     left:164px;
     top:850px;
-    width:112px;
+    width:124px;
     height:48px;
 }
 
@@ -2140,7 +2140,7 @@ div.main_container {
     position:absolute;
     left:-3px;
     top:-3px;
-    width:118px;
+    width:130px;
     height:54px;
 }
 
@@ -2148,7 +2148,7 @@ div.main_container {
     position:absolute;
     left:2px;
     top:15px;
-    width:108px;
+    width:120px;
     height:18px;
     ;
     ;
@@ -2162,7 +2162,7 @@ div.main_container {
     position:absolute;
     left:164px;
     top:850px;
-    width:112px;
+    width:124px;
     height:48px
 }
 
@@ -3275,15 +3275,15 @@ div.main_container {
 }
 
 .u155_down {
-    background-image: url('../Clinician_Questions_files/u84_down.png');
+    background-image: url('../Clinician_Questions_files/u155_down.png');
 }
 
 .u155_selected {
-    background-image: url('../Clinician_Questions_files/u84_selected.png');
+    background-image: url('../Clinician_Questions_files/u155_selected.png');
 }
 
 .u155_original {
-    background-image: url('../Clinician_Questions_files/u84_original.png');
+    background-image: url('../Clinician_Questions_files/u155_original.png');
 }
 
 .u155_container {
@@ -3325,15 +3325,15 @@ div.main_container {
 }
 
 .u157_down {
-    background-image: url('../Clinician_Questions_files/u86_down.png');
+    background-image: url('../Clinician_Questions_files/u157_down.png');
 }
 
 .u157_selected {
-    background-image: url('../Clinician_Questions_files/u86_selected.png');
+    background-image: url('../Clinician_Questions_files/u157_selected.png');
 }
 
 .u157_original {
-    background-image: url('../Clinician_Questions_files/u86_original.png');
+    background-image: url('../Clinician_Questions_files/u157_original.png');
 }
 
 .u157_container {
