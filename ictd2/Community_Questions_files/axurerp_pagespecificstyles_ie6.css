@@ -68,314 +68,334 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u14_original.png");
 }
 
-* html .u17_original {
+* html .u18_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u17_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_down.png");
 }
 
-* html .u19_original {
+* html .u18_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u10_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_selected.png");
 }
 
-* html .u22_down {
+* html .u18_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_original.png");
 }
 
-* html .u22_selected {
+* html .u20_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_down.png");
 }
 
-* html .u22_original {
+* html .u20_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_selected.png");
+}
+
+* html .u20_original {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_original.png");
+}
+
+* html .u22_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_line.png");
 }
 
 * html .u24_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_down.png");
 }
 
 * html .u24_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_selected.png");
 }
 
 * html .u24_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_original.png");
 }
 
-* html .u26_line {
+* html .u26_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u26_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_down.png");
 }
 
-* html .u28_down {
+* html .u26_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_selected.png");
 }
 
-* html .u28_selected {
+* html .u26_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_original.png");
 }
 
-* html .u28_original {
+* html .u28_line {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u28_line.png");
 }
 
-* html .u30_down {
+* html .u29_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u29_original.png");
 }
 
-* html .u30_selected {
+* html .u33_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_down.png");
 }
 
-* html .u30_original {
+* html .u33_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_original.png");
-}
-
-* html .u32_line {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u32_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_selected.png");
 }
 
 * html .u33_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u33_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_original.png");
 }
 
-* html .u36_original {
+* html .u35_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u36_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_down.png");
 }
 
-* html .u38_original {
+* html .u35_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u10_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_selected.png");
+}
+
+* html .u35_original {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_original.png");
+}
+
+* html .u37_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u37_line.png");
+}
+
+* html .u39_down {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_down.png");
+}
+
+* html .u39_selected {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_selected.png");
+}
+
+* html .u39_original {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_original.png");
 }
 
 * html .u41_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_down.png");
 }
 
 * html .u41_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_selected.png");
 }
 
 * html .u41_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_original.png");
 }
 
-* html .u43_down {
+* html .u43_line {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u43_line.png");
 }
 
-* html .u43_selected {
+* html .u44_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u29_original.png");
 }
 
-* html .u43_original {
+* html .u53_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_down.png");
 }
 
-* html .u45_line {
+* html .u53_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u45_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_selected.png");
 }
 
-* html .u47_down {
+* html .u53_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_original.png");
 }
 
-* html .u47_selected {
+* html .u55_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_down.png");
 }
 
-* html .u47_original {
+* html .u55_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_selected.png");
 }
 
-* html .u49_down {
+* html .u55_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_original.png");
 }
 
-* html .u49_selected {
+* html .u57_line {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u57_line.png");
 }
 
-* html .u49_original {
+* html .u59_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u29_original.png");
 }
 
-* html .u51_line {
+* html .u63_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u51_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_down.png");
 }
 
-* html .u52_original {
+* html .u63_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u33_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_selected.png");
 }
 
-* html .u58_down {
+* html .u63_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_original.png");
 }
 
-* html .u58_selected {
+* html .u65_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_down.png");
 }
 
-* html .u58_original {
+* html .u65_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_selected.png");
 }
 
-* html .u60_down {
+* html .u65_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_original.png");
 }
 
-* html .u60_selected {
+* html .u67_line {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u67_line.png");
 }
 
-* html .u60_original {
+* html .u69_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_down.png");
 }
 
-* html .u62_line {
+* html .u69_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u62_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_selected.png");
 }
 
-* html .u70_down {
+* html .u69_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_original.png");
 }
 
-* html .u70_selected {
+* html .u71_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_down.png");
 }
 
-* html .u70_original {
+* html .u71_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_selected.png");
 }
 
-* html .u72_down {
+* html .u71_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_original.png");
 }
 
-* html .u72_selected {
+* html .u73_line {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u73_line.png");
 }
 
-* html .u72_original {
+* html .u75_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u75_down.png");
 }
 
-* html .u74_line {
+* html .u75_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u74_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u75_selected.png");
 }
 
-* html .u76_original {
+* html .u75_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u33_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u75_original.png");
 }
 
-* html .u80_down {
+* html .u77_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u77_down.png");
 }
 
-* html .u80_selected {
+* html .u77_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u77_selected.png");
+}
+
+* html .u77_original {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u77_original.png");
+}
+
+* html .u79_line {
+    background-image: none;
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u79_line.png");
 }
 
 * html .u80_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_original.png");
-}
-
-* html .u82_down {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_down.png");
-}
-
-* html .u82_selected {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_selected.png");
-}
-
-* html .u82_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_original.png");
-}
-
-* html .u84_line {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u84_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u29_original.png");
 }
 
 * html .u86_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_down.png");
 }
 
 * html .u86_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_selected.png");
 }
 
 * html .u86_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_original.png");
 }
 
 * html .u88_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_down.png");
 }
 
 * html .u88_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_selected.png");
 }
 
 * html .u88_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_original.png");
 }
 
 * html .u90_line {
@@ -383,158 +403,83 @@
     filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u90_line.png");
 }
 
-* html .u92_down {
+* html .u91_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u92_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_down.png");
 }
 
-* html .u92_selected {
+* html .u91_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u92_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_selected.png");
 }
 
-* html .u92_original {
+* html .u91_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u92_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_original.png");
 }
 
-* html .u94_down {
+* html .u93_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u94_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_down.png");
 }
 
-* html .u94_selected {
+* html .u93_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u94_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_selected.png");
 }
 
-* html .u94_original {
+* html .u93_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u94_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_original.png");
 }
 
-* html .u96_line {
+* html .u95_line {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u96_line.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u95_line.png");
 }
 
-* html .u97_original {
+* html .u96_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u33_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_down.png");
 }
 
-* html .u103_down {
+* html .u96_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_selected.png");
 }
 
-* html .u103_selected {
+* html .u96_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u18_original.png");
 }
 
-* html .u103_original {
+* html .u98_down {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_down.png");
 }
 
-* html .u105_down {
+* html .u98_selected {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_down.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_selected.png");
 }
 
-* html .u105_selected {
+* html .u98_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u20_original.png");
 }
 
-* html .u105_original {
+* html .u100_line {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u100_line.png");
 }
 
-* html .u107_line {
+* html .u101_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u107_line.png");
-}
-
-* html .u108_down {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_down.png");
-}
-
-* html .u108_selected {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_selected.png");
-}
-
-* html .u108_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_original.png");
-}
-
-* html .u110_down {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_down.png");
-}
-
-* html .u110_selected {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_selected.png");
-}
-
-* html .u110_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_original.png");
-}
-
-* html .u112_line {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u112_line.png");
-}
-
-* html .u113_down {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_down.png");
-}
-
-* html .u113_selected {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_selected.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u29_original.png");
 }
 
 * html .u113_original {
     background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u22_original.png");
-}
-
-* html .u115_down {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_down.png");
-}
-
-* html .u115_selected {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_selected.png");
-}
-
-* html .u115_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u24_original.png");
-}
-
-* html .u117_line {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u117_line.png");
-}
-
-* html .u118_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u33_original.png");
-}
-
-* html .u130_original {
-    background-image: none;
-    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u33_original.png");
+    filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src="Community_Questions_files/u29_original.png");
 }
 
