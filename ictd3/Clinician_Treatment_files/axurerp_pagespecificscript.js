@@ -56,10 +56,10 @@ function PopulateVariables(value) {
   value = value.replace(/\[\[Diarrhea\]\]/g, $Diarrhea);
   value = value.replace(/\[\[Malaria\]\]/g, $Malaria);
   value = value.replace(/\[\[PageName\]\]/g, PageName);
-  value = value.replace(/\[\[GenDay\]\]/g, '27');
-  value = value.replace(/\[\[GenMonth\]\]/g, '5');
-  value = value.replace(/\[\[GenMonthName\]\]/g, 'May');
-  value = value.replace(/\[\[GenDayOfWeek\]\]/g, 'Monday');
+  value = value.replace(/\[\[GenDay\]\]/g, '7');
+  value = value.replace(/\[\[GenMonth\]\]/g, '6');
+  value = value.replace(/\[\[GenMonthName\]\]/g, 'June');
+  value = value.replace(/\[\[GenDayOfWeek\]\]/g, 'Friday');
   value = value.replace(/\[\[GenYear\]\]/g, '2013');
   value = value.replace(/\[\[Day\]\]/g, d.getDate());
   value = value.replace(/\[\[Month\]\]/g, d.getMonth() + 1);
@@ -74,11 +74,13 @@ function OnLoad(e) {
 }
 
 var u50 = document.getElementById('u50');
+gv_vAlignTable['u50'] = 'top';
+var u51 = document.getElementById('u51');
 
-u50.style.cursor = 'pointer';
-if (bIE) u50.attachEvent("onclick", Clicku50);
-else u50.addEventListener("click", Clicku50, true);
-function Clicku50(e)
+u51.style.cursor = 'pointer';
+if (bIE) u51.attachEvent("onclick", Clicku51);
+else u51.addEventListener("click", Clicku51, true);
+function Clicku51(e)
 {
 windowEvent = e;
 
@@ -91,38 +93,18 @@ if (true) {
 
 }
 
-var u51 = document.getElementById('u51');
-gv_vAlignTable['u51'] = 'center';
 var u52 = document.getElementById('u52');
-
+gv_vAlignTable['u52'] = 'center';
 var u53 = document.getElementById('u53');
 
 var u54 = document.getElementById('u54');
 
-u54.style.cursor = 'pointer';
-if (bIE) u54.attachEvent("onclick", Clicku54);
-else u54.addEventListener("click", Clicku54, true);
-function Clicku54(e)
-{
-windowEvent = e;
-
-
-if (true) {
-
-	self.location.href="Home.html" + GetQuerystring();
-
-}
-
-}
-
 var u55 = document.getElementById('u55');
-gv_vAlignTable['u55'] = 'center';
-var u56 = document.getElementById('u56');
 
-u56.style.cursor = 'pointer';
-if (bIE) u56.attachEvent("onclick", Clicku56);
-else u56.addEventListener("click", Clicku56, true);
-function Clicku56(e)
+u55.style.cursor = 'pointer';
+if (bIE) u55.attachEvent("onclick", Clicku55);
+else u55.addEventListener("click", Clicku55, true);
+function Clicku55(e)
 {
 windowEvent = e;
 
@@ -135,8 +117,28 @@ if (true) {
 
 }
 
+var u56 = document.getElementById('u56');
+gv_vAlignTable['u56'] = 'center';
 var u57 = document.getElementById('u57');
-gv_vAlignTable['u57'] = 'center';
+
+u57.style.cursor = 'pointer';
+if (bIE) u57.attachEvent("onclick", Clicku57);
+else u57.addEventListener("click", Clicku57, true);
+function Clicku57(e)
+{
+windowEvent = e;
+
+
+if (true) {
+
+	self.location.href="Home.html" + GetQuerystring();
+
+}
+
+}
+
+var u58 = document.getElementById('u58');
+gv_vAlignTable['u58'] = 'center';
 var u20 = document.getElementById('u20');
 gv_vAlignTable['u20'] = 'top';
 var u21 = document.getElementById('u21');
@@ -309,7 +311,7 @@ windowEvent = e;
 
 if (true) {
 
-	SetPanelVisibility('u53','toggle','none',500);
+	SetPanelVisibility('u54','toggle','none',500);
 
 }
 
@@ -349,7 +351,7 @@ windowEvent = e;
 
 if (true) {
 
-	SetPanelVisibility('u53','toggle','none',500);
+	SetPanelVisibility('u54','toggle','none',500);
 
 }
 

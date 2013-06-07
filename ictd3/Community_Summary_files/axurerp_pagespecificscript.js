@@ -56,10 +56,10 @@ function PopulateVariables(value) {
   value = value.replace(/\[\[Diarrhea\]\]/g, $Diarrhea);
   value = value.replace(/\[\[Malaria\]\]/g, $Malaria);
   value = value.replace(/\[\[PageName\]\]/g, PageName);
-  value = value.replace(/\[\[GenDay\]\]/g, '27');
-  value = value.replace(/\[\[GenMonth\]\]/g, '5');
-  value = value.replace(/\[\[GenMonthName\]\]/g, 'May');
-  value = value.replace(/\[\[GenDayOfWeek\]\]/g, 'Monday');
+  value = value.replace(/\[\[GenDay\]\]/g, '7');
+  value = value.replace(/\[\[GenMonth\]\]/g, '6');
+  value = value.replace(/\[\[GenMonthName\]\]/g, 'June');
+  value = value.replace(/\[\[GenDayOfWeek\]\]/g, 'Friday');
   value = value.replace(/\[\[GenYear\]\]/g, '2013');
   value = value.replace(/\[\[Day\]\]/g, d.getDate());
   value = value.replace(/\[\[Month\]\]/g, d.getMonth() + 1);
@@ -186,11 +186,19 @@ SetGlobalVariableValue('$PatientSummaryLoad', '1');
 }
 
 var u42 = document.getElementById('u42');
+gv_vAlignTable['u42'] = 'top';
+var u40 = document.getElementById('u40');
+gv_vAlignTable['u40'] = 'center';
+var u41 = document.getElementById('u41');
+gv_vAlignTable['u41'] = 'top';
+var u45 = document.getElementById('u45');
 
-u42.style.cursor = 'pointer';
-if (bIE) u42.attachEvent("onclick", Clicku42);
-else u42.addEventListener("click", Clicku42, true);
-function Clicku42(e)
+var u43 = document.getElementById('u43');
+
+u43.style.cursor = 'pointer';
+if (bIE) u43.attachEvent("onclick", Clicku43);
+else u43.addEventListener("click", Clicku43, true);
+function Clicku43(e)
 {
 windowEvent = e;
 
@@ -203,14 +211,8 @@ if (true) {
 
 }
 
-var u40 = document.getElementById('u40');
-gv_vAlignTable['u40'] = 'center';
-var u41 = document.getElementById('u41');
-gv_vAlignTable['u41'] = 'top';
-var u43 = document.getElementById('u43');
-gv_vAlignTable['u43'] = 'center';
 var u44 = document.getElementById('u44');
-
+gv_vAlignTable['u44'] = 'center';
 var u10 = document.getElementById('u10');
 gv_vAlignTable['u10'] = 'center';
 var u11 = document.getElementById('u11');

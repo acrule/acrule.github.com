@@ -56,10 +56,10 @@ function PopulateVariables(value) {
   value = value.replace(/\[\[Diarrhea\]\]/g, $Diarrhea);
   value = value.replace(/\[\[Malaria\]\]/g, $Malaria);
   value = value.replace(/\[\[PageName\]\]/g, PageName);
-  value = value.replace(/\[\[GenDay\]\]/g, '27');
-  value = value.replace(/\[\[GenMonth\]\]/g, '5');
-  value = value.replace(/\[\[GenMonthName\]\]/g, 'May');
-  value = value.replace(/\[\[GenDayOfWeek\]\]/g, 'Monday');
+  value = value.replace(/\[\[GenDay\]\]/g, '7');
+  value = value.replace(/\[\[GenMonth\]\]/g, '6');
+  value = value.replace(/\[\[GenMonthName\]\]/g, 'June');
+  value = value.replace(/\[\[GenDayOfWeek\]\]/g, 'Friday');
   value = value.replace(/\[\[GenYear\]\]/g, '2013');
   value = value.replace(/\[\[Day\]\]/g, d.getDate());
   value = value.replace(/\[\[Month\]\]/g, d.getMonth() + 1);
@@ -72,6 +72,8 @@ function PopulateVariables(value) {
 function OnLoad(e) {
 
 }
+
+var u50 = document.getElementById('u50');
 
 var u20 = document.getElementById('u20');
 
@@ -192,37 +194,17 @@ gv_vAlignTable['u40'] = 'top';
 var u41 = document.getElementById('u41');
 gv_vAlignTable['u41'] = 'top';
 var u45 = document.getElementById('u45');
-
-u45.style.cursor = 'pointer';
-if (bIE) u45.attachEvent("onclick", Clicku45);
-else u45.addEventListener("click", Clicku45, true);
-function Clicku45(e)
-{
-windowEvent = e;
-
-
-if (true) {
-
-	self.location.href="Clinician_Treatment.html" + GetQuerystring();
-
-}
-
-}
-
+gv_vAlignTable['u45'] = 'top';
 var u43 = document.getElementById('u43');
 gv_vAlignTable['u43'] = 'center';
 var u44 = document.getElementById('u44');
 gv_vAlignTable['u44'] = 'top';
 var u48 = document.getElementById('u48');
-gv_vAlignTable['u48'] = 'center';
-var u46 = document.getElementById('u46');
-gv_vAlignTable['u46'] = 'center';
-var u47 = document.getElementById('u47');
 
-u47.style.cursor = 'pointer';
-if (bIE) u47.attachEvent("onclick", Clicku47);
-else u47.addEventListener("click", Clicku47, true);
-function Clicku47(e)
+u48.style.cursor = 'pointer';
+if (bIE) u48.attachEvent("onclick", Clicku48);
+else u48.addEventListener("click", Clicku48, true);
+function Clicku48(e)
 {
 windowEvent = e;
 
@@ -235,8 +217,28 @@ if (true) {
 
 }
 
-var u49 = document.getElementById('u49');
+var u46 = document.getElementById('u46');
 
+u46.style.cursor = 'pointer';
+if (bIE) u46.attachEvent("onclick", Clicku46);
+else u46.addEventListener("click", Clicku46, true);
+function Clicku46(e)
+{
+windowEvent = e;
+
+
+if (true) {
+
+	self.location.href="Clinician_Treatment.html" + GetQuerystring();
+
+}
+
+}
+
+var u47 = document.getElementById('u47');
+gv_vAlignTable['u47'] = 'center';
+var u49 = document.getElementById('u49');
+gv_vAlignTable['u49'] = 'center';
 var u10 = document.getElementById('u10');
 
 u10.style.cursor = 'pointer';

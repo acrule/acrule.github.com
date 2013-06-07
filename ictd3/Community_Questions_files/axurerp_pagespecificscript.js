@@ -56,10 +56,10 @@ function PopulateVariables(value) {
   value = value.replace(/\[\[Diarrhea\]\]/g, $Diarrhea);
   value = value.replace(/\[\[Malaria\]\]/g, $Malaria);
   value = value.replace(/\[\[PageName\]\]/g, PageName);
-  value = value.replace(/\[\[GenDay\]\]/g, '27');
-  value = value.replace(/\[\[GenMonth\]\]/g, '5');
-  value = value.replace(/\[\[GenMonthName\]\]/g, 'May');
-  value = value.replace(/\[\[GenDayOfWeek\]\]/g, 'Monday');
+  value = value.replace(/\[\[GenDay\]\]/g, '7');
+  value = value.replace(/\[\[GenMonth\]\]/g, '6');
+  value = value.replace(/\[\[GenMonthName\]\]/g, 'June');
+  value = value.replace(/\[\[GenDayOfWeek\]\]/g, 'Friday');
   value = value.replace(/\[\[GenYear\]\]/g, '2013');
   value = value.replace(/\[\[Day\]\]/g, d.getDate());
   value = value.replace(/\[\[Month\]\]/g, d.getMonth() + 1);
@@ -116,23 +116,48 @@ if (true) {
 }
 
 var u80 = document.getElementById('u80');
-
+gv_vAlignTable['u80'] = 'center';
 var u81 = document.getElementById('u81');
-gv_vAlignTable['u81'] = 'top';
-var u82 = document.getElementById('u82');
 
-u82.style.cursor = 'pointer';
-if (bIE) u82.attachEvent("onclick", Clicku82);
-else u82.addEventListener("click", Clicku82, true);
-function Clicku82(e)
+u81.style.cursor = 'pointer';
+if (bIE) u81.attachEvent("onclick", Clicku81);
+else u81.addEventListener("click", Clicku81, true);
+function Clicku81(e)
 {
 windowEvent = e;
 
 
 if (true) {
 
-SetWidgetSelected('u82');
-	SetPanelVisibility('u48','','none',500);
+SetWidgetSelected('u81');
+	SetPanelVisibility('u62','hidden','none',500);
+
+SetGlobalVariableValue('$Diarrhea', '0');
+
+}
+
+}
+
+var u82 = document.getElementById('u82');
+gv_vAlignTable['u82'] = 'center';
+var u83 = document.getElementById('u83');
+
+var u84 = document.getElementById('u84');
+gv_vAlignTable['u84'] = 'top';
+var u85 = document.getElementById('u85');
+
+u85.style.cursor = 'pointer';
+if (bIE) u85.attachEvent("onclick", Clicku85);
+else u85.addEventListener("click", Clicku85, true);
+function Clicku85(e)
+{
+windowEvent = e;
+
+
+if (true) {
+
+SetWidgetSelected('u85');
+	SetPanelVisibility('u50','','none',500);
 
 SetGlobalVariableValue('$Malaria', '1');
 
@@ -140,22 +165,22 @@ SetGlobalVariableValue('$Malaria', '1');
 
 }
 
-var u83 = document.getElementById('u83');
-gv_vAlignTable['u83'] = 'center';
-var u84 = document.getElementById('u84');
+var u86 = document.getElementById('u86');
+gv_vAlignTable['u86'] = 'center';
+var u87 = document.getElementById('u87');
 
-u84.style.cursor = 'pointer';
-if (bIE) u84.attachEvent("onclick", Clicku84);
-else u84.addEventListener("click", Clicku84, true);
-function Clicku84(e)
+u87.style.cursor = 'pointer';
+if (bIE) u87.attachEvent("onclick", Clicku87);
+else u87.addEventListener("click", Clicku87, true);
+function Clicku87(e)
 {
 windowEvent = e;
 
 
 if (true) {
 
-SetWidgetSelected('u84');
-	SetPanelVisibility('u48','hidden','none',500);
+SetWidgetSelected('u87');
+	SetPanelVisibility('u50','hidden','none',500);
 
 SetGlobalVariableValue('$Malaria', '0');
 
@@ -163,81 +188,64 @@ SetGlobalVariableValue('$Malaria', '0');
 
 }
 
-var u85 = document.getElementById('u85');
-gv_vAlignTable['u85'] = 'center';
-var u86 = document.getElementById('u86');
-
-var u87 = document.getElementById('u87');
-
 var u88 = document.getElementById('u88');
 gv_vAlignTable['u88'] = 'center';
 var u89 = document.getElementById('u89');
-gv_vAlignTable['u89'] = 'top';
+
+var u0 = document.getElementById('u0');
+
+var u1 = document.getElementById('u1');
+gv_vAlignTable['u1'] = 'center';
 var u90 = document.getElementById('u90');
-gv_vAlignTable['u90'] = 'top';
+
 var u91 = document.getElementById('u91');
-gv_vAlignTable['u91'] = 'top';
+gv_vAlignTable['u91'] = 'center';
 var u92 = document.getElementById('u92');
 gv_vAlignTable['u92'] = 'top';
 var u93 = document.getElementById('u93');
-
-u93.style.cursor = 'pointer';
-if (bIE) u93.attachEvent("onclick", Clicku93);
-else u93.addEventListener("click", Clicku93, true);
-function Clicku93(e)
-{
-windowEvent = e;
-
-
-if (true) {
-
-SetWidgetSelected('u93');
-}
-
-}
-
+gv_vAlignTable['u93'] = 'top';
 var u94 = document.getElementById('u94');
-gv_vAlignTable['u94'] = 'center';
+gv_vAlignTable['u94'] = 'top';
 var u95 = document.getElementById('u95');
-
-u95.style.cursor = 'pointer';
-if (bIE) u95.attachEvent("onclick", Clicku95);
-else u95.addEventListener("click", Clicku95, true);
-function Clicku95(e)
-{
-windowEvent = e;
-
-
-if (true) {
-
-SetWidgetSelected('u95');
-}
-
-}
-
+gv_vAlignTable['u95'] = 'top';
 var u96 = document.getElementById('u96');
-gv_vAlignTable['u96'] = 'center';
+gv_vAlignTable['u96'] = 'top';
 var u97 = document.getElementById('u97');
 
-var u98 = document.getElementById('u98');
-
-u98.style.cursor = 'pointer';
-if (bIE) u98.attachEvent("onclick", Clicku98);
-else u98.addEventListener("click", Clicku98, true);
-function Clicku98(e)
+u97.style.cursor = 'pointer';
+if (bIE) u97.attachEvent("onclick", Clicku97);
+else u97.addEventListener("click", Clicku97, true);
+function Clicku97(e)
 {
 windowEvent = e;
 
 
 if (true) {
 
-SetWidgetSelected('u98');
+SetWidgetSelected('u97');
 }
 
 }
 
+var u98 = document.getElementById('u98');
+gv_vAlignTable['u98'] = 'center';
 var u99 = document.getElementById('u99');
-gv_vAlignTable['u99'] = 'center';
+
+u99.style.cursor = 'pointer';
+if (bIE) u99.attachEvent("onclick", Clicku99);
+else u99.addEventListener("click", Clicku99, true);
+function Clicku99(e)
+{
+windowEvent = e;
+
+
+if (true) {
+
+SetWidgetSelected('u99');
+}
+
+}
+
 var u17 = document.getElementById('u17');
 gv_vAlignTable['u17'] = 'center';
 var u18 = document.getElementById('u18');
@@ -333,89 +341,91 @@ gv_vAlignTable['u28'] = 'center';
 var u29 = document.getElementById('u29');
 gv_vAlignTable['u29'] = 'top';
 var u100 = document.getElementById('u100');
-
-u100.style.cursor = 'pointer';
-if (bIE) u100.attachEvent("onclick", Clicku100);
-else u100.addEventListener("click", Clicku100, true);
-function Clicku100(e)
-{
-windowEvent = e;
-
-
-if (true) {
-
-SetWidgetSelected('u100');
-}
-
-}
-
+gv_vAlignTable['u100'] = 'center';
 var u101 = document.getElementById('u101');
-gv_vAlignTable['u101'] = 'center';
+
 var u102 = document.getElementById('u102');
 
+u102.style.cursor = 'pointer';
+if (bIE) u102.attachEvent("onclick", Clicku102);
+else u102.addEventListener("click", Clicku102, true);
+function Clicku102(e)
+{
+windowEvent = e;
+
+
+if (true) {
+
+SetWidgetSelected('u102');
+}
+
+}
+
 var u103 = document.getElementById('u103');
-
-u103.style.cursor = 'pointer';
-if (bIE) u103.attachEvent("onclick", Clicku103);
-else u103.addEventListener("click", Clicku103, true);
-function Clicku103(e)
-{
-windowEvent = e;
-
-
-if (true) {
-
-SetWidgetSelected('u103');
-}
-
-}
-
+gv_vAlignTable['u103'] = 'center';
 var u104 = document.getElementById('u104');
-gv_vAlignTable['u104'] = 'center';
-var u105 = document.getElementById('u105');
 
-u105.style.cursor = 'pointer';
-if (bIE) u105.attachEvent("onclick", Clicku105);
-else u105.addEventListener("click", Clicku105, true);
-function Clicku105(e)
+u104.style.cursor = 'pointer';
+if (bIE) u104.attachEvent("onclick", Clicku104);
+else u104.addEventListener("click", Clicku104, true);
+function Clicku104(e)
 {
 windowEvent = e;
 
 
 if (true) {
 
-SetWidgetSelected('u105');
+SetWidgetSelected('u104');
 }
 
 }
 
+var u105 = document.getElementById('u105');
+gv_vAlignTable['u105'] = 'center';
 var u106 = document.getElementById('u106');
-gv_vAlignTable['u106'] = 'center';
+
 var u107 = document.getElementById('u107');
 
-var u108 = document.getElementById('u108');
+u107.style.cursor = 'pointer';
+if (bIE) u107.attachEvent("onclick", Clicku107);
+else u107.addEventListener("click", Clicku107, true);
+function Clicku107(e)
+{
+windowEvent = e;
 
+
+if (true) {
+
+SetWidgetSelected('u107');
+}
+
+}
+
+var u108 = document.getElementById('u108');
+gv_vAlignTable['u108'] = 'center';
 var u109 = document.getElementById('u109');
-gv_vAlignTable['u109'] = 'center';
+
+u109.style.cursor = 'pointer';
+if (bIE) u109.attachEvent("onclick", Clicku109);
+else u109.addEventListener("click", Clicku109, true);
+function Clicku109(e)
+{
+windowEvent = e;
+
+
+if (true) {
+
+SetWidgetSelected('u109');
+}
+
+}
+
+var u129 = document.getElementById('u129');
+
 var u30 = document.getElementById('u30');
 gv_vAlignTable['u30'] = 'top';
 var u31 = document.getElementById('u31');
-
-u31.style.cursor = 'pointer';
-if (bIE) u31.attachEvent("onclick", Clicku31);
-else u31.addEventListener("click", Clicku31, true);
-function Clicku31(e)
-{
-windowEvent = e;
-
-
-if (true) {
-
-SetWidgetSelected('u31');
-}
-
-}
-
+gv_vAlignTable['u31'] = 'top';
 var u10 = document.getElementById('u10');
 
 u10.style.cursor = 'pointer';
@@ -519,101 +529,103 @@ gv_vAlignTable['u13'] = 'center';
 var u14 = document.getElementById('u14');
 
 var u37 = document.getElementById('u37');
+gv_vAlignTable['u37'] = 'top';
+var u38 = document.getElementById('u38');
 
-u37.style.cursor = 'pointer';
-if (bIE) u37.attachEvent("onclick", Clicku37);
-else u37.addEventListener("click", Clicku37, true);
-function Clicku37(e)
+u38.style.cursor = 'pointer';
+if (bIE) u38.attachEvent("onclick", Clicku38);
+else u38.addEventListener("click", Clicku38, true);
+function Clicku38(e)
 {
 windowEvent = e;
 
 
 if (true) {
 
-SetWidgetSelected('u37');
+SetWidgetSelected('u38');
 SetGlobalVariableValue('$Ear', '1');
 
 }
 
 }
 
-var u38 = document.getElementById('u38');
-gv_vAlignTable['u38'] = 'center';
 var u39 = document.getElementById('u39');
+gv_vAlignTable['u39'] = 'center';
+var u110 = document.getElementById('u110');
+gv_vAlignTable['u110'] = 'center';
+var u111 = document.getElementById('u111');
 
-u39.style.cursor = 'pointer';
-if (bIE) u39.attachEvent("onclick", Clicku39);
-else u39.addEventListener("click", Clicku39, true);
-function Clicku39(e)
+var u112 = document.getElementById('u112');
+
+var u113 = document.getElementById('u113');
+gv_vAlignTable['u113'] = 'center';
+var u114 = document.getElementById('u114');
+gv_vAlignTable['u114'] = 'top';
+var u115 = document.getElementById('u115');
+gv_vAlignTable['u115'] = 'top';
+var u116 = document.getElementById('u116');
+gv_vAlignTable['u116'] = 'top';
+var u117 = document.getElementById('u117');
+gv_vAlignTable['u117'] = 'top';
+var u118 = document.getElementById('u118');
+gv_vAlignTable['u118'] = 'top';
+var u119 = document.getElementById('u119');
+
+var u40 = document.getElementById('u40');
+
+u40.style.cursor = 'pointer';
+if (bIE) u40.attachEvent("onclick", Clicku40);
+else u40.addEventListener("click", Clicku40, true);
+function Clicku40(e)
 {
 windowEvent = e;
 
 
 if (true) {
 
-SetWidgetSelected('u39');
+SetWidgetSelected('u40');
 SetGlobalVariableValue('$Ear', '0');
 
 }
 
 }
 
-var u110 = document.getElementById('u110');
-gv_vAlignTable['u110'] = 'top';
-var u111 = document.getElementById('u111');
-gv_vAlignTable['u111'] = 'top';
-var u112 = document.getElementById('u112');
-gv_vAlignTable['u112'] = 'top';
-var u113 = document.getElementById('u113');
-gv_vAlignTable['u113'] = 'top';
-var u114 = document.getElementById('u114');
-
-var u115 = document.getElementById('u115');
-
-var u116 = document.getElementById('u116');
-
-var u117 = document.getElementById('u117');
-
-var u118 = document.getElementById('u118');
-gv_vAlignTable['u118'] = 'top';
-var u119 = document.getElementById('u119');
-gv_vAlignTable['u119'] = 'top';
-var u40 = document.getElementById('u40');
-gv_vAlignTable['u40'] = 'center';
 var u41 = document.getElementById('u41');
-
+gv_vAlignTable['u41'] = 'center';
 var u42 = document.getElementById('u42');
 
 var u43 = document.getElementById('u43');
-gv_vAlignTable['u43'] = 'center';
-var u44 = document.getElementById('u44');
-gv_vAlignTable['u44'] = 'top';
-var u45 = document.getElementById('u45');
 
+var u44 = document.getElementById('u44');
+gv_vAlignTable['u44'] = 'center';
+var u45 = document.getElementById('u45');
+gv_vAlignTable['u45'] = 'top';
 var u46 = document.getElementById('u46');
 gv_vAlignTable['u46'] = 'top';
 var u47 = document.getElementById('u47');
 
 var u48 = document.getElementById('u48');
-
+gv_vAlignTable['u48'] = 'top';
 var u49 = document.getElementById('u49');
-gv_vAlignTable['u49'] = 'top';
+
 var u120 = document.getElementById('u120');
 
 var u121 = document.getElementById('u121');
-gv_vAlignTable['u121'] = 'center';
-var u122 = document.getElementById('u122');
-gv_vAlignTable['u122'] = 'top';
-var u123 = document.getElementById('u123');
 
+var u122 = document.getElementById('u122');
+
+var u123 = document.getElementById('u123');
+gv_vAlignTable['u123'] = 'top';
 var u124 = document.getElementById('u124');
-gv_vAlignTable['u124'] = 'center';
+gv_vAlignTable['u124'] = 'top';
 var u125 = document.getElementById('u125');
 
-var u0 = document.getElementById('u0');
-
-var u1 = document.getElementById('u1');
-gv_vAlignTable['u1'] = 'center';
+var u126 = document.getElementById('u126');
+gv_vAlignTable['u126'] = 'center';
+var u127 = document.getElementById('u127');
+gv_vAlignTable['u127'] = 'top';
+var u128 = document.getElementById('u128');
+gv_vAlignTable['u128'] = 'top';
 var u2 = document.getElementById('u2');
 
 var u3 = document.getElementById('u3');
@@ -763,26 +775,11 @@ if ((GetPanelState('u14')) == ('pd5u14')) {
 var u9 = document.getElementById('u9');
 gv_vAlignTable['u9'] = 'center';
 var u50 = document.getElementById('u50');
-gv_vAlignTable['u50'] = 'top';
+
 var u51 = document.getElementById('u51');
-
-u51.style.cursor = 'pointer';
-if (bIE) u51.attachEvent("onclick", Clicku51);
-else u51.addEventListener("click", Clicku51, true);
-function Clicku51(e)
-{
-windowEvent = e;
-
-
-if (true) {
-
-SetWidgetSelected('u51');
-}
-
-}
-
+gv_vAlignTable['u51'] = 'top';
 var u52 = document.getElementById('u52');
-gv_vAlignTable['u52'] = 'center';
+gv_vAlignTable['u52'] = 'top';
 var u53 = document.getElementById('u53');
 
 u53.style.cursor = 'pointer';
@@ -804,41 +801,45 @@ var u54 = document.getElementById('u54');
 gv_vAlignTable['u54'] = 'center';
 var u55 = document.getElementById('u55');
 
-var u56 = document.getElementById('u56');
-
-var u57 = document.getElementById('u57');
-
-var u58 = document.getElementById('u58');
-gv_vAlignTable['u58'] = 'center';
-var u59 = document.getElementById('u59');
-gv_vAlignTable['u59'] = 'top';
-var u36 = document.getElementById('u36');
-gv_vAlignTable['u36'] = 'top';
-var u60 = document.getElementById('u60');
-
-var u61 = document.getElementById('u61');
-gv_vAlignTable['u61'] = 'top';
-var u62 = document.getElementById('u62');
-gv_vAlignTable['u62'] = 'top';
-var u63 = document.getElementById('u63');
-
-u63.style.cursor = 'pointer';
-if (bIE) u63.attachEvent("onclick", Clicku63);
-else u63.addEventListener("click", Clicku63, true);
-function Clicku63(e)
+u55.style.cursor = 'pointer';
+if (bIE) u55.attachEvent("onclick", Clicku55);
+else u55.addEventListener("click", Clicku55, true);
+function Clicku55(e)
 {
 windowEvent = e;
 
 
 if (true) {
 
-SetWidgetSelected('u63');
+SetWidgetSelected('u55');
 }
 
 }
 
+var u56 = document.getElementById('u56');
+gv_vAlignTable['u56'] = 'center';
+var u57 = document.getElementById('u57');
+
+var u58 = document.getElementById('u58');
+
+var u59 = document.getElementById('u59');
+
+var u36 = document.getElementById('u36');
+
+var u130 = document.getElementById('u130');
+gv_vAlignTable['u130'] = 'center';
+var u131 = document.getElementById('u131');
+
+var u60 = document.getElementById('u60');
+gv_vAlignTable['u60'] = 'center';
+var u61 = document.getElementById('u61');
+gv_vAlignTable['u61'] = 'top';
+var u62 = document.getElementById('u62');
+
+var u63 = document.getElementById('u63');
+gv_vAlignTable['u63'] = 'top';
 var u64 = document.getElementById('u64');
-gv_vAlignTable['u64'] = 'center';
+gv_vAlignTable['u64'] = 'top';
 var u65 = document.getElementById('u65');
 
 u65.style.cursor = 'pointer';
@@ -860,24 +861,45 @@ var u66 = document.getElementById('u66');
 gv_vAlignTable['u66'] = 'center';
 var u67 = document.getElementById('u67');
 
-var u68 = document.getElementById('u68');
-
-var u69 = document.getElementById('u69');
-gv_vAlignTable['u69'] = 'top';
-var u70 = document.getElementById('u70');
-
-u70.style.cursor = 'pointer';
-if (bIE) u70.attachEvent("onclick", Clicku70);
-else u70.addEventListener("click", Clicku70, true);
-function Clicku70(e)
+u67.style.cursor = 'pointer';
+if (bIE) u67.attachEvent("onclick", Clicku67);
+else u67.addEventListener("click", Clicku67, true);
+function Clicku67(e)
 {
 windowEvent = e;
 
 
 if (true) {
 
-SetWidgetSelected('u70');
-	SetPanelVisibility('u45','','none',500);
+SetWidgetSelected('u67');
+}
+
+}
+
+var u68 = document.getElementById('u68');
+gv_vAlignTable['u68'] = 'center';
+var u69 = document.getElementById('u69');
+
+var u70 = document.getElementById('u70');
+
+var u71 = document.getElementById('u71');
+gv_vAlignTable['u71'] = 'top';
+var u72 = document.getElementById('u72');
+gv_vAlignTable['u72'] = 'top';
+var u73 = document.getElementById('u73');
+
+u73.style.cursor = 'pointer';
+if (bIE) u73.attachEvent("onclick", Clicku73);
+else u73.addEventListener("click", Clicku73, true);
+function Clicku73(e)
+{
+windowEvent = e;
+
+
+if (true) {
+
+SetWidgetSelected('u73');
+	SetPanelVisibility('u47','','none',500);
 
 SetGlobalVariableValue('$Pnemonia', '1');
 
@@ -885,22 +907,22 @@ SetGlobalVariableValue('$Pnemonia', '1');
 
 }
 
-var u71 = document.getElementById('u71');
-gv_vAlignTable['u71'] = 'center';
-var u72 = document.getElementById('u72');
+var u74 = document.getElementById('u74');
+gv_vAlignTable['u74'] = 'center';
+var u75 = document.getElementById('u75');
 
-u72.style.cursor = 'pointer';
-if (bIE) u72.attachEvent("onclick", Clicku72);
-else u72.addEventListener("click", Clicku72, true);
-function Clicku72(e)
+u75.style.cursor = 'pointer';
+if (bIE) u75.attachEvent("onclick", Clicku75);
+else u75.addEventListener("click", Clicku75, true);
+function Clicku75(e)
 {
 windowEvent = e;
 
 
 if (true) {
 
-SetWidgetSelected('u72');
-	SetPanelVisibility('u45','hidden','none',500);
+SetWidgetSelected('u75');
+	SetPanelVisibility('u47','hidden','none',500);
 
 SetGlobalVariableValue('$Pnemonia', '0');
 
@@ -908,26 +930,26 @@ SetGlobalVariableValue('$Pnemonia', '0');
 
 }
 
-var u73 = document.getElementById('u73');
-gv_vAlignTable['u73'] = 'center';
-var u74 = document.getElementById('u74');
-
-var u75 = document.getElementById('u75');
-gv_vAlignTable['u75'] = 'top';
 var u76 = document.getElementById('u76');
+gv_vAlignTable['u76'] = 'center';
+var u77 = document.getElementById('u77');
 
-u76.style.cursor = 'pointer';
-if (bIE) u76.attachEvent("onclick", Clicku76);
-else u76.addEventListener("click", Clicku76, true);
-function Clicku76(e)
+var u78 = document.getElementById('u78');
+gv_vAlignTable['u78'] = 'top';
+var u79 = document.getElementById('u79');
+
+u79.style.cursor = 'pointer';
+if (bIE) u79.attachEvent("onclick", Clicku79);
+else u79.addEventListener("click", Clicku79, true);
+function Clicku79(e)
 {
 windowEvent = e;
 
 
 if (true) {
 
-SetWidgetSelected('u76');
-	SetPanelVisibility('u60','','none',500);
+SetWidgetSelected('u79');
+	SetPanelVisibility('u62','','none',500);
 
 SetGlobalVariableValue('$Diarrhea', '1');
 
@@ -935,52 +957,42 @@ SetGlobalVariableValue('$Diarrhea', '1');
 
 }
 
-var u77 = document.getElementById('u77');
-gv_vAlignTable['u77'] = 'center';
-var u78 = document.getElementById('u78');
-
-u78.style.cursor = 'pointer';
-if (bIE) u78.attachEvent("onclick", Clicku78);
-else u78.addEventListener("click", Clicku78, true);
-function Clicku78(e)
-{
-windowEvent = e;
-
-
-if (true) {
-
-SetWidgetSelected('u78');
-	SetPanelVisibility('u60','hidden','none',500);
-
-SetGlobalVariableValue('$Diarrhea', '0');
-
-}
-
-}
-
-var u79 = document.getElementById('u79');
-gv_vAlignTable['u79'] = 'center';
 var u32 = document.getElementById('u32');
-gv_vAlignTable['u32'] = 'center';
-var u33 = document.getElementById('u33');
 
-u33.style.cursor = 'pointer';
-if (bIE) u33.attachEvent("onclick", Clicku33);
-else u33.addEventListener("click", Clicku33, true);
-function Clicku33(e)
+u32.style.cursor = 'pointer';
+if (bIE) u32.attachEvent("onclick", Clicku32);
+else u32.addEventListener("click", Clicku32, true);
+function Clicku32(e)
 {
 windowEvent = e;
 
 
 if (true) {
 
-SetWidgetSelected('u33');
+SetWidgetSelected('u32');
 }
 
 }
 
+var u33 = document.getElementById('u33');
+gv_vAlignTable['u33'] = 'center';
 var u34 = document.getElementById('u34');
-gv_vAlignTable['u34'] = 'center';
-var u35 = document.getElementById('u35');
 
+u34.style.cursor = 'pointer';
+if (bIE) u34.attachEvent("onclick", Clicku34);
+else u34.addEventListener("click", Clicku34, true);
+function Clicku34(e)
+{
+windowEvent = e;
+
+
+if (true) {
+
+SetWidgetSelected('u34');
+}
+
+}
+
+var u35 = document.getElementById('u35');
+gv_vAlignTable['u35'] = 'center';
 if (window.OnLoad) OnLoad();

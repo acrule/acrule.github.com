@@ -954,19 +954,33 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u45_down {
-    background-image: url('../Clinician_Summary_files/u45_down.png');
+.u45 {
+    position:absolute;
+    left:209px;
+    top:8px;
+    width:96px;
+    height:18px;
+    ;
+    ;
+    ;
+    font-family:Arial;
+    text-align:left;
+    word-wrap:break-word;
 }
 
-.u45_selected {
-    background-image: url('../Clinician_Summary_files/u45_down.png');
+.u46_down {
+    background-image: url('../Clinician_Summary_files/u46_down.png');
 }
 
-.u45_original {
-    background-image: url('../Clinician_Summary_files/u45_original.png');
+.u46_selected {
+    background-image: url('../Clinician_Summary_files/u46_down.png');
 }
 
-.u45_container {
+.u46_original {
+    background-image: url('../Clinician_Summary_files/u46_original.png');
+}
+
+.u46_container {
     position:absolute;
     left:184px;
     top:28px;
@@ -974,7 +988,7 @@ div.main_container {
     height:40px;
 }
 
-#u45_img {
+#u46_img {
     position:absolute;
     left:-3px;
     top:-3px;
@@ -982,7 +996,7 @@ div.main_container {
     height:46px;
 }
 
-.u46 {
+.u47 {
     position:absolute;
     left:8px;
     top:11px;
@@ -996,7 +1010,7 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u45 {
+.u46 {
     position:absolute;
     left:184px;
     top:28px;
@@ -1004,11 +1018,11 @@ div.main_container {
     height:40px
 }
 
-.u47_original {
-    background-image: url('../Clinician_Summary_files/u47_original.png');
+.u48_original {
+    background-image: url('../Clinician_Summary_files/u48_original.png');
 }
 
-.u47_container {
+.u48_container {
     position:absolute;
     left:268px;
     top:32px;
@@ -1016,7 +1030,7 @@ div.main_container {
     height:32px;
 }
 
-#u47_img {
+#u48_img {
     position:absolute;
     left:0px;
     top:0px;
@@ -1024,7 +1038,7 @@ div.main_container {
     height:32px;
 }
 
-.u48 {
+.u49 {
     position:absolute;
     left:2px;
     top:8px;
@@ -1038,7 +1052,7 @@ div.main_container {
     word-wrap:break-word;
 }
 
-.u47 {
+.u48 {
     position:absolute;
     left:268px;
     top:32px;
@@ -1046,11 +1060,11 @@ div.main_container {
     height:32px
 }
 
-.u49_line {
-    background-image: url('../Clinician_Summary_files/u49_line.png');
+.u50_line {
+    background-image: url('../Clinician_Summary_files/u50_line.png');
 }
 
-.u49_line {
+.u50_line {
     position:absolute;
     left:0px;
     top:79px;
@@ -1058,7 +1072,7 @@ div.main_container {
     height:3px;
 }
 
-.u49 {
+.u50 {
     position:absolute;
     left:0px;
     top:79px;
