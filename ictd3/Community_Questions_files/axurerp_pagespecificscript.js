@@ -56,10 +56,10 @@ function PopulateVariables(value) {
   value = value.replace(/\[\[Diarrhea\]\]/g, $Diarrhea);
   value = value.replace(/\[\[Malaria\]\]/g, $Malaria);
   value = value.replace(/\[\[PageName\]\]/g, PageName);
-  value = value.replace(/\[\[GenDay\]\]/g, '7');
+  value = value.replace(/\[\[GenDay\]\]/g, '8');
   value = value.replace(/\[\[GenMonth\]\]/g, '6');
   value = value.replace(/\[\[GenMonthName\]\]/g, 'June');
-  value = value.replace(/\[\[GenDayOfWeek\]\]/g, 'Friday');
+  value = value.replace(/\[\[GenDayOfWeek\]\]/g, 'Saturday');
   value = value.replace(/\[\[GenYear\]\]/g, '2013');
   value = value.replace(/\[\[Day\]\]/g, d.getDate());
   value = value.replace(/\[\[Month\]\]/g, d.getMonth() + 1);
