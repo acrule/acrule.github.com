@@ -1,0 +1,896 @@
+<!DOCTYPE html>
+<meta charset="utf-8">
+<!----------------------------------------
+Author: Adam Rule
+Date: 09.25.2012
+Code references
+Cite: mobostock
+Cite: https://gist.github.com/899670
+---------------------------------------->
+
+<html>
+
+<head>
+    <!-- Load javascript libraries and stylesheet-->
+    <script type="text/javascript" src="https://raw.github.com/mbostock/d3/master/d3.min.js"></script>
+    <script type="text/javascript" src=http://polymaps.org/polymaps.min.js?2.5.1></script>
+    <link rel="stylesheet" type="text/css" href="style.css" />
+
+</head>
+    
+<body>
+    <!-- Header div-->
+    <div id="header">
+        <h1>Cold-Chain Equipment Visualizer</h1>
+    </div>
+    
+    <!-- Div for the map controls, scatterplot, scatterplot controls, and info panel -->
+    <div id ="leftColumn">
+    
+    
+        <!--<div id="plotSelector">
+
+            <h2>Plot Type</h2>
+            
+            <select id="plotDropdown" onChange="togglePlot()">
+                <option selected value="clinicPlot">Clinics</option>
+                <option value="frigePlot">Refrigerators</option>
+            </select>
+        </div>-->
+    
+    
+        <!-- Area for the map controls and the map key -->
+        <div id="explorer">
+        
+            <!-- Div for the controls-->
+            <div id="controls">
+                
+                <h2>Map Controls</h2>   
+                    
+                <table>
+                    
+                    <!-- Clinic circle color selector -->
+                    <tr>
+                        <td>
+                            <p class="form">Map Type</p>
+                        </td>
+                        <td>
+                            <select id="mapStyle" onChange="changeColor()">
+                                <optgroup label="Demographic">
+                                    <option value="simple">Simple</option>
+                                    <option value="capacity">Capacity</option>
+                                    <option value="department">Department</option>
+                                </optgroup>
+                                <optgroup label="Fuel Availability">
+                                    <option value="electricity">Electricity</option>
+                                    <option value="kerosene">Kerosene</option>
+                                    <option value="gas">Gas</option>
+                                    <option value="solar">Solar</option>
+                                </optgroup>
+                                <optgroup label="Equipment">
+                                    <option value="energySource">Energy Source</option>
+                                </optgroup>
+                            </select>
+                        </td>
+                    </tr>
+            
+                    <!-- Department Filter -->
+                    <tr>
+                        <td>
+                            <p class="form">Department</p>
+                        </td>
+                        <td>
+                            <select id="department" onChange="deptFilter(this.value)">
+                                <option value="All">All</option>
+                                <option value="Alibori">Alibori</option>
+                                <option value="Atacora">Atacora</option>
+                                <option value="Atlantique">Atlantique</option>
+                                <option value="Borgou">Borgou</option>
+                                <option value="Collines">Collines</option>
+                                <option value="Donga">Donga</option>
+                                <option value="Couffu">Couffu</option>
+                                <option value="Littoral">Littoral</option>
+                                <option value="Mono">Mono</option>
+                                <option value="Oueme">Oueme</option>
+                                <option value="Plateau">Plateau</option>
+                                <option value="Zou">Zou</option>
+                            </select>
+                        </td>
+                    </tr>
+            
+                    <!-- Population Scale Checkbox -->
+                    <tr>
+                        <td>
+                            <p class="form">Scale by</p>
+                        </td>
+                        <td>
+                            <select id="populationDropdown" onChange="populationScale()">
+                                <option value="None">None</option>
+                                <option selected value=10>Population</option>
+                                <option value=39>Net +4C Capacity (L)</option>
+                                <option value=41>Net -20C Capacity (L)</option>
+                                <option value=43>Capacity Surplus (L)</option>
+                                <option value=46>Refrigerators</option>
+                                <option value=47>Working Refrigerators</option>
+                                <option value=48>Fridges need Maintenance</option>
+                                <option value=49>Broken Refrigerators</option>
+                                <option value=50>Refrigerators In Use</option>
+                                <option value=51>Refrigerators to Allocate</option>
+                                <option value=52>Refrigerators not in Use</option>
+                            </select>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+        
+        
+            <!-- Visual key of what the circle colors mean -->
+            <div id="key">
+                <h2>Key</h2>
+                    
+                <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width = "200" height="150">
+                    <circle cx="10" cy="7" r="7" fill="steelblue" class="key" id="keyCircle1"/>
+                    <text x="20" y="12" fill="black" class="key" id="keyText1">Clinic</text>
+                
+                    <circle cx="10" cy="27" r="7" fill="green" class="key" id="keyCircle2"/>
+                    <text x="20" y="32" fill="black" class="key" id="keyText2">Clinic</text>
+            
+                    <circle cx="10" cy="47" r="7" fill="steelblue" class="key" id="keyCircle3"/>
+                    <text x="20" y="52" fill="black" class="key" id="keyText3">Clinic</text>
+                
+                    <circle cx="10" cy="67" r="7" fill="steelblue" class="key" id="keyCircle4"/>
+                    <text x="20" y="72" fill="black" class="key" id="keyText4">Clinic</text>
+                
+                    <circle cx="10" cy="87" r="7" fill="steelblue" class="key" id="keyCircle5"/>
+                    <text x="20" y="92" fill="black" class="key" id="keyText5">Clinic</text>
+            
+                    <circle cx="10" cy="107" r="7" fill="steelblue" class="key" id="keyCircle6"/>
+                    <text x="20" y="112" fill="black" class="key" id="keyText6">Clinic</text>
+            
+                    <circle cx="120" cy="7" r="7" fill="steelblue" class="key" id="keyCircle7"/>
+                    <text x="130" y="12" fill="black" class="key" id="keyText7">Clinic</text>
+                
+                    <circle cx="120" cy="27" r="7" fill="steelblue" class="key" id="keyCircle8"/>
+                    <text x="130" y="32" fill="black" class="key" id="keyText8">Clinic</text>
+                
+                    <circle cx="120" cy="47" r="7" fill="steelblue" class="key" id="keyCircle9"/>
+                    <text x="130" y="52" fill="black" class="key" id="keyText9">Clinic</text>
+                
+                    <circle cx="120" cy="67" r="7" fill="steelblue" class="key" id="keyCircle10"/>
+                    <text x="130" y="72" fill="black" class="key" id="keyText10">Clinic</text>
+                
+                    <circle cx="120" cy="87" r="7" fill="steelblue" class="key" id="keyCircle11"/>
+                    <text x="130" y="92" fill="black" class="key" id="keyText11">Clinic</text>
+                
+                    <circle cx="120" cy="107" r="7" fill="steelblue" class="key" id="keyCircle12"/>
+                    <text x="130" y="112" fill="black" class="key" id="keyText12">Clinic</text>
+                </svg>
+            </div>
+        
+        </div>
+        
+        
+        <!-- Scatterplot graph -->
+        <div id="graphArea">
+        </div>
+    
+    
+        <div id="graphControls">
+    
+            <!-- Controls for the scatterplot area -->
+            <h2>Graph Controls</h2>
+            
+            <table>
+            
+                <!-- x-axis controls -->
+                <tr>
+                    <td>
+                        <p class = "form">X-axis</p>
+                    </td>
+                    <td>
+                        <select id="xaxis" onChange="graphDraw(mainData)">
+                            <option value=8>Target Biths</option>
+                            <option value=9>Pregnant Women</option>
+                            <option value=10>Population</option>
+                            <option value=33>Distance to Supply(km)</option>
+                            <option value=39>Net +4C Capacity (L)</option>
+                            <option value=41>Net -20C Capacity (L)</option>
+                            <option value=42>Capacity Required (L)</option>
+                            <option selected value=43>Capacity Surplus (L)</option>
+                            <option value=44>Oldest Refrigerator</option>
+                            <option value=45>Newest Refrigerator</option>
+                            <option value=46>Refrigerators</option>
+                            <option value=47>Working Refrigerators</option>
+                            <option value=48>Refrigerators needing Maintenance</option>
+                            <option value=49>Broken Refrigerators</option>
+                            <option value=50>Refrigerators In Use</option>
+                            <option value=51>Refrigerators to Allocate</option>
+                            <option value=52>Refrigerators not in Use</option>
+                        </select>
+                    </td>
+                </tr>
+            
+                <!-- y-axis controls -->
+                <tr>
+                    <td>
+                        <p class="form">Y-axis</p>
+                    </td>
+            
+                    <td>
+                        <select id="yaxis" onChange="graphDraw(mainData)">
+                            <option value=8>Target Biths</option>
+                            <option value=9>Pregnant Women</option>
+                            <option selected value=10>Population</option>
+                            <option value=33>Distance to Supply(km)</option>
+                            <option value=39>Net +4C Capacity (L)</option>
+                            <option value=41>Net -20C Capacity (L)</option>
+                            <option value=42>Capacity Required (L)</option>
+                            <option value=43>Capacity Surplus (L)</option>
+                            <option value=44>Oldest Refrigerator</option>
+                            <option value=45>Newest Refrigerator</option>
+                            <option value=46>Refrigerators</option>
+                            <option value=47>Working Refrigerators</option>
+                            <option value=48>Refrigerators needing Maintenance</option>
+                            <option value=49>Broken Refrigerators</option>
+                            <option value=50>Refrigerators In Use</option>
+                            <option value=51>Refrigerators to Allocate</option>
+                            <option value=52>Refrigerators not in Use</option>
+                        </select>
+                    </td>    
+                </tr>
+            </table>
+        </div>
+        
+        <!-- Clinic info panel -->    
+        <div id="info">
+            <div id="exit" onClick="hideClinicInfo()"></div>
+                <table>
+                <tr>
+                    <td>
+                        <h2 id="clinicName"></h2>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Department</p>
+                    </td>
+                    <td>
+                        <p id="departmentName"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Population</p>
+                    </td>
+                    <td>
+                        <p id="population"></p>
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        <p>Capacity Surplus</p>
+                    </td>
+                    <td>
+                        <p id="capacitySurplus"></p>
+                    </td>
+                </tr>
+                </table>
+        </div>
+    
+    </div>
+    
+    
+    <!--Column holding the map--->
+    <div id="rightColumn">    
+    
+        <!-- Area to display the map -->
+        <div id="map">
+        </div>
+   
+    </div>    
+    
+    
+
+
+    <!-- Main D3 script -->
+    <script type="text/javascript">
+
+        //Create a short name for Polymaps
+        var po = org.polymaps;
+
+        // Create the map object, add it under #map
+        var map = po.map()
+            .container(d3.select("#map").append("svg:svg").node())
+            .center({lat:9.3,lon:2.7})
+            .zoom(7)
+            .add(po.interact());
+
+        // Add the CloudMade image tiles as a base layer
+        map.add(po.image()
+            .url(po.url("http://{S}tile.cloudmade.com"
+            + "/1a1b06b230af4efdbb989ea99e9841af" // http://cloudmade.com/register
+            + "/998/256/{Z}/{X}/{Y}.png")
+            .hosts(["a.", "b.", "c.", ""])));
+
+        // Add the compass control and prevent the pan controls from displaying
+        map.add(po.compass()
+            .pan("none"));
+
+        //Global data variable to store clinic data
+        var mainData;
+
+//Function for plotting the refrigerators
+        function drawClinic(){
+        
+            //Remove any clinics that are plotted on the map
+            d3.selectAll("circle.frige").remove();
+            
+            //Hide all the key circles and text
+            document.getElementById("controls").display = "none"
+            document.getElementById("graphControls").display = "none"
+            
+            //Update the key to show one circle with the tag "Refrigerator"
+            var currentElement = document.getElementById("keyCircle1")
+                currentElement.style.visibility="visible";
+                currentElement.style.fill = "steelblue";
+                currentElement = document.getElementById("keyText1");
+                currentElement.style.visibility="visible";
+                currentElement.textContent="Clinic"
+            
+            //Plot the refrigerators with the JSON data
+            d3.json("clinic_new.json", function(data) {
+
+                // Insert a layer beneath the compass.
+                var layer = d3.select("#map svg").insert("svg:g", ".compass");
+
+                mainData = data;
+
+                // Add an svg:g for each station and call transform() to place them
+                var marker = layer.selectAll("g")
+                    .data(d3.entries(data))
+                    .enter().append("svg:circle")
+                    .attr("class", "clinic")
+                    .attr("r", populationScale)
+                    .style("fill", "steelblue")
+                    .attr("transform", transform)
+                    .on("click", showClinicInfo);
+
+                // Whenever the map moves, update the marker positions.
+                map.on("move", function() {
+                    layer.selectAll("circle.clinic").attr("transform", transform)
+                });
+
+                //Change the GIS coordinates into pixel locations
+                function transform(data) {
+                    pixelLocation = map.locationPoint({lon: data.value[31], lat: data.value[32]});
+                    return "translate(" + pixelLocation.x + "," + pixelLocation.y + ")";
+                }
+        
+            });
+                
+        }
+
+        //Load Clinics
+        drawClinic();
+        
+        
+        
+        //Variables for use in the scatterplot rendering
+        var scatter = null;
+        var datapoints = null;
+        var xAxisGroup = null;
+        var yAxisGroup = null;    
+        
+       
+       
+        //Function that draws the scatterplot
+        function graphDraw(){
+            
+            d3.json("clinic_new.json" ,function(data){
+            
+            //graph size variables
+            var w = 500;
+            var h = 300;
+            var pl = 60;
+            var pb = 30;
+            var p = 15;
+        
+            //Trasition animation variables        
+            var transitionTime = 1000;
+            var t = null;
+        
+            //Selected x and y axis datasets
+            var xOption = document.getElementById("xaxis").value;
+            var yOption = document.getElementById("yaxis").value;
+
+            //Linear scale for x-axis
+            var xScale = d3.scale.linear()
+                .domain([d3.min(d3.entries(data), function(d){return d.value[xOption]}),d3.max(d3.entries(data), function(d){return d.value[xOption]})])
+                .range([pl,w-p]);
+            
+            //Linear scale for y-axis
+            var yScale = d3.scale.linear()
+                .domain([d3.min(d3.entries(data), function(d){return d.value[yOption]}),d3.max(d3.entries(data), function(d){return d.value[yOption]})])
+                .range([h-pb,p]);
+
+            //x-axis svg element
+            var xAxis = d3.svg.axis()
+                .scale(xScale)
+                .orient("bottom");
+            
+            //y-axis svg element
+            var yAxis = d3.svg.axis()
+                .scale(yScale)
+                .orient("left");
+            
+            //Create scatterplot svg is not already created
+            if(!scatter){
+                scatter = d3.select("#graphArea")
+                    .append("svg:svg")
+                    .attr("width",w)
+                    .attr("height",h);
+            }
+            
+            //Create transition animation
+            t = scatter.transition().duration(transitionTime);
+        
+            //Create and style clinic datapoints if not already created
+            if(!datapoints){
+                datapoints = scatter.selectAll("circle")
+                    .data(d3.entries(data))
+                    .enter()
+                    .append("svg:circle")
+                    .attr("class", "clinic")
+                    .attr("cx", function(d){return xScale(d.value[xOption])})
+                    .attr("cy", function(d){return yScale(d.value[yOption])})
+                    .attr("r",populationScale)
+                    .style("fill","steelblue")
+                    .on("click", showClinicInfo);
+            }
+            //Move datapoints to new location if changing x or y axis dataset
+            else{
+                datapoints.transition()
+                    .duration(transitionTime)
+                    .attr("cx", function(d){return xScale(d.value[xOption])})
+                    .attr("cy", function(d){return yScale(d.value[yOption])});
+            }
+
+            //Create and plot x-axis if not already created
+            if(!xAxisGroup){
+
+                //get the text label of the dropdown selected for the x-axis
+                var xAxisSelect = document.getElementById("xaxis");
+                var xAxisText = xAxisSelect.options[xAxisSelect.selectedIndex].text; 
+
+                //draw the x-axis
+                xAxisGroup = scatter.append("g")
+                    .attr("class", "axis")
+                    .attr("id", "xTick")
+                    .attr("transform", "translate(0," + (h - pb + 5) + ")")
+                    .call(xAxis);
+                
+                //add the x-axis label
+                var xLabel = scatter.append("text")
+                    .attr("class", "axis")
+                    .attr("id", "xText")
+                    .attr("text-anchor", "end")
+                    .attr("x", w-p)
+                    .attr("y", h - pb - 2)
+                    .text(xAxisText);
+            }
+            
+            //Otherwise rescale the axis and change the label
+            else{
+                //get the text label of the selected x-axis dataset
+                var xAxisSelect = document.getElementById("xaxis");
+                var xAxisText = xAxisSelect.options[xAxisSelect.selectedIndex].text;
+                
+                //transition the x-axis change
+                t.select('#xTick').call(xAxis);
+                t.select("#xText").text(xAxisText);
+            }
+
+            //Create and plot y-axis if not already created
+            if(!yAxisGroup){
+            
+                //get the label of the y-axis dataset
+                var yAxisSelect = document.getElementById("yaxis");
+                var yAxisText = yAxisSelect.options[yAxisSelect.selectedIndex].text;    
+            
+                //draw the y-axis
+                yAxisGroup = scatter.append("g")
+                    .attr("class", "axis")
+                    .attr("id", "yTick")
+                    .attr("transform", "translate("+(pl-5) +",0)")
+                    .call(yAxis);
+            
+                //draw the y-axis label
+                var yLabel = scatter.append("text")
+                    .attr("class", "axis")
+                    .attr("id","yText")
+                    .attr("text-anchor", "end")
+                    .attr("y", pl)
+                    .attr("x", 0-p)
+                    .attr("dy", ".75em")
+                    .attr("transform", "rotate(-90)")
+                    .text(yAxisText);
+        
+                }
+            //Otherwise rescale the axis and change the label
+            else{
+                
+                //get the label of the y-axis dataset
+                var yAxisSelect = document.getElementById("yaxis");
+                var yAxisText = yAxisSelect.options[yAxisSelect.selectedIndex].text;
+            
+                //transition the y-axis
+                t.select('#yTick').call(yAxis);
+                t.select("#yText").text(yAxisText);
+            }
+            
+            });
+                
+        }
+       
+       
+       
+       //Load scatterplot
+        graphDraw();
+
+
+
+
+        //Function for plotting the refrigerators
+        /*function drawFrige(){
+        
+            //Remove any clinics that are plotted on the map
+            d3.selectAll("circle.clinic").remove();
+            
+            //Hide all the key circles and text
+            document.getElementById("controls").display = "none"
+            document.getElementById("graphControls").display = "none"
+            
+            //Update the key to show one circle with the tag "Refrigerator"
+            var currentElement = document.getElementById("keyCircle1")
+                currentElement.style.visibility="visible";
+                currentElement.style.fill = "steelblue";
+                currentElement = document.getElementById("keyText1");
+                currentElement.style.visibility="visible";
+                currentElement.textContent="Refrigerator"
+            
+            //Plot the refrigerators with the JSON data
+            d3.json("frige.json", function(data) {
+
+                // Insert a layer beneath the compass.
+                var layer = d3.select("#map svg").insert("svg:g", ".compass");
+
+
+                // Add an svg:g for each station and call transform() to place them
+                var marker = layer.selectAll("g")
+                    .data(d3.entries(data))
+                    .enter().append("svg:circle")
+                    .attr("r", 5)
+                    .attr("class", "frige")
+                    .style("fill", "steelblue")
+                    .attr("transform", transform)
+
+                // Whenever the map moves, update the marker positions.
+                map.on("move", function() {
+                    layer.selectAll("circle.frige").attr("transform", transform)
+                });
+
+                //Change the GIS coordinates into pixel locations
+                function transform(d) {
+                    pixelLocation = map.locationPoint({lon: d.value[25], lat: d.value[26]});
+                    return "translate(" + pixelLocation.x + "," + pixelLocation.y + ")";
+                }
+        
+            });
+                
+        }
+        
+
+
+
+       //Toggle plotting the clinics and the refrigerators based on the dropdown selection
+        function togglePlot(){
+            if(document.getElementById("plotDropdown").value=="frigePlot"){
+                drawFrige();
+            }
+            else{
+                drawClinic();
+                graphDraw();
+            }
+        }*/
+
+
+
+        //Function to change and show the clinic info panel
+        function showClinicInfo(clinic){
+    
+            //get the selected clinic code
+            var clinicCode = clinic.value[0];
+    
+            //set all circles associated with the clinic to opaque, set all other circles to semi-transparent
+            var mapSelect = d3.selectAll("circle.clinic")
+                .style("opacity", function(d){if(d.value[0]==clinicCode){return 1}else{return 0.1};});
+    
+            //show the clinic info div
+            var info = document.getElementById("info");
+            info.style.visibility="visible";
+    
+            //change the text on the info panel to the appropriate clinic values
+            document.getElementById("clinicName").innerHTML = clinic.key;
+            document.getElementById("departmentName").innerHTML = clinic.value[2];
+            document.getElementById("population").innerHTML = clinic.value[10];
+            document.getElementById("capacitySurplus").innerHTML = clinic.value[43];
+        }
+
+
+
+
+
+        //function to hide clinic info panel
+        function hideClinicInfo(clinic){
+            //set all clinics to semi-transparent
+            var mapSelect = d3.selectAll("circle.clinic")
+                .style("opacity", 0.7);
+    
+            //hide the clinic info div
+            document.getElementById("info").style.visibility="hidden";
+        }
+
+
+
+
+
+        //function to show or hide departments when called by department dropdown
+        function deptFilter(department){
+            var selection = d3.selectAll("circle.clinic");
+            
+            //scale all clinic circles by their population
+            populationScale();
+            
+            //If showing all departments do nothing, otherwise scale all but the selected department to a radius of 0
+            if(department=="All"){
+                return; 
+            }
+            else{
+                var subselection = selection.filter( function(d){return d.value[2]!=department;});
+                subselection.attr("r", 0);
+            }
+        }
+
+
+
+
+
+        //Function controlling the size of the plotted points, either scalling by population or setting to 4px
+        function populationScale(){
+    
+            var selection = d3.selectAll("circle.clinic");
+            var currentValue = document.getElementById("populationDropdown").value;
+            
+            if(currentValue=="None"){
+                selection.attr("r",4);   
+            }
+            
+            else{
+                    var pointRedraw = d3.scale.linear()
+                    .domain([d3.min(d3.entries(mainData), function(d){return d.value[currentValue]}), d3.max(d3.entries(mainData), function(d){return d.value[currentValue]})])
+                    .range([3,12]);
+              
+                    selection.attr("r", function(d){ return pointRedraw(d.value[currentValue]);});
+            }
+        }
+
+
+
+
+
+        //Function controlling the color of the plotted points based on the selected dropdown
+        function changeColor() {
+            
+            //Variables for changing the color
+            var selection = d3.selectAll("circle.clinic");
+            var departmentColor = "Black";
+            var idCall = "call";
+            var currentElement
+            
+            //Hide all the circles and text in the map key
+            d3.selectAll("circle.key").style("visibility", "hidden");
+            d3.selectAll("text.key").style("visibility","hidden");
+        
+            //FOr the simple map, just show blue circles and set the key 
+            if(document.getElementById("mapStyle").value=="simple"){
+                selection.style("fill", "steelblue");
+                d3.selectAll("circle.key").style("visibility", "hidden");
+                d3.selectAll("text.key").style("visibility","hidden");
+                currentElement = document.getElementById("keyCircle1")
+                currentElement.style.visibility="visible";
+                currentElement.style.fill = "steelblue";
+                currentElement = document.getElementById("keyText1");
+                currentElement.style.visibility="visible";
+                currentElement.textContent="Clinic"
+            }
+            
+            //For the department map, give each of the 12 departments its own color
+            else if (document.getElementById("mapStyle").value=="department"){
+                var departments = ["Alibori","Atacora","Atlantique","Borgou","Collines","Donga","Couffu","Littoral","Mono","Oueme","Plateau","Zou"];
+                var colors = ["Red","Orange","Green","Blue","Purple","Orange","SeaGreen","Brown","Gray","SlateBlue","Cadetblue","OrangeRed"];
+                
+                selection.style("fill", function(d){
+                    
+                    for(i=1;i<13;i++){
+                        if(d.value[2]==departments[i-1]){
+                            departmentColor = colors[i-1];
+                        }
+                    }
+                    return departmentColor;
+                });
+                
+                //Change the key colors and text
+                for(i=1;i<13;i++){
+                    idCall = "keyCircle" +i;
+                    currentElement = document.getElementById(idCall);
+                    currentElement.style.visibility="visible";
+                    currentElement.style.fill=colors[i-1];
+                    idCall = "keyText" + i;
+                    currentElement=document.getElementById(idCall);
+                    currentElement.style.visibility="visible";
+                    currentElement.textContent=departments[i-1];    
+                }
+            } 
+            
+            //For the Capacity map
+            else if (document.getElementById("mapStyle").value=="capacity"){
+                var colors = ["green","red"];
+                var keyText = ["Over Capacity", "Under Capacity"];
+                selection.style("fill", function(d){
+                    if(d.value[43]>0) return colors[0];
+                    else return colors[1];
+                })
+                
+                //Change the key colors and text
+                for(i=1;i<3;i++){
+                        idCall = "keyCircle" +i;
+                        currentElement = document.getElementById(idCall);
+                        currentElement.style.visibility="visible";
+                        currentElement.style.fill=colors[i-1];
+                        idCall = "keyText" + i;
+                        currentElement=document.getElementById(idCall);
+                        currentElement.style.visibility="visible";
+                        currentElement.textContent=keyText[i-1];
+                    }
+                
+            }
+            
+            //For the Electricity 
+            else if (document.getElementById("mapStyle").value=="electricity"){
+                var colors = ["red","coral", "lightgreen", "green"];
+                var keyText = ["None", "<8 hours a day", "8-16 hours a day", ">16 hours a day"];
+                selection.style("fill", function(d){
+                    if (d.value[16]==0){return colors[0];}
+                    else if (d.value[16]==1){return colors[1];}
+                    else if (d.value[16]==2){return colors[2];}
+                    else if (d.value[16]==3){return colors[3];}
+                })
+                
+                //Change the key colors and text
+                for(i=1;i<5;i++){
+                    idCall = "keyCircle" +i;
+                    currentElement = document.getElementById(idCall);
+                    currentElement.style.visibility="visible";
+                    currentElement.style.fill=colors[i-1];
+                    idCall = "keyText" + i;
+                    currentElement=document.getElementById(idCall);
+                    currentElement.style.visibility="visible";
+                    currentElement.textContent=keyText[i-1];    
+                }
+            }
+            
+            //For the Kerosene Map
+            else if (document.getElementById("mapStyle").value=="kerosene"){
+                var colors = ["green", "lightgreen", "red","gray"];
+                var keyText = ["Always Available", "Sometimes Available", "Not Available", "Unknown"];
+                selection.style("fill", function(d){
+                    if (d.value[17]==0){return colors[0];}
+                    else if (d.value[17]==1){return colors[1];}
+                    else if (d.value[17]==2){return colors[2];}
+                    else if (d.value[17]==3){return colors[3];}
+                })
+                
+                //Change the key colors and text
+                for(i=1;i<5;i++){
+                    idCall = "keyCircle" +i;
+                    currentElement = document.getElementById(idCall);
+                    currentElement.style.visibility="visible";
+                    currentElement.style.fill=colors[i-1];
+                    idCall = "keyText" + i;
+                    currentElement=document.getElementById(idCall);
+                    currentElement.style.visibility="visible";
+                    currentElement.textContent=keyText[i-1];    
+                }
+            }
+            
+            //For the Gas Map
+            else if (document.getElementById("mapStyle").value=="gas"){
+                var colors = ["green", "lightgreen", "red","gray"];
+                var keyText = ["Always Available", "Sometimes Available", "Not Available", "Unknown"];
+                selection.style("fill", function(d){
+                    if (d.value[17]==0){return colors[0];}
+                    else if (d.value[17]==1){return colors[1];}
+                    else if (d.value[17]==2){return colors[2];}
+                    else if (d.value[17]==3){return colors[3];}
+                })
+                
+                //Change the key colors and text
+                for(i=1;i<5;i++){
+                    idCall = "keyCircle" +i;
+                    currentElement = document.getElementById(idCall);
+                    currentElement.style.visibility="visible";
+                    currentElement.style.fill=colors[i-1];
+                    idCall = "keyText" + i;
+                    currentElement=document.getElementById(idCall);
+                    currentElement.style.visibility="visible";
+                    currentElement.textContent=keyText[i-1];    
+                }
+            }
+            
+            //For the Solar map
+            else if (document.getElementById("mapStyle").value=="solar"){
+                var colors = ["green","red"];
+                var keyText = ["Solar Available", "Solar Not Available"];
+                selection.style("fill", function(d){
+                    if (d.value[19]==0){return colors[0];}
+                    else if (d.value[19]==1){return colors[1];}
+                })
+                
+                //Change the key colors and text
+                for(i=1;i<3;i++){
+                    idCall = "keyCircle" +i;
+                    currentElement = document.getElementById(idCall);
+                    currentElement.style.visibility="visible";
+                    currentElement.style.fill=colors[i-1];
+                    idCall = "keyText" + i;
+                    currentElement=document.getElementById(idCall);
+                    currentElement.style.visibility="visible";
+                    currentElement.textContent=keyText[i-1];    
+                }
+            }
+            
+            //For the Energy Source map
+            else if (document.getElementById("mapStyle").value=="energySource"){
+                var colors = ["Gold", "Red", "Blue", "Green", "darkorange", "lightblue", "Purple", "Black"];
+                var keyText = ["Only Electricity", "Only Kerosene", "Only Gas", "Electricy, Kerosene & Gas", "Electricity & Kerosene", "Electricity & Gas", "Kerosene & Gas", "None"];
+                selection.style("fill", function(d){
+                    if(d.value[35]==0 && d.value[36]==0 && d.value[37]==0){return ""}
+                    else if (d.value[35]==0 && d.value[36]==0 && d.value[37]==0){return colors[7]}
+                    else if (d.value[35]==0 && d.value[36]==0 && d.value[37]==1){return colors[2]}
+                    else if (d.value[35]==0 && d.value[36]==1 && d.value[37]==0){return colors[1]}
+                    else if (d.value[35]==1 && d.value[36]==1 && d.value[37]==1){return colors[6]}
+                    else if (d.value[35]==1 && d.value[36]==0 && d.value[37]==0){return colors[0]}
+                    else if (d.value[35]==1 && d.value[36]==0 && d.value[37]==1){return colors[5]}
+                    else if (d.value[35]==1 && d.value[36]==1 && d.value[37]==0){return colors[4]}
+                    else if (d.value[35]==1 && d.value[36]==1 && d.value[37]==1){return colors[3]}
+                })
+                
+                //Change the key colors and text
+                for(i=1;i<9;i++){
+                    idCall = "keyCircle" +i;
+                    currentElement = document.getElementById(idCall);
+                    currentElement.style.visibility="visible";
+                    currentElement.style.fill=colors[i-1];
+                    idCall = "keyText" + i;
+                    currentElement=document.getElementById(idCall);
+                    currentElement.style.visibility="visible";
+                    currentElement.textContent=keyText[i-1];    
+                }
+            }
+        }
+
+    </script>
+
+</body>
+
+</html> 
