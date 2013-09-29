@@ -2,21 +2,7 @@
 /* ! Layout for desktop version   */
 /* ============================== */
 
-a.current{
-	display: block;
-	text-decoration: none;
-}
-
-a.current:link, a.current:visited {
-	color: #69d;
-}
-
-a.current:hover, a.current:active{
-	color: #69d;
-}
-
 a:link, a:visited {
-	/*display: block;*/
 	color: #47b;
 	text-decoration: none;
 }
@@ -26,144 +12,45 @@ a:hover, a:active {
 }
 
 a.nav{
-	display: block;
 	text-decoration: none;
 }
 
 a.nav:link, a.nav:visited {
-	color: #ccc;
+	color: #999;
 }
 
 a.nav:hover, a.nav:active{
-	color: #69d;
+	color: #47b;
+}
+
+a.current{
+	text-decoration: none;
+	color: #47b;
 }
 
 body {
-	background:#fff;
+	background: #fff;
+	width: 800px;
+	margin: auto;
 	font-family: helvetica neue, helvetica, arial, verdana, sans-serif;
 	font-size: 100%;
-	margin: 0;
-	padding: 0;
 	text-align: left;
-	color: #222;
-}
-
-h4 {
-	margin-top: 0px;
-	margin-bottom: 10px;
-}
-
-p {
-	line-height: 150%;
-}
-
-li {
-	line-height: 140%;
-}
-
-ul.nav {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	font-size: 1.2em;
-}
-
-li.nav {
-	float:left;
-	padding-right:25px;
-	padding-top: 4px;
-	padding-bottom: 4px;
-}
-
-#footer {
-	text-align: right;
-	margin-top: 25px;
-	margin-bottom: 25px; 
-	clear: both;
-	font-size: 0.75em;
-}
-
-#header {
-	margin-top: 20px;
-	margin-bottom: 25px;
-	border-bottom-style: solid;
-	border-width: 1px;
-	border-color: #CCC;
-}
-
-#logo {
-	margin-left: -10px;
-	margin-bottom: 10px;
-}
-
-#main_image{
-	float: left;
-	margin-right: 25px;
-}
-
-#portrait{
-	float: left;
-	margin-right: 25px;
-	margin-bottom: 15px;
-}
-
-#navigation {
-	width: 800px;
-	border-color: #ccc;
-	border-bottom-style: solid;
-	border-width: 1px;
-}
-
-.cv_section{
-	padding-top: 10px;
-	padding-bottom: 10px;
-	border-width: 2px;
-	border-color: #CCC;
-	border-bottom-style:solid;
-
-}
-
-p.nospace {
-	line-height:110%;
-	margin-top:0px;
-	padding:0px;
-}
-
-#contact{
-	padding-bottom: 30px;
+	color: #333;
 }
 
 h1{
-	font-size: 2em;
-	margin-bottom: 10px;
-	margin-top:30px;
+	font-size: 1.5em;
 	font-weight:normal;
-	color: #777;
+	color: #999;
+	margin: 20px 0px 0px;
 }
 
 h2{
-	margin-top: 20px;
-	padding-top: 0px;
-	margin-bottom: 10px;
-	font-size: 1.5em;
-	font-weight: normal;
-	color: #777;
-}
-
-h3{
-	margin-top: 0px;
-	font-weight:bold;
 	font-size: 1em;
+	font-weight: 500;
 	color: #000;
+	margin: 10px 0px 5px;
 }
-
-h3.alt{
-	margin-top: 0px;
-	font-weight: normal;
-	font-style: italic;
-}
-
 
 h1.cv{
 	font-size:2em;
@@ -180,18 +67,114 @@ h2.cv{
 }
 
 h3.cv{
-	font-size:1.1em;
-	font-weight: bold;
+	font-size:1em;
+	font-weight: 500;
 	color:#000;
-
+	margin: 0px;
 }
 
 h4.cv{
 	font-size: 1em;
 	font-weight: normal;
+	margin-top: 0px;
 	color: #999;
+	text-align:right;
 }
 
+
+p {
+	line-height: 150%;
+	margin: 5px 0px 15px;
+}
+
+li {
+	line-height: 140%;
+}
+
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 1.25em;
+}
+
+li.nav {
+	float:left;
+	padding-right:25px;
+}
+
+#footer {
+	text-align: right;
+	margin: 25px 0px;
+	clear: both;
+	font-size: 0.75em;
+}
+
+#header {
+	margin: 25px 0px;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #CCC;
+}
+
+#main_image{
+	float: left;
+	margin-right: 25px;
+}
+
+#navigation {
+	width: 800px;
+	border-color: #ccc;
+	border-bottom-style: solid;
+	border-width: 1px;
+}
+
+.cv_section{
+    position: relative;
+    width: 100%;
+    overflow: auto;
+    margin: 5px 0px 0px;
+    border-width: 2px;
+	border-color: #CCC;
+	border-bottom-style:solid;
+}
+
+.cv_label{
+	width: 150px;
+	float: left;
+	position: absolute;
+	height: 100%;
+}
+
+.cv_item{
+  position: relative;
+  width:650px;
+  float: right;
+}
+
+.cv_meta{
+  position:absolute;
+  float:left;
+  height: 100%;
+  padding:0px 10px 0px;
+  width:130px;
+}
+
+.cv_content{
+  width:500px;
+  float:right;
+}
+
+p.cv {
+	line-height:110%;
+	margin-top:0px;
+	padding:0px;
+}
+
+#contact{
+	padding-bottom: 30px;
+}
 
 .section{
 	padding-left: 25px;
@@ -210,7 +193,7 @@ h4.cv{
 /* ============================= */
 /* ! Layout for mobile version   */
 /* ============================= */
-
+/*
 @media handheld, only screen and (max-width: 767px) {
 
 	body {
@@ -245,14 +228,14 @@ h4.cv{
 	text-align: left;
 }
 
-}
+} */
 
 
 /* ========================================== */
 /* ! Provide higher res assets for iPhone 4   */
 /* ========================================== */
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+/*@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
 
 	body {
 	background:#fff;
@@ -287,4 +270,4 @@ h4.cv{
 	text-align: left;
 }
 
-}
+}*/
