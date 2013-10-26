@@ -87,8 +87,8 @@ svg.append("rect")
 var g = svg.append("g");
 
 queue()
-    .defer(d3.json, "/us.json")
-    .defer(d3.tsv, "/seen.tsv", function(d) { seenById.set(d.id, +d.seen); })
+    .defer(d3.json, "us.json")
+    .defer(d3.tsv, "seen.tsv", function(d) { seenById.set(d.id, +d.seen); })
     .await(ready);
 
 function ready(error, us) {
