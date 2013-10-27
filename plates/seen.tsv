@@ -1,57 +1,1 @@
-id	seen	Name
-1	0		Alabama
-2	0		Alaska
-3	0		
-4	0		Arizona
-5	0		Arkansas
-6	1		California
-7	0		
-8	0		Colorado
-9	0		Conecticut
-10	0		Delaware
-11	0		
-12	0		Florida
-13	0		Georgia
-14	0		
-15	0		Hawaii
-16	0		Idaho
-17	0		Illinois
-18	0		Indiana
-19	0		Iowa
-20	0		Kansas
-21	0		Kentucky
-22	0		Lousiana
-23	0		Maine
-24	0		Maryland
-25	0		Massachusetts
-26	0		Michigan
-27	0		Minnesota
-28	0		Mississippi
-29	0		Missouri
-30	0		Montana
-31	0		Nebraska
-32	0		Nevada
-33	0		New Hapshire
-34	0		New Jersey
-35	0		New Mexico
-36	0		New York
-37	0		North Carolina
-38	0		North Dakota
-39	0		Ohio
-40	0		Oklahoma
-41	0		Oregon
-42	0		Pennsylvania
-43	0		
-44	0		Rhode Island
-45	0		South Carolina
-46	0		South Dakota
-47	0		Tennessee		
-48	0		Texas
-49	0		Utah		
-50	0		Vermont
-51	0		Virginia
-52	0				
-53	0		Washington
-54	0 		West Virgina
-55	0		Wisconson
-56	0		Wyoming
+id	seen	Name	oct26	oct27	oct28	oct29	oct30	oct31	nov1	nov2	nov3	nov4	nov5	nov6	nov7	nov8	nov9	nov10	nov11	nov12	nov13	nov14	nov15	nov16	nov17	nov18	nov19	nov20	nov21	nov22	nov23	nov24	nov25	nov26	nov27	nov28	nov29	nov30	dec1	dec2	dec3	dec4	dec5	dec6	dec7	dec8	dec9	dec10	dec11	dec12	dec13	dec14	dec15																																																				1	0	Alabama																																																																																																							2	0	Alaska																																																																																																							3	0																																																																																																								4	1	Arizona	1																																																																																																						5	0	Arkansas																																																																																																							6	1	California	1																																																																																																						7	0																																																																																																								8	0	Colorado																																																																																																							9	0	Conecticut																																																																																																							10	0	Delaware																																																																																																							11	0																																																																																																								12	1	Florida	1																																																																																																						13	0	Georgia																																																																																																							14	0																																																																																																								15	0	Hawaii																																																																																																							16	0	Idaho																																																																																																							17	0	Illinois																																																																																																							18	0	Indiana																																																																																																							19	0	Iowa																																																																																																							20	0	Kansas																																																																																																							21	0	Kentucky																																																																																																							22	0	Lousiana																																																																																																							23	0	Maine																																																																																																							24	0	Maryland																																																																																																							25	0	Massachusetts																																																																																																							26	0	Michigan																																																																																																							27	0	Minnesota																																																																																																							28	0	Mississippi																																																																																																							29	0	Missouri																																																																																																							30	0	Montana																																																																																																							31	0	Nebraska																																																																																																							32	1	Nevada	1																																																																																																						33	0	New Hapshire																																																																																																							34	0	New Jersey																																																																																																							35	0	New Mexico																																																																																																							36	0	New York																																																																																																							37	0	North Carolina																																																																																																							38	0	North Dakota																																																																																																							39	0	Ohio																																																																																																							40	0	Oklahoma																																																																																																							41	0	Oregon																																																																																																							42	0	Pennsylvania																																																																																																							43	0																																																																																																								44	0	Rhode Island																																																																																																							45	0	South Carolina																																																																																																							46	0	South Dakota																																																																																																							47	0	Tennessee																																																																																																							48	0	Texas																																																																																																							49	0	Utah																																																																																																							50	0	Vermont																																																																																																							51	0	Virginia																																																																																																							52	0																																																																																																								53	0	Washington																																																																																																							54	0	West Virgina																																																																																																							55	0	Wisconson																																																																																																							56	0	Wyoming																																																																																																							
