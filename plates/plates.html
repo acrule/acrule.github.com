@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <meta charset="utf-8">
+<title>50 Days of License Plates</title>
 
 <!--
 Author: Adam Rule
@@ -11,15 +12,19 @@ http://bl.ocks.org/mbostock/2206590
 
 <style>
 
-h1 {
-  font-family: "helvetica neue light","helvetica neue",helvetica,arial,sans-serif;
-  font-size: 3em;
-}
-
 body {
   width: 800px;
   font-family: "helvetica neue",helvetica,arial,sans-serif;
   margin: 0 auto;
+}
+
+h1 {
+  font-size: 3em;
+  color: #666;
+}
+
+p.caption {
+  color: #aaa;
 }
 
 .background {
@@ -30,8 +35,26 @@ body {
   border-color: #aaa;
 }
 
-p.caption {
-  color: #aaa;
+.label {
+	font: 500 5em "Helvetica Neue";
+	fill: #666;
+	stroke:#fff;
+	stroke-width:1px;
+
+}
+
+.label .active {
+	fill: #666;
+}
+
+.label .inactive{
+	fill: #aaa;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+  cursor: ew-resize;
 }
 
 #states {
@@ -39,7 +62,11 @@ p.caption {
 }
 
 #states .active {
-  fill: orange;
+  fill: steelblue;
+}
+
+#states .inactive{
+  fill: #aaa;
 }
 
 #state-borders {
@@ -53,20 +80,17 @@ p.caption {
 
 </style>
 
-
 <body>
 
 <script src="http://d3js.org/d3.v3.min.js"></script>
-<script src="http://d3js.org/queue.v1.min.js"></script>
 <script src="http://d3js.org/topojson.v1.min.js"></script>
 
 <h1>50 Days of Liscence Plates</h1>
+
 <script>
 
-var width = 860,
+var width = 800,
     height = 500;
-
-var seenById = d3.map();
 
 var projection = d3.geo.albersUsa()
     .scale(1070)
@@ -78,33 +102,101 @@ var path = d3.geo.path()
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
-
-svg.append("rect")
-    .attr("class", "background")
-    .attr("width", width)
-    .attr("height", height);
-
+    
 var g = svg.append("g");
 
-queue()
-    .defer(d3.json, "us.json")
-    .defer(d3.tsv, "seen.tsv", function(d) { seenById.set(d.id, +d.seen); })
-    .await(ready);
+var label = svg.append("text")
+    .attr("class", "label")
+    .attr("text-anchor", "end")
+    .attr("y", height-8)
+    .attr("x", width)
+    .text("Total");
 
-function ready(error, us) {
-  g.append("g")
-      .attr("id", "states")
-    .selectAll("path")
-      .data(topojson.feature(us, us.objects.states).features)
-    .enter().append("path")
-      .attr("d", path)
-      .attr("class", function(d){ if(seenById.get(d.id)==1){return "active"} else{return "inactive"} });
+var button = g.append("button");
 
-  g.append("path")
-      .datum(topojson.mesh(us, us.objects.states, function(a, b) { return a !== b; }))
-      .attr("id", "state-borders")
-      .attr("d", path);
-}
+d3.json("us.json", function(error, json) {
+
+	g.append("g")
+		.attr("id", "states")
+		.selectAll("path")
+		.data(topojson.feature(json, json.objects.states).features)
+    	.enter().append("path")
+      	.attr("d", path)
+      	.attr("class", function(d){return colorStates(d,0)});
+
+  	g.append("path")
+      	.datum(topojson.mesh(json, json.objects.states, function(a, b) { return a !== b; }))
+      	.attr("id", "state-borders")
+      	.attr("d", path);
+	
+	//Make interactive overlay for the date label
+	var box = label.node().getBBox();
+
+  	var overlay = svg.append("rect")
+    	.attr("class", "overlay")
+        .attr("x", box.x)
+        .attr("y", box.y)
+        .attr("width", box.width)
+        .attr("height", box.height)
+        .on("mouseover", enableInteraction);
+
+	playTransition();
+
+	function playTransition() {
+		g.transition()
+			.duration(25000)
+			.ease("linear")
+			.tween("date", tweenDate)
+			.each("end", enableInteraction)
+	}
+        
+    function tweenDate() {
+    	var date = d3.interpolateRound(1, 50);
+    	return function(t) { changeDate(date(t)); };
+  	}
+    
+    function enableInteraction() {
+    var dateScale = d3.scale.linear()
+        .domain([0, 50])
+        .range([box.x + 10, box.x + box.width - 10])
+        .clamp(true);
+
+    // Cancel the current transition, if any.
+    g.transition().duration(0);
+
+    overlay
+        .on("mouseover", mouseover)
+        .on("mouseout", mouseout)
+        .on("mousemove", mousemove)
+        .on("touchmove", mousemove);
+
+    function mouseover() {
+      label.attr("class", "label active");
+    }
+
+    function mouseout() {
+      label.attr("class", "label inactive");
+    }
+
+    function mousemove() {
+      changeDate(Math.round(dateScale.invert(d3.mouse(this)[0])));
+    }
+  }
+	
+	function colorStates(d,i){
+		if(d.properties.seen[i]==1){ return "active" }
+		else{ return "inactive" }
+	}
+	
+	function changeDate(date){
+		g.select("#states").selectAll("path")
+		.attr("class", function(d){if(d.properties.seen[date]==1){return "active"}else{return "inactive"}});
+		if(date==0){label.text("Total")}
+		else if(date<6){date=date+26;label.text("Oct"+date.toString())}
+		else if(date<36){date = date-5; label.text("Nov"+date.toString());}
+		else {date=date-35; label.text("Dec"+date.toString());}
+	}
+});
 
 </script>
 
