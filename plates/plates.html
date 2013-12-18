@@ -4,7 +4,7 @@
 
 <!--
 Author: Adam Rule
-Date: Oct 26, 2013
+Date: Dec 16, 2013
 Inspiration and code drawn from:
 http://bl.ocks.org/mbostock/4060606
 http://bl.ocks.org/mbostock/2206590 
@@ -13,42 +13,47 @@ http://bl.ocks.org/mbostock/2206590
 <style>
 
 body {
-  width: 800px;
-  font-family: "helvetica neue",helvetica,arial,sans-serif;
-  margin: 0 auto;
+  	width: 800px;
+  	font-family: "helvetica neue",helvetica,arial,sans-serif;
+  	margin: 0 auto;
 }
 
 h1 {
-  font-size: 3em;
-  color: #666;
+  	font-size: 3em;
+  	color: #666;
 }
 
-p.caption {
-  color: #aaa;
+#states {
+  	fill: #aaa;
 }
 
-.background {
-  fill: none;
-  pointer-events: all;
-  border-style: solid;
-  border-width: 2px;
-  border-color: #aaa;
+#states .active {
+  	fill: steelblue;
+}
+
+#states .active2 {
+  	fill: orange;
+}
+
+
+#state-borders {
+  	fill: none;
+  	stroke: #fff;
+  	stroke-width: 1.5px;
+  	stroke-linejoin: round;
+  	stroke-linecap: round;
+  	pointer-events: none;
 }
 
 .label {
 	font: 500 5em "Helvetica Neue";
-	fill: #666;
+	fill: #aaa;
 	stroke:#fff;
 	stroke-width:1px;
-
 }
 
-.label .active {
+.label.active {
 	fill: #666;
-}
-
-.label .inactive{
-	fill: #aaa;
 }
 
 .overlay {
@@ -56,26 +61,41 @@ p.caption {
   pointer-events: all;
   cursor: ew-resize;
 }
-
-#states {
-  fill: #aaa;
+  
+ul.nav {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	font-size: 1.25em;
 }
 
-#states .active {
-  fill: steelblue;
+li{
+	padding: 5px 15px;
+	color: #666;
+	background: #999;
 }
 
-#states .inactive{
-  fill: #aaa;
+li.active{
+	color: steelblue;
+	background: #CCC;
 }
 
-#state-borders {
-  fill: none;
-  stroke: #fff;
-  stroke-width: 1.5px;
-  stroke-linejoin: round;
-  stroke-linecap: round;
-  pointer-events: none;
+li.active2{
+	color: orange;
+	background: #CCC;
+}
+
+li.control {
+	float:left;
+}
+
+li.animation {
+	float:right;
+}
+
+.caption {
+  color: #aaa;
 }
 
 </style>
@@ -89,48 +109,86 @@ p.caption {
 
 <script>
 
+//Set size of map
 var width = 800,
     height = 500;
 
+var mapType = 0;
+var globalDate = 2;
+
+//Set and center projection
 var projection = d3.geo.albersUsa()
     .scale(1070)
     .translate([width / 2, height / 2]);
 
+//Draw paths using projection
 var path = d3.geo.path()
     .projection(projection);
 
+//Add map area and g for grouping states
 var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
     
 var g = svg.append("g");
 
+//Create date label in lower-left of map
 var label = svg.append("text")
-    .attr("class", "label")
+    .attr("class", "label inactive")
     .attr("text-anchor", "end")
     .attr("y", height-8)
     .attr("x", width)
-    .text("Total");
+    .text("Oct27");
 
-var button = g.append("button");
-
+//Call on JSON file for interaction with data
 d3.json("us.json", function(error, json) {
 
+	//Draw states and state borders
 	g.append("g")
 		.attr("id", "states")
 		.selectAll("path")
 		.data(topojson.feature(json, json.objects.states).features)
     	.enter().append("path")
       	.attr("d", path)
-      	.attr("class", function(d){return colorStates(d,0)});
+      	.attr("class", function(d){return colorStates(d,2)});
 
   	g.append("path")
       	.datum(topojson.mesh(json, json.objects.states, function(a, b) { return a !== b; }))
       	.attr("id", "state-borders")
       	.attr("d", path);
 	
+	//Controls for toggling map between Seen By and Seen On views
+	d3.selectAll(".control")
+		.on("click", toggleView);
+	
+	function toggleView(){
+		if (mapType==0){
+			mapType = 1
+			d3.selectAll("#seenBy")
+				.attr("class", "control active2");
+			d3.selectAll("#seenOn")
+				.attr("class", "control");
+		}
+		else {
+			mapType = 0
+			d3.selectAll("#seenBy")
+				.attr("class", "control");
+			d3.selectAll("#seenOn")
+				.attr("class", "control active");
+		}
+		changeDate(globalDate);
+	}
+	
+	d3.selectAll("#animation")
+		.on("click", playTransition);
+		
 	//Make interactive overlay for the date label
 	var box = label.node().getBBox();
+
+	var dateScale = d3.scale.linear()
+		.domain([2, 51])
+		.range([box.x + 10, box.x + box.width - 10])
+		.clamp(true);
 
   	var overlay = svg.append("rect")
     	.attr("class", "overlay")
@@ -138,66 +196,66 @@ d3.json("us.json", function(error, json) {
         .attr("y", box.y)
         .attr("width", box.width)
         .attr("height", box.height)
-        .on("mouseover", enableInteraction);
+        .on("mouseover", mouseover)
+		.on("mouseout", mouseout)
+		.on("mousemove", mousemove)
+		.on("touchmove", mousemove);
+        
+	function mouseover() {
+	  	g.transition().duration(0)
+	  	label.attr("class", "label active");
+	}
 
-	playTransition();
+	function mouseout() {
+	  	label.attr("class", "label");
+	}
 
+	function mousemove() {
+	  	changeDate(Math.round(dateScale.invert(d3.mouse(this)[0])));
+	}
+  	
 	function playTransition() {
+		label.attr("class", "label active");
 		g.transition()
-			.duration(25000)
+			.duration(15000)
 			.ease("linear")
 			.tween("date", tweenDate)
-			.each("end", enableInteraction)
+			.each("end", function(){label.attr("class", "label")});
 	}
         
     function tweenDate() {
-    	var date = d3.interpolateRound(1, 50);
+    	var date = d3.interpolateRound(2, 51);
     	return function(t) { changeDate(date(t)); };
   	}
-    
-    function enableInteraction() {
-    var dateScale = d3.scale.linear()
-        .domain([0, 50])
-        .range([box.x + 10, box.x + box.width - 10])
-        .clamp(true);
-
-    // Cancel the current transition, if any.
-    g.transition().duration(0);
-
-    overlay
-        .on("mouseover", mouseover)
-        .on("mouseout", mouseout)
-        .on("mousemove", mousemove)
-        .on("touchmove", mousemove);
-
-    function mouseover() {
-      label.attr("class", "label active");
-    }
-
-    function mouseout() {
-      label.attr("class", "label inactive");
-    }
-
-    function mousemove() {
-      changeDate(Math.round(dateScale.invert(d3.mouse(this)[0])));
-    }
-  }
 	
 	function colorStates(d,i){
-		if(d.properties.seen[i]==1){ return "active" }
-		else{ return "inactive" }
+		if(mapType==0){
+			if(d.properties.seen[i]>=1){ return "active" }
+			else{ return "" }
+		}
+		else{
+			if(d.properties.seen[1]<i && d.properties.seen[1]>0){ return "active2" }
+			else{ return "" }
+		}
 	}
 	
 	function changeDate(date){
+		globalDate = date
 		g.select("#states").selectAll("path")
-		.attr("class", function(d){if(d.properties.seen[date]==1){return "active"}else{return "inactive"}});
-		if(date==0){label.text("Total")}
-		else if(date<6){date=date+26;label.text("Oct"+date.toString())}
-		else if(date<36){date = date-5; label.text("Nov"+date.toString());}
-		else {date=date-35; label.text("Dec"+date.toString());}
+		.attr("class", function(d){return colorStates(d,date)});
+		if(date<7){date=date+25;label.text("Oct"+date.toString())}
+		else if(date<37){date = date-6; label.text("Nov"+date.toString());}
+		else {date=date-36; label.text("Dec"+date.toString());}
 	}
+			
 });
 
 </script>
+
+<ul class="nav">
+	<li class="control active" id="seenOn">Seen On</li>
+	<li class="control" id="seenBy">Seen By</li>
+	<li class="animation active" id="animation">Run Animation</li>
+</ul>
 
 <p class="caption">Liscence plates seen on cars in San Diego, CA between October 27 - December 15, 2013.</p>
