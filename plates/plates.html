@@ -32,7 +32,7 @@ h1 {
 }
 
 #states .active2 {
-  	fill: orange;
+  	fill: mediumseagreen;
 }
 
 
@@ -82,7 +82,7 @@ li.active{
 }
 
 li.active2{
-	color: orange;
+	color: mediumseagreen;
 	background: #CCC;
 }
 
@@ -98,6 +98,24 @@ li.animation {
   color: #aaa;
 }
 
+#tooltip{
+    position: absolute;
+    width: 200px;
+    height: auto;
+    padding: 10px;
+    background: #CCC;
+}
+
+#tooltip.hidden{
+    display:none;
+}
+
+#tooltip p{
+    margin: 0px;
+    font-size: 12px;
+    line-height: 20px;
+{
+
 </style>
 
 <body>
@@ -107,6 +125,12 @@ li.animation {
 
 <h1>50 Days of Liscence Plates</h1>
 
+<div id = "tooltip" class="hidden">
+    <p id="stateName"><strong>State</strong></p>
+    <p id="firstSeen">0</p>
+    <p id="numSeen">0</p>
+</div>
+
 <script>
 
 //Set size of map
@@ -115,6 +139,7 @@ var width = 800,
 
 var mapType = 0;
 var globalDate = 2;
+var transitionUnderway = false;
 
 //Set and center projection
 var projection = d3.geo.albersUsa()
@@ -130,14 +155,15 @@ var svg = d3.select("body").append("svg")
     .attr("width", width)
     .attr("height", height);
     
-var g = svg.append("g");
+var g = svg.append("g")
+            .on("mouseout",function(){d3.select("#tooltip").classed("hidden", true)});
 
 //Create date label in lower-left of map
 var label = svg.append("text")
     .attr("class", "label inactive")
     .attr("text-anchor", "end")
     .attr("y", height-8)
-    .attr("x", width)
+    .attr("x", width-175)
     .text("Oct27");
 
 //Call on JSON file for interaction with data
@@ -150,7 +176,8 @@ d3.json("us.json", function(error, json) {
 		.data(topojson.feature(json, json.objects.states).features)
     	.enter().append("path")
       	.attr("d", path)
-      	.attr("class", function(d){return colorStates(d,2)});
+      	.attr("class", function(d){return colorStates(d,2)})
+      	.on("mouseover", showInfo);
 
   	g.append("path")
       	.datum(topojson.mesh(json, json.objects.states, function(a, b) { return a !== b; }))
@@ -179,8 +206,36 @@ d3.json("us.json", function(error, json) {
 		changeDate(globalDate);
 	}
 	
-	d3.selectAll("#animation")
-		.on("click", playTransition);
+	function showInfo(d){
+	    var box = d3.select(this).node().getBoundingClientRect();
+	
+	    var x = parseFloat(box.left)
+	    var y = parseFloat(box.top)
+	
+	    d3.select("#tooltip")
+	        .style("left", x + "px")
+	        .style("top", y-100 + "px")
+	        .classed("hidden", false)
+	}
+	
+	//Animation button
+	d3.select("#animation")
+		.on("click", toggleAnimation);
+	
+	function toggleAnimation() {
+	if (transitionUnderway){
+	    transitionUnderway = false;
+	    g.transition().duration(0)
+	    d3.select("#animation")
+	        .text("Play Animation");
+	}
+	else {
+	    transitionUnderway = true;
+	    playTransition();
+	    d3.select("#animation")
+	        .text("Pause Animation");
+	}
+	}
 		
 	//Make interactive overlay for the date label
 	var box = label.node().getBBox();
@@ -203,6 +258,9 @@ d3.json("us.json", function(error, json) {
         
 	function mouseover() {
 	  	g.transition().duration(0)
+	  	transitionUnderway = 0;
+	  	d3.select("#animation")
+	        .text("Play Animation");
 	  	label.attr("class", "label active");
 	}
 
@@ -215,16 +273,20 @@ d3.json("us.json", function(error, json) {
 	}
   	
 	function playTransition() {
+	    transitionUnderway = true;
 		label.attr("class", "label active");
+		if (globalDate == 51){
+		    globalDate = 2
+		}
 		g.transition()
-			.duration(15000)
+			.duration(300*(51-globalDate))
 			.ease("linear")
 			.tween("date", tweenDate)
-			.each("end", function(){label.attr("class", "label")});
+			.each("end", function(){label.attr("class", "label"); transitionUnderway = false;});
 	}
         
     function tweenDate() {
-    	var date = d3.interpolateRound(2, 51);
+    	var date = d3.interpolateRound(globalDate, 51);
     	return function(t) { changeDate(date(t)); };
   	}
 	
@@ -255,7 +317,7 @@ d3.json("us.json", function(error, json) {
 <ul class="nav">
 	<li class="control active" id="seenOn">Seen On</li>
 	<li class="control" id="seenBy">Seen By</li>
-	<li class="animation active" id="animation">Run Animation</li>
+	<li class="animation active" id="animation">Play Animation</li>
 </ul>
 
 <p class="caption">Liscence plates seen on cars in San Diego, CA between October 27 - December 15, 2013.</p>

@@ -1,0 +1,233 @@
+<!DOCTYPE html>
+
+<!--
+Adam Rule
+3.9.2014
+Multi-application visualization of computer activity
+-->
+
+<head>
+    <title>Windows</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+    <script src="//code.jquery.com/jquery-1.9.1.js"></script>
+    <script src="//code.jquery.com/ui/1.10.4/jquery-ui.js"></script>
+    <script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+    <!-- Style of page -->
+    <style>
+        body{
+            font-family: 'helvetica neue', helvetica, arial, sans-serrif;
+            font-size: 14px;
+            margin: 0px;
+        }
+        
+        #main{
+            position: relative;
+            border-style: solid;
+            border-width: 1px;
+            border-color: gray;
+            overflow-x: scroll;
+            overflow-y: hidden;
+            white-space:nowrap;
+            background: #ccc;
+        }
+        
+        #windowSize{
+            width: 200px;
+        }
+        
+        #windowNum{
+            width: 200px;
+        }
+        
+        .window{
+            margin: 10px;
+        }
+        
+        img {
+        }
+        
+        .snippet{
+        }
+            
+        #timeline{
+            height: 80px;
+            background: #eee;
+            padding:5px;
+        }
+        
+        .axis {
+            shape-rendering: crispEdges;
+            font-size: 0.75em;
+        }
+        
+        .axis line{
+            fill: none;
+            stroke: #000;
+        }
+        
+        .axis path{
+            display: none;
+        }
+    </style>
+    
+    <script>
+        $(function() {
+            $( "#radio" ).buttonset();
+        });
+  </script>
+    
+</head>
+
+<body>
+    <div id='timeline'>
+        <div style='float:left;padding:10px;width:200px;'>
+            <p id='numText'>Number of Windows: 19</p>
+            <div id='windowNum'></div>
+        </div>
+        <div style='float:left;padding:10px;width:200px;'>
+            <p id='sizeText'>Window Size: 300</p>
+            <div id='windowSize'></div>
+        </div>
+        <div style='float:left;padding:10px;width:200px;'>
+            <p id='blurText'>Blur: 0</p>
+            <div id='windowBlur'></div>
+        </div>
+        <div style='float:left;padding:10px;width:200px;'>
+            <p id='opacityText'>Opacity: 100%</p>
+            <div id='windowOpacity'></div>
+        </div>
+        <!--
+        <form>
+            <div id="radio">
+                <input type="radio" id="radio1" name="radio" checked="checked"><label for="radio1">Order</label>
+                <input type="radio" id="radio2" name="radio"><label for="radio2">Most Time</label>
+            </div>
+        </form>
+        -->
+    </div>
+
+    <div id='main'>
+    </div>
+    
+    <script>
+        width = 960;
+        height = 100;
+        imgW = 200;
+        imgH = 200;
+        op = 0.5;
+        colors = ['black','#2c96ba','#aac3ce','#8cb65d','#e7a100','#e75b0a']
+        
+        xScale = d3.scale.linear()
+            .domain([0,905])
+            .range([0,width]);
+        
+        xAxis = d3.svg.axis().scale(xScale).ticks(10)
+        
+        clicks = [
+            [11,'011.png',1,0,234,250,100],
+            [328,'328.png',1,43,244,250,100],
+            [645,'645.png',1,100,232,250,100],
+            [55,'055.png',2,320,232,250,100],
+            [45,'045.png',3,401,120,250,100],
+            [165,'165.png',4,814,617,250,100],
+            [203,'203.png',4,907,462,250,100],
+            [430,'430.png',9,416,390,250,100],
+            [518,'518.png',10,730,828,250,100],
+            [550,'550.png',13,782,280,250,100],
+            [680,'680.png',15,415,55,250,100],
+            [701,'701.png',16,1660,172,250,100],
+            [823,'823.png',16,874,434,250,100],
+            [881,'881.png',19,718,379,250,100]
+            ];
+        
+        data = [
+            [1,1,[[1,12],[323,328],[598,603],[642,645]],"1.png",29],
+            [2,2,[[13,40],[48,61],[637,637],[639,641]],"2.png",46],
+            [3,3,[[41,47],[62,66]],"3.png",12],
+            [4,3,[[67,182],[186,229]],"4.png",160],
+            [5,3,[[183,185],[230,295],[297,320]],"5.png",93],
+            [6,1,[[296,296],[593,597]],"6.png",6],
+            [7,3,[[321,322]],"7.png",2],
+            [8,2,[[329,403],[635,636]],"8.png",77],
+            [9,3,[[404,469]],"9.png",66],
+            [10,3,[[470,527],[604,634]],'10.png',58],
+            [11,4,[[528,541]],"11.png",14],
+            [12,4,[[542,545]],"12.png",4],
+            [13,5,[[546,592]],"13.png",47],
+            [14,2,[[646,672]],"14.png",27],
+            [15,3,[[673,688]],"15.png",16],
+            [16,3,[[689,824]],"16.png",136],
+            [17,3,[[825,834]],"17.png",10],
+            [18,3,[[835,849]],"18.png",15],
+            [19,3,[[850,905]],"19.png",56]
+            ];
+        
+        dataSorted = [];
+
+        times = [];
+        
+        for(i=0;i<data.length;i++){
+            times.push(data[i][4])
+        }
+        
+        times = times.sort(function (a, b) {
+           return a > b ? 1 : a < b ? -1 : 0;
+        });
+
+        d3.select('#main').selectAll('img')
+            .data(data)
+            .enter().append('img')
+            .attr('class', 'window')
+            .style('max-height', '300px')
+            .attr('src', function(d){return 'windows/' + d[3]});
+     
+        $("#windowSize").slider({ max: 600 },{min:200},{value:300},{slide: function( event, ui ) {
+            d3.selectAll('.window')
+                .style('max-height', function(){return ui.value+'px'});
+            document.getElementById('sizeText').innerHTML = 'Window Size: ' + ui.value
+        }});
+        
+        $("#windowNum").slider({ max: 19 },{min:1},{value:19},{slide: function( event, ui ) {
+            threshold = times[data.length-ui.value];
+            trimData = [];
+            for(i=0;i<data.length;i++){
+                if (data[i][4]>=threshold){
+                    trimData.push(data[i]);
+                }
+            }
+            
+            windows = d3.select('#main').selectAll('img')
+                .data([]);
+                
+            windows.exit().remove();
+            
+            windows = d3.select('#main').selectAll('img')
+                .data(trimData);
+                
+            windows.enter().append('img')
+                .attr('class', 'window')
+                .style('max-height', function(){return $("#windowSize").slider("option", "value")+'px'})
+                .attr('src', function(d){return 'windows/' + d[3]});
+                
+            windows.exit().remove();
+            
+            document.getElementById('numText').innerHTML = 'Number of Windows: ' + ui.value
+        }});
+        
+        $("#windowBlur").slider({ max: 10 },{min:0},{value:0},{slide: function( event, ui ) {
+            d3.selectAll('.window')
+                .style('-webkit-filter', function(){return 'blur('+ui.value+'px)'});
+            document.getElementById('blurText').innerHTML = 'Window Blur: ' + ui.value
+        }});
+
+        $("#windowOpacity").slider({ max: 100 },{min:0},{value:100},{slide: function( event, ui ) {
+            d3.selectAll('.window')
+                .style('opacity', function(){return ui.value/100.0});
+            document.getElementById('opacityText').innerHTML = 'Window Opacity: ' + ui.value+'%'
+        }});
+        
+    </script>
+</body>
+
+</html>
