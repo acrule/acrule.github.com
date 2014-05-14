@@ -28,6 +28,14 @@ a.current{
 	color: #47b;
 }
 
+a.studyLink{
+	color: orange;
+}
+
+a.studyLink:hover{
+	color: #999;
+}
+
 body {
 	background: #fff;
 	width: 800px;
