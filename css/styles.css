@@ -181,7 +181,7 @@ p.cv {
 }
 
 #contact{
-	padding-bottom: 30px;
+	padding-bottom: 10px;
 }
 
 .section{
@@ -196,7 +196,7 @@ p.cv {
 	float: left;
 }
 
-	
+
 
 /* ============================= */
 /* ! Layout for mobile version   */
@@ -243,7 +243,7 @@ p.cv {
 /* ! Provide higher res assets for iPhone 4   */
 /* ========================================== */
 
-/*@media only screen and (-webkit-min-device-pixel-ratio: 2) { 
+/*@media only screen and (-webkit-min-device-pixel-ratio: 2) {
 
 	body {
 	background:#fff;
@@ -254,7 +254,7 @@ p.cv {
 	text-align: left;
 	color: #333;
 	}
-	
+
 	.row, body, .container {
 	width: 100%;
 	min-width: 0;
