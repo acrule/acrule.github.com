@@ -141,8 +141,9 @@ li.nav {
 .cv_section{
     position: relative;
     width: 100%;
-    overflow: auto;
-    margin: 5px 0px 0px;
+	height: 100%;
+    overflow: hidden;
+    margin: 15px 0px 15px 0px;
     border-width: 2px;
 	border-color: #CCC;
 	border-bottom-style:solid;
