@@ -83,6 +83,7 @@ h3.cv{
 
 h4.cv{
 	font-size: 1em;
+	line-height: 110%;
 	font-weight: normal;
 	margin-top: 0px;
 	color: #999;
@@ -144,9 +145,9 @@ li.nav {
 	height: 100%;
     overflow: hidden;
     margin: 15px 0px 15px 0px;
-    border-width: 2px;
+    /*border-width: 2px;
 	border-color: #CCC;
-	border-bottom-style:solid;
+	border-bottom-style:solid;*/
 }
 
 .cv_label{
