@@ -2,38 +2,24 @@
 /* ! Layout for desktop version   */
 /* ============================== */
 
-a:link, a:visited {
-	color: #47b;
+a {
 	text-decoration: none;
+}
+
+a:link, a:visited, a.current {
+	color: #47b;
 }
 
 a:hover, a:active {
 	color: #999;
 }
 
-a.nav{
-	text-decoration: none;
-}
-
 a.nav:link, a.nav:visited {
 	color: #999;
 }
 
-a.nav:hover, a.nav:active{
+a.nav:hover, a.nav:active {
 	color: #47b;
-}
-
-a.current{
-	text-decoration: none;
-	color: #47b;
-}
-
-a.studyLink{
-	color: orange;
-}
-
-a.studyLink:hover{
-	color: #999;
 }
 
 body {
@@ -41,76 +27,71 @@ body {
 	width: 800px;
 	margin: auto;
 	font-family: helvetica neue, helvetica, arial, verdana, sans-serif;
-	font-size: 100%;
+	font-size: 11pt;
 	text-align: left;
-	color: #333;
-}
-
-h1{
-	font-size: 1.5em;
-	font-weight:normal;
-	color: #999;
-	margin: 20px 0px 0px;
-}
-
-h2{
-	font-size: 1em;
-	font-weight: 500;
 	color: #000;
-	margin: 10px 0px 5px;
 }
 
-h1.cv{
+h1 {
 	font-size:2em;
-	font-weight:normal;
+	font-weight:500;
 	margin-top:0px;
 	color:#000;
 }
 
-h2.cv{
-	font-size:1.4em;
-	font-weight:normal;
+h2 {
+	font-size:1.2em;
+	font-weight: 500;
 	margin-top: 0px;
 	color:#999;
 }
 
-h3.cv{
+h3{
 	font-size:1em;
 	font-weight: 500;
 	color:#000;
 	margin: 0px;
 }
 
-h4.cv{
-	font-size: 1em;
+h4{
+	font-size: 0.9em;
 	line-height: 110%;
 	font-weight: normal;
-	margin-top: 0px;
+	margin: 0px;
 	color: #999;
 	text-align:right;
 }
 
-
 p {
 	line-height: 150%;
-	margin: 5px 0px 15px;
-}
-
-li {
-	line-height: 140%;
+	margin: 0px 0px 15px;
+	padding:0px;
 }
 
 ul.nav {
 	list-style-type: none;
-	margin: 0;
-	padding: 0;
+	margin: 0px;
+	padding-left: 0px;
 	overflow: hidden;
 	font-size: 1.25em;
 }
 
 li.nav {
+	line-height: 140%;
 	float:left;
 	padding-right:25px;
+}
+
+#header {
+	margin: 0px 0px 20px;
+	padding: 5px 0px 5px;
+	border-bottom-style: solid;
+	border-width: 1px;
+	border-color: #e5e3e1;
+}
+
+#navigation {
+	width: 800px;
 }
 
 #footer {
@@ -120,46 +101,52 @@ li.nav {
 	font-size: 0.75em;
 }
 
-#header {
-	margin: 25px 0px;
-	border-bottom-style: solid;
-	border-width: 1px;
-	border-color: #CCC;
-}
-
-#main_image{
-	float: left;
-	margin-right: 25px;
-}
-
-#navigation {
-	width: 800px;
-	border-color: #ccc;
-	border-bottom-style: solid;
-	border-width: 1px;
-}
-
-.cv_section{
-    position: relative;
+.row{
+	position: relative;
     width: 100%;
 	height: 100%;
     overflow: hidden;
-    margin: 15px 0px 15px 0px;
-    /*border-width: 2px;
-	border-color: #CCC;
-	border-bottom-style:solid;*/
+	margin-bottom: 25px;
 }
 
-.cv_label{
-	width: 150px;
-	float: left;
-	position: absolute;
+.short_row{
+	position: relative;
+    width: 100%;
 	height: 100%;
+    overflow: hidden;
+	margin-bottom: 10px;
+}
+
+.left_col{
+	width: 175px;
+	height: 100%;
+	margin-right: 25px;
+	float: left;
+	text-align: right;
+
+}
+
+.right_col{
+	position: relative;
+  	width: 600px;
+  	float: right;
+}
+
+.cv_left_col{
+	width: 175px;
+	height: 100%;
+	float: left;
+}
+
+.cv_right_col{
+	position: relative;
+  	width: 600px;
+  	float: right;
 }
 
 .cv_item{
   position: relative;
-  width:650px;
+  width:625px;
   float: right;
 }
 
@@ -167,117 +154,11 @@ li.nav {
   position:absolute;
   float:left;
   height: 100%;
-  padding:0px 10px 0px;
-  width:130px;
+  padding:0px 5px 0px;
+  width:90px;
 }
 
 .cv_content{
   width:500px;
   float:right;
 }
-
-p.cv {
-	line-height:110%;
-	margin-top:0px;
-	padding:0px;
-}
-
-#contact{
-	padding-bottom: 10px;
-}
-
-.section{
-	padding-left: 25px;
-}
-
-.right {
-	text-align: right;
-}
-
-.left {
-	float: left;
-}
-
-
-
-/* ============================= */
-/* ! Layout for mobile version   */
-/* ============================= */
-/*
-@media handheld, only screen and (max-width: 767px) {
-
-	body {
-	background:#fff;
-	font-family: helvetica neue, helvetica, arial, verdana, sans-serif;
-	font-size: 80%;
-	margin: 0;
-	padding: 0;
-	text-align: left;
-	color: #333;
-	}
-
-	.row, body, .container {
-	width: 100%;
-	min-width: 0;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	}
-
-	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
-	width: auto;
-	float: none;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
-	}
-
-.right {
-	text-align: left;
-}
-
-} */
-
-
-/* ========================================== */
-/* ! Provide higher res assets for iPhone 4   */
-/* ========================================== */
-
-/*@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-
-	body {
-	background:#fff;
-	font-family: helvetica neue, helvetica, arial, verdana, sans-serif;
-	font-size: 70%;
-	margin: 0;
-	padding: 0;
-	text-align: left;
-	color: #333;
-	}
-
-	.row, body, .container {
-	width: 100%;
-	min-width: 0;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 0px;
-	padding-right: 0px;
-	}
-
-	.row .onecol, .row .twocol, .row .threecol, .row .fourcol, .row .fivecol, .row .sixcol, .row .sevencol, .row .eightcol, .row .ninecol, .row .tencol, .row .elevencol, .row .twelvecol {
-	width: auto;
-	float: none;
-	margin-left: 0px;
-	margin-right: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
-	}
-
-
-	.right {
-	text-align: left;
-}
-
-}*/
