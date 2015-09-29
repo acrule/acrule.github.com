@@ -68,6 +68,14 @@ p {
 	padding:0px;
 }
 
+ol{
+	line-height: 150%;
+}
+
+ul{
+	line-height: 150%;
+}
+
 ul.nav {
 	list-style-type: none;
 	margin: 0px;
