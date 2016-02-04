@@ -57,7 +57,7 @@ h4{
 	font-size: 0.9em;
 	line-height: 110%;
 	font-weight: normal;
-	margin: 0px 0px 9px;	
+	margin: 0px 0px 9px;
 	color: #999;
 	text-align:right;
 }
@@ -107,6 +107,15 @@ li.nav {
 	margin: 25px 0px;
 	clear: both;
 	font-size: 0.75em;
+}
+
+.half_row{
+	width: 50%;
+	float: left;
+}
+
+.half_right{
+	width: 50%;
 }
 
 .row{
@@ -169,4 +178,22 @@ li.nav {
 .cv_content{
   width:500px;
   float:right;
+}
+
+.skill{
+	width:100%;
+	margin-top: 5px;
+	overflow: auto;
+}
+
+.skill_title{
+	width: 160px;
+	float: left;
+}
+
+.skill_dots{
+	float:left;
+	overflow: auto;
+	width: 100px;
+	height: 20px;
 }

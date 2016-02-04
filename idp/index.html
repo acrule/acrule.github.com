@@ -1,0 +1,162 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Individual Development Plan</title>
+	<link rel="stylesheet" href="../css/styles.css" type="text/css" />
+	<script src="http://d3js.org/d3.v3.min.js" charset="utf-8"></script>
+</head>
+
+<body>
+<div id="header">
+	<ul class="nav">
+		<li class="nav"> <a class="current" href="../index.html"> adam rule </a> </li>
+		<li class="nav"> <a class="nav" href="../research.html"> research </a> </li>
+	    <li class="nav"> <a class="nav" href="../cv.html"> cv </a> </li>
+  	</ul>
+</div>
+
+<!-- Page Title Information -->
+<div class="row">
+	<div style="float: left">
+		<h1 style="margin-bottom:0px">Individual Development Plan</h1>
+		<h2>Cognitive Science + Biomedical Informatics</h2>
+	</div>
+	<div style="text-align:right;">
+		<h1 style="margin-bottom:0px">Adam Rule</h1>
+		<h2>PhD Student</h2>
+	</div>
+</div>
+
+<!-- Research Aims -->
+<div class="row">
+	<h2>Research Aims</h2>
+	<ol>
+		<li>Investigate the cognitive consequences of <b>interrupted and fragmented work</b>.
+		<li>Develop tools that help people, particularly clinicians, <b>pursue deep work</b> despite interruption and fragmentation.
+		<li>Secure a <b>job in clinical informatics research</b> within industry or a medical system.
+	</ol>
+</div>
+
+<!-- Goals -->
+<div class="row">
+	<h2>Goals for Graduate School</h2>
+	<ol>
+		<li>Develop expertise in collecting, managing, and interpreting <b>time-series data</b> about everyday activity </br><span style="color: #999">(e.g. key-logging, cameras, eye-trackers, wearable sensors)</span>
+		<li><b>Publish</b> in both human-computer interaction and medical informatics
+		<li><b>Mentor</b> multiple undergraduate and masters students on research projects
+	</ol>
+</div>
+
+<!-- Skills -->
+<div class="row">
+	<div class="half_row" id="tech">
+		<h2>Technical Skills</h2>
+	</div>
+
+	<div class="half_row" id="soft">
+		<h2>Soft Skills</h2>
+	</div>
+</div>
+
+<!-- Timeline -->
+<div class="row">
+	<h2>Timeline</h2>
+	<h3>Year 1: Coursework + Rotations</h3>
+	<p>Complete majority of coursework</br>
+	Submit a paper to a HCI venue</br>
+	Oversee multiple undergraduate research projects</p>
+
+	<h3>Year 2: Coursework + Conferences</h3>
+	<p>Complete coursework</br>
+	Submit a paper to a medical informatics venue</br>
+	Attend HCI and medical informatics conferences</p>
+
+	<h3>Year 3: Define the Thesis</h3>
+	<p>Finalize my thesis topic</br>
+	Publish in HCI and medical informatics venues</br>
+	Oversee multiple masters research projects</p>
+
+	<h3>Year 4: Research + Service</h3>
+	<p>Publish in HCI and medical informatics venues</br>
+	Co-author a multi-year grant proposal</br>
+	Help teach medical informatics course</p>
+
+	<h3>Year 5: Write Thesis + Job Hunt</h3>
+	<p>Write thesis</br>
+	Interview and secure a job in industry or a research lab</p>
+</div>
+
+<!-- Committee -->
+<div class="row">
+	<h2>Committee</h2>
+	<p>Jim Hollan (Advisor)</br>
+	Rob El-Kareh (Co-Advisor)</br>
+	TBD</br>
+	TBD</br>
+	TBD</p>
+</div>
+
+
+<script>
+	//the technical skills
+	var ts = [["Field Observation", 4],["Programming (Python)",3],
+			["Web Development",2],["Physiological Tracking",1],
+			["Machine Learning",1]]
+
+	var techSkills = d3.select('#tech').selectAll(".skill")
+		.data(ts)
+		.enter().append('div')
+		.attr("class", "skill")
+
+	techSkills.append('div')
+		.attr("class", "skill_title")
+		.html(function(d){return d[0]})
+
+	techSkills.append('div')
+		.attr("class", "skill_dots")
+		.append('svg')
+		.attr("width", "100px")
+		.attr('height', "20px")
+		.each(function(d){
+			for(i=0; i<5; i++){
+				d3.select(this).append('circle')
+					.attr("cx", 15*i + 5)
+					.attr("cy", 10)
+					.attr("r", 5)
+					.attr("fill", function(d){if(i<(d[1])){return "steelblue";} else{return "#aaa"}})
+			}
+		})
+
+	//the soft skills
+	var ss = [['Presenting', 4],['Scientific Writing', 3],
+				['Teaching', 3],['Mentoring Students', 2]]
+
+	var softSkills = d3.select('#soft').selectAll(".skill")
+		.data(ss)
+		.enter().append('div')
+		.attr("class", "skill")
+
+	softSkills.append('div')
+		.attr("class", "skill_title")
+		.html(function(d){return d[0]})
+
+	softSkills.append('div')
+			.attr("class", "skill_dots")
+			.append('svg')
+			.attr("width", "100px")
+			.attr('height', "20px")
+			.each(function(d){
+				for(i=0; i<5; i++){
+					d3.select(this).append('circle')
+						.attr("cx", 15*i + 5)
+						.attr("cy", 10)
+						.attr("r", 5)
+						.attr("fill", function(d){if(i<(d[1])){return "steelblue";} else{return "#aaa"}})
+				}
+			})
+
+			//.html(function(d){return d[1]})
+</script>
+
+</html>
