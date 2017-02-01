@@ -12,43 +12,43 @@ Cite: https://gist.github.com/899670
 
 <head>
     <!-- Load javascript libraries and stylesheet-->
-    <script type="text/javascript" src="https://raw.github.com/mbostock/d3/master/d3.min.js"></script>
+    <script src="https://d3js.org/d3.v4.min.js"></script>
     <script type="text/javascript" src=http://polymaps.org/polymaps.min.js?2.5.1></script>
     <link rel="stylesheet" type="text/css" href="style.css" />
 
 </head>
-    
+
 <body>
     <!-- Header div-->
     <div id="header">
         <h1>Cold-Chain Equipment Visualizer</h1>
     </div>
-    
+
     <!-- Div for the map controls, scatterplot, scatterplot controls, and info panel -->
     <div id ="leftColumn">
-    
-    
+
+
         <!--<div id="plotSelector">
 
             <h2>Plot Type</h2>
-            
+
             <select id="plotDropdown" onChange="togglePlot()">
                 <option selected value="clinicPlot">Clinics</option>
                 <option value="frigePlot">Refrigerators</option>
             </select>
         </div>-->
-    
-    
+
+
         <!-- Area for the map controls and the map key -->
         <div id="explorer">
-        
+
             <!-- Div for the controls-->
             <div id="controls">
-                
-                <h2>Map Controls</h2>   
-                    
+
+                <h2>Map Controls</h2>
+
                 <table>
-                    
+
                     <!-- Clinic circle color selector -->
                     <tr>
                         <td>
@@ -73,7 +73,7 @@ Cite: https://gist.github.com/899670
                             </select>
                         </td>
                     </tr>
-            
+
                     <!-- Department Filter -->
                     <tr>
                         <td>
@@ -97,7 +97,7 @@ Cite: https://gist.github.com/899670
                             </select>
                         </td>
                     </tr>
-            
+
                     <!-- Population Scale Checkbox -->
                     <tr>
                         <td>
@@ -122,66 +122,66 @@ Cite: https://gist.github.com/899670
                     </tr>
                 </table>
             </div>
-        
-        
+
+
             <!-- Visual key of what the circle colors mean -->
             <div id="key">
                 <h2>Key</h2>
-                    
+
                 <svg xmlns="http://www.w3.org/2000/svg" version="1.1" width = "200" height="150">
                     <circle cx="10" cy="7" r="7" fill="steelblue" class="key" id="keyCircle1"/>
                     <text x="20" y="12" fill="black" class="key" id="keyText1">Clinic</text>
-                
+
                     <circle cx="10" cy="27" r="7" fill="green" class="key" id="keyCircle2"/>
                     <text x="20" y="32" fill="black" class="key" id="keyText2">Clinic</text>
-            
+
                     <circle cx="10" cy="47" r="7" fill="steelblue" class="key" id="keyCircle3"/>
                     <text x="20" y="52" fill="black" class="key" id="keyText3">Clinic</text>
-                
+
                     <circle cx="10" cy="67" r="7" fill="steelblue" class="key" id="keyCircle4"/>
                     <text x="20" y="72" fill="black" class="key" id="keyText4">Clinic</text>
-                
+
                     <circle cx="10" cy="87" r="7" fill="steelblue" class="key" id="keyCircle5"/>
                     <text x="20" y="92" fill="black" class="key" id="keyText5">Clinic</text>
-            
+
                     <circle cx="10" cy="107" r="7" fill="steelblue" class="key" id="keyCircle6"/>
                     <text x="20" y="112" fill="black" class="key" id="keyText6">Clinic</text>
-            
+
                     <circle cx="120" cy="7" r="7" fill="steelblue" class="key" id="keyCircle7"/>
                     <text x="130" y="12" fill="black" class="key" id="keyText7">Clinic</text>
-                
+
                     <circle cx="120" cy="27" r="7" fill="steelblue" class="key" id="keyCircle8"/>
                     <text x="130" y="32" fill="black" class="key" id="keyText8">Clinic</text>
-                
+
                     <circle cx="120" cy="47" r="7" fill="steelblue" class="key" id="keyCircle9"/>
                     <text x="130" y="52" fill="black" class="key" id="keyText9">Clinic</text>
-                
+
                     <circle cx="120" cy="67" r="7" fill="steelblue" class="key" id="keyCircle10"/>
                     <text x="130" y="72" fill="black" class="key" id="keyText10">Clinic</text>
-                
+
                     <circle cx="120" cy="87" r="7" fill="steelblue" class="key" id="keyCircle11"/>
                     <text x="130" y="92" fill="black" class="key" id="keyText11">Clinic</text>
-                
+
                     <circle cx="120" cy="107" r="7" fill="steelblue" class="key" id="keyCircle12"/>
                     <text x="130" y="112" fill="black" class="key" id="keyText12">Clinic</text>
                 </svg>
             </div>
-        
+
         </div>
-        
-        
+
+
         <!-- Scatterplot graph -->
         <div id="graphArea">
         </div>
-    
-    
+
+
         <div id="graphControls">
-    
+
             <!-- Controls for the scatterplot area -->
             <h2>Graph Controls</h2>
-            
+
             <table>
-            
+
                 <!-- x-axis controls -->
                 <tr>
                     <td>
@@ -209,13 +209,13 @@ Cite: https://gist.github.com/899670
                         </select>
                     </td>
                 </tr>
-            
+
                 <!-- y-axis controls -->
                 <tr>
                     <td>
                         <p class="form">Y-axis</p>
                     </td>
-            
+
                     <td>
                         <select id="yaxis" onChange="graphDraw(mainData)">
                             <option value=8>Target Biths</option>
@@ -236,12 +236,12 @@ Cite: https://gist.github.com/899670
                             <option value=51>Refrigerators to Allocate</option>
                             <option value=52>Refrigerators not in Use</option>
                         </select>
-                    </td>    
+                    </td>
                 </tr>
             </table>
         </div>
-        
-        <!-- Clinic info panel -->    
+
+        <!-- Clinic info panel -->
         <div id="info">
             <div id="exit" onClick="hideClinicInfo()"></div>
                 <table>
@@ -276,20 +276,20 @@ Cite: https://gist.github.com/899670
                 </tr>
                 </table>
         </div>
-    
+
     </div>
-    
-    
+
+
     <!--Column holding the map--->
-    <div id="rightColumn">    
-    
+    <div id="rightColumn">
+
         <!-- Area to display the map -->
         <div id="map">
         </div>
-   
-    </div>    
-    
-    
+
+    </div>
+
+
 
 
     <!-- Main D3 script -->
@@ -321,14 +321,14 @@ Cite: https://gist.github.com/899670
 
 //Function for plotting the refrigerators
         function drawClinic(){
-        
+
             //Remove any clinics that are plotted on the map
             d3.selectAll("circle.frige").remove();
-            
+
             //Hide all the key circles and text
             document.getElementById("controls").display = "none"
             document.getElementById("graphControls").display = "none"
-            
+
             //Update the key to show one circle with the tag "Refrigerator"
             var currentElement = document.getElementById("keyCircle1")
                 currentElement.style.visibility="visible";
@@ -336,7 +336,7 @@ Cite: https://gist.github.com/899670
                 currentElement = document.getElementById("keyText1");
                 currentElement.style.visibility="visible";
                 currentElement.textContent="Clinic"
-            
+
             //Plot the refrigerators with the JSON data
             d3.json("clinic_new.json", function(data) {
 
@@ -365,40 +365,40 @@ Cite: https://gist.github.com/899670
                     pixelLocation = map.locationPoint({lon: data.value[31], lat: data.value[32]});
                     return "translate(" + pixelLocation.x + "," + pixelLocation.y + ")";
                 }
-        
+
             });
-                
+
         }
 
         //Load Clinics
         drawClinic();
-        
-        
-        
+
+
+
         //Variables for use in the scatterplot rendering
         var scatter = null;
         var datapoints = null;
         var xAxisGroup = null;
-        var yAxisGroup = null;    
-        
-       
-       
+        var yAxisGroup = null;
+
+
+
         //Function that draws the scatterplot
         function graphDraw(){
-            
+
             d3.json("clinic_new.json" ,function(data){
-            
+
             //graph size variables
             var w = 500;
             var h = 300;
             var pl = 60;
             var pb = 30;
             var p = 15;
-        
-            //Trasition animation variables        
+
+            //Trasition animation variables
             var transitionTime = 1000;
             var t = null;
-        
+
             //Selected x and y axis datasets
             var xOption = document.getElementById("xaxis").value;
             var yOption = document.getElementById("yaxis").value;
@@ -407,7 +407,7 @@ Cite: https://gist.github.com/899670
             var xScale = d3.scale.linear()
                 .domain([d3.min(d3.entries(data), function(d){return d.value[xOption]}),d3.max(d3.entries(data), function(d){return d.value[xOption]})])
                 .range([pl,w-p]);
-            
+
             //Linear scale for y-axis
             var yScale = d3.scale.linear()
                 .domain([d3.min(d3.entries(data), function(d){return d.value[yOption]}),d3.max(d3.entries(data), function(d){return d.value[yOption]})])
@@ -417,12 +417,12 @@ Cite: https://gist.github.com/899670
             var xAxis = d3.svg.axis()
                 .scale(xScale)
                 .orient("bottom");
-            
+
             //y-axis svg element
             var yAxis = d3.svg.axis()
                 .scale(yScale)
                 .orient("left");
-            
+
             //Create scatterplot svg is not already created
             if(!scatter){
                 scatter = d3.select("#graphArea")
@@ -430,10 +430,10 @@ Cite: https://gist.github.com/899670
                     .attr("width",w)
                     .attr("height",h);
             }
-            
+
             //Create transition animation
             t = scatter.transition().duration(transitionTime);
-        
+
             //Create and style clinic datapoints if not already created
             if(!datapoints){
                 datapoints = scatter.selectAll("circle")
@@ -460,7 +460,7 @@ Cite: https://gist.github.com/899670
 
                 //get the text label of the dropdown selected for the x-axis
                 var xAxisSelect = document.getElementById("xaxis");
-                var xAxisText = xAxisSelect.options[xAxisSelect.selectedIndex].text; 
+                var xAxisText = xAxisSelect.options[xAxisSelect.selectedIndex].text;
 
                 //draw the x-axis
                 xAxisGroup = scatter.append("g")
@@ -468,7 +468,7 @@ Cite: https://gist.github.com/899670
                     .attr("id", "xTick")
                     .attr("transform", "translate(0," + (h - pb + 5) + ")")
                     .call(xAxis);
-                
+
                 //add the x-axis label
                 var xLabel = scatter.append("text")
                     .attr("class", "axis")
@@ -478,13 +478,13 @@ Cite: https://gist.github.com/899670
                     .attr("y", h - pb - 2)
                     .text(xAxisText);
             }
-            
+
             //Otherwise rescale the axis and change the label
             else{
                 //get the text label of the selected x-axis dataset
                 var xAxisSelect = document.getElementById("xaxis");
                 var xAxisText = xAxisSelect.options[xAxisSelect.selectedIndex].text;
-                
+
                 //transition the x-axis change
                 t.select('#xTick').call(xAxis);
                 t.select("#xText").text(xAxisText);
@@ -492,18 +492,18 @@ Cite: https://gist.github.com/899670
 
             //Create and plot y-axis if not already created
             if(!yAxisGroup){
-            
+
                 //get the label of the y-axis dataset
                 var yAxisSelect = document.getElementById("yaxis");
-                var yAxisText = yAxisSelect.options[yAxisSelect.selectedIndex].text;    
-            
+                var yAxisText = yAxisSelect.options[yAxisSelect.selectedIndex].text;
+
                 //draw the y-axis
                 yAxisGroup = scatter.append("g")
                     .attr("class", "axis")
                     .attr("id", "yTick")
                     .attr("transform", "translate("+(pl-5) +",0)")
                     .call(yAxis);
-            
+
                 //draw the y-axis label
                 var yLabel = scatter.append("text")
                     .attr("class", "axis")
@@ -514,26 +514,26 @@ Cite: https://gist.github.com/899670
                     .attr("dy", ".75em")
                     .attr("transform", "rotate(-90)")
                     .text(yAxisText);
-        
+
                 }
             //Otherwise rescale the axis and change the label
             else{
-                
+
                 //get the label of the y-axis dataset
                 var yAxisSelect = document.getElementById("yaxis");
                 var yAxisText = yAxisSelect.options[yAxisSelect.selectedIndex].text;
-            
+
                 //transition the y-axis
                 t.select('#yTick').call(yAxis);
                 t.select("#yText").text(yAxisText);
             }
-            
+
             });
-                
+
         }
-       
-       
-       
+
+
+
        //Load scatterplot
         graphDraw();
 
@@ -542,14 +542,14 @@ Cite: https://gist.github.com/899670
 
         //Function for plotting the refrigerators
         /*function drawFrige(){
-        
+
             //Remove any clinics that are plotted on the map
             d3.selectAll("circle.clinic").remove();
-            
+
             //Hide all the key circles and text
             document.getElementById("controls").display = "none"
             document.getElementById("graphControls").display = "none"
-            
+
             //Update the key to show one circle with the tag "Refrigerator"
             var currentElement = document.getElementById("keyCircle1")
                 currentElement.style.visibility="visible";
@@ -557,7 +557,7 @@ Cite: https://gist.github.com/899670
                 currentElement = document.getElementById("keyText1");
                 currentElement.style.visibility="visible";
                 currentElement.textContent="Refrigerator"
-            
+
             //Plot the refrigerators with the JSON data
             d3.json("frige.json", function(data) {
 
@@ -584,11 +584,11 @@ Cite: https://gist.github.com/899670
                     pixelLocation = map.locationPoint({lon: d.value[25], lat: d.value[26]});
                     return "translate(" + pixelLocation.x + "," + pixelLocation.y + ")";
                 }
-        
+
             });
-                
+
         }
-        
+
 
 
 
@@ -607,18 +607,18 @@ Cite: https://gist.github.com/899670
 
         //Function to change and show the clinic info panel
         function showClinicInfo(clinic){
-    
+
             //get the selected clinic code
             var clinicCode = clinic.value[0];
-    
+
             //set all circles associated with the clinic to opaque, set all other circles to semi-transparent
             var mapSelect = d3.selectAll("circle.clinic")
                 .style("opacity", function(d){if(d.value[0]==clinicCode){return 1}else{return 0.1};});
-    
+
             //show the clinic info div
             var info = document.getElementById("info");
             info.style.visibility="visible";
-    
+
             //change the text on the info panel to the appropriate clinic values
             document.getElementById("clinicName").innerHTML = clinic.key;
             document.getElementById("departmentName").innerHTML = clinic.value[2];
@@ -635,7 +635,7 @@ Cite: https://gist.github.com/899670
             //set all clinics to semi-transparent
             var mapSelect = d3.selectAll("circle.clinic")
                 .style("opacity", 0.7);
-    
+
             //hide the clinic info div
             document.getElementById("info").style.visibility="hidden";
         }
@@ -647,13 +647,13 @@ Cite: https://gist.github.com/899670
         //function to show or hide departments when called by department dropdown
         function deptFilter(department){
             var selection = d3.selectAll("circle.clinic");
-            
+
             //scale all clinic circles by their population
             populationScale();
-            
+
             //If showing all departments do nothing, otherwise scale all but the selected department to a radius of 0
             if(department=="All"){
-                return; 
+                return;
             }
             else{
                 var subselection = selection.filter( function(d){return d.value[2]!=department;});
@@ -667,19 +667,19 @@ Cite: https://gist.github.com/899670
 
         //Function controlling the size of the plotted points, either scalling by population or setting to 4px
         function populationScale(){
-    
+
             var selection = d3.selectAll("circle.clinic");
             var currentValue = document.getElementById("populationDropdown").value;
-            
+
             if(currentValue=="None"){
-                selection.attr("r",4);   
+                selection.attr("r",4);
             }
-            
+
             else{
                     var pointRedraw = d3.scale.linear()
                     .domain([d3.min(d3.entries(mainData), function(d){return d.value[currentValue]}), d3.max(d3.entries(mainData), function(d){return d.value[currentValue]})])
                     .range([3,12]);
-              
+
                     selection.attr("r", function(d){ return pointRedraw(d.value[currentValue]);});
             }
         }
@@ -690,18 +690,18 @@ Cite: https://gist.github.com/899670
 
         //Function controlling the color of the plotted points based on the selected dropdown
         function changeColor() {
-            
+
             //Variables for changing the color
             var selection = d3.selectAll("circle.clinic");
             var departmentColor = "Black";
             var idCall = "call";
             var currentElement
-            
+
             //Hide all the circles and text in the map key
             d3.selectAll("circle.key").style("visibility", "hidden");
             d3.selectAll("text.key").style("visibility","hidden");
-        
-            //FOr the simple map, just show blue circles and set the key 
+
+            //FOr the simple map, just show blue circles and set the key
             if(document.getElementById("mapStyle").value=="simple"){
                 selection.style("fill", "steelblue");
                 d3.selectAll("circle.key").style("visibility", "hidden");
@@ -713,14 +713,14 @@ Cite: https://gist.github.com/899670
                 currentElement.style.visibility="visible";
                 currentElement.textContent="Clinic"
             }
-            
+
             //For the department map, give each of the 12 departments its own color
             else if (document.getElementById("mapStyle").value=="department"){
                 var departments = ["Alibori","Atacora","Atlantique","Borgou","Collines","Donga","Couffu","Littoral","Mono","Oueme","Plateau","Zou"];
                 var colors = ["Red","Orange","Green","Blue","Purple","Orange","SeaGreen","Brown","Gray","SlateBlue","Cadetblue","OrangeRed"];
-                
+
                 selection.style("fill", function(d){
-                    
+
                     for(i=1;i<13;i++){
                         if(d.value[2]==departments[i-1]){
                             departmentColor = colors[i-1];
@@ -728,7 +728,7 @@ Cite: https://gist.github.com/899670
                     }
                     return departmentColor;
                 });
-                
+
                 //Change the key colors and text
                 for(i=1;i<13;i++){
                     idCall = "keyCircle" +i;
@@ -738,10 +738,10 @@ Cite: https://gist.github.com/899670
                     idCall = "keyText" + i;
                     currentElement=document.getElementById(idCall);
                     currentElement.style.visibility="visible";
-                    currentElement.textContent=departments[i-1];    
+                    currentElement.textContent=departments[i-1];
                 }
-            } 
-            
+            }
+
             //For the Capacity map
             else if (document.getElementById("mapStyle").value=="capacity"){
                 var colors = ["green","red"];
@@ -750,7 +750,7 @@ Cite: https://gist.github.com/899670
                     if(d.value[43]>0) return colors[0];
                     else return colors[1];
                 })
-                
+
                 //Change the key colors and text
                 for(i=1;i<3;i++){
                         idCall = "keyCircle" +i;
@@ -762,10 +762,10 @@ Cite: https://gist.github.com/899670
                         currentElement.style.visibility="visible";
                         currentElement.textContent=keyText[i-1];
                     }
-                
+
             }
-            
-            //For the Electricity 
+
+            //For the Electricity
             else if (document.getElementById("mapStyle").value=="electricity"){
                 var colors = ["red","coral", "lightgreen", "green"];
                 var keyText = ["None", "<8 hours a day", "8-16 hours a day", ">16 hours a day"];
@@ -775,7 +775,7 @@ Cite: https://gist.github.com/899670
                     else if (d.value[16]==2){return colors[2];}
                     else if (d.value[16]==3){return colors[3];}
                 })
-                
+
                 //Change the key colors and text
                 for(i=1;i<5;i++){
                     idCall = "keyCircle" +i;
@@ -785,10 +785,10 @@ Cite: https://gist.github.com/899670
                     idCall = "keyText" + i;
                     currentElement=document.getElementById(idCall);
                     currentElement.style.visibility="visible";
-                    currentElement.textContent=keyText[i-1];    
+                    currentElement.textContent=keyText[i-1];
                 }
             }
-            
+
             //For the Kerosene Map
             else if (document.getElementById("mapStyle").value=="kerosene"){
                 var colors = ["green", "lightgreen", "red","gray"];
@@ -799,7 +799,7 @@ Cite: https://gist.github.com/899670
                     else if (d.value[17]==2){return colors[2];}
                     else if (d.value[17]==3){return colors[3];}
                 })
-                
+
                 //Change the key colors and text
                 for(i=1;i<5;i++){
                     idCall = "keyCircle" +i;
@@ -809,10 +809,10 @@ Cite: https://gist.github.com/899670
                     idCall = "keyText" + i;
                     currentElement=document.getElementById(idCall);
                     currentElement.style.visibility="visible";
-                    currentElement.textContent=keyText[i-1];    
+                    currentElement.textContent=keyText[i-1];
                 }
             }
-            
+
             //For the Gas Map
             else if (document.getElementById("mapStyle").value=="gas"){
                 var colors = ["green", "lightgreen", "red","gray"];
@@ -823,7 +823,7 @@ Cite: https://gist.github.com/899670
                     else if (d.value[17]==2){return colors[2];}
                     else if (d.value[17]==3){return colors[3];}
                 })
-                
+
                 //Change the key colors and text
                 for(i=1;i<5;i++){
                     idCall = "keyCircle" +i;
@@ -833,10 +833,10 @@ Cite: https://gist.github.com/899670
                     idCall = "keyText" + i;
                     currentElement=document.getElementById(idCall);
                     currentElement.style.visibility="visible";
-                    currentElement.textContent=keyText[i-1];    
+                    currentElement.textContent=keyText[i-1];
                 }
             }
-            
+
             //For the Solar map
             else if (document.getElementById("mapStyle").value=="solar"){
                 var colors = ["green","red"];
@@ -845,7 +845,7 @@ Cite: https://gist.github.com/899670
                     if (d.value[19]==0){return colors[0];}
                     else if (d.value[19]==1){return colors[1];}
                 })
-                
+
                 //Change the key colors and text
                 for(i=1;i<3;i++){
                     idCall = "keyCircle" +i;
@@ -855,10 +855,10 @@ Cite: https://gist.github.com/899670
                     idCall = "keyText" + i;
                     currentElement=document.getElementById(idCall);
                     currentElement.style.visibility="visible";
-                    currentElement.textContent=keyText[i-1];    
+                    currentElement.textContent=keyText[i-1];
                 }
             }
-            
+
             //For the Energy Source map
             else if (document.getElementById("mapStyle").value=="energySource"){
                 var colors = ["Gold", "Red", "Blue", "Green", "darkorange", "lightblue", "Purple", "Black"];
@@ -874,7 +874,7 @@ Cite: https://gist.github.com/899670
                     else if (d.value[35]==1 && d.value[36]==1 && d.value[37]==0){return colors[4]}
                     else if (d.value[35]==1 && d.value[36]==1 && d.value[37]==1){return colors[3]}
                 })
-                
+
                 //Change the key colors and text
                 for(i=1;i<9;i++){
                     idCall = "keyCircle" +i;
@@ -884,7 +884,7 @@ Cite: https://gist.github.com/899670
                     idCall = "keyText" + i;
                     currentElement=document.getElementById(idCall);
                     currentElement.style.visibility="visible";
-                    currentElement.textContent=keyText[i-1];    
+                    currentElement.textContent=keyText[i-1];
                 }
             }
         }
@@ -893,4 +893,4 @@ Cite: https://gist.github.com/899670
 
 </body>
 
-</html> 
+</html>
