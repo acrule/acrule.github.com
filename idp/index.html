@@ -24,7 +24,7 @@
 	</div>
 	<div style="text-align:right;">
 		<h1 style="margin-bottom:0px">Adam Rule</h1>
-		<h2>PhD Student</h2>
+		<h2>PhD Candidate</h2>
 	</div>
 </div>
 
@@ -32,9 +32,9 @@
 <div class="row">
 	<h2>Research Aims</h2>
 	<ol>
-		<li>Investigate the cognitive consequences of <b>interrupted and fragmented work</b>.
-		<li>Develop tools that help people, particularly clinicians, <b>pursue deep work</b> despite interruption and fragmentation.
-		<li>Secure a <b>job in clinical informatics research</b> within industry or a medical system.
+		<li>Investigate the cognitive consequences of <b>interrupted and fragmented work</b>
+		<li>Develop tools that help data scientists <b>track, share, and make sense of their analytical process</b>
+        <li><em>Stretch</em>: Develop tools to help clinicians <b>make sense of complex patient records</b></li>
 	</ol>
 </div>
 
@@ -43,8 +43,9 @@
 	<h2>Goals for Graduate School</h2>
 	<ol>
 		<li>Develop expertise in collecting, managing, and interpreting <b>time-series data</b> about everyday activity </br><span style="color: #999">(e.g. key-logging, cameras, eye-trackers, wearable sensors)</span>
-		<li><b>Publish</b> in both human-computer interaction and medical informatics
+		<li><b>Publish</b> in top tier human-computer interaction and medical informatics venues
 		<li><b>Mentor</b> multiple undergraduate and masters students on research projects
+        <li>Secure a <b>industry research job</b> within the fields of medical informatics or data analysis
 	</ol>
 </div>
 
@@ -62,48 +63,84 @@
 <!-- Timeline -->
 <!-- Find a way to make this interactive -->
 <div class="row">
-	<h2>Timeline</h2>
-	<h3>Year 1: Coursework + Rotations</h3>
-	<p>Complete majority of coursework</br>
-	Submit a paper to a HCI venue</br>
-	Oversee multiple undergraduate research projects</p>
+    <h2>Timeline</h2>
+    <div class="half_row">
+    	<h3>Year 1: Coursework + Rotations</h3>
+    	<p>Complete majority of coursework</br>
+    	Submit a paper to a HCI venue</br>
+    	Oversee multiple undergraduate research projects</p>
 
-	<h3>Year 2: Coursework + Conferences</h3>
-	<p>Complete coursework</br>
-	Submit a paper to a medical informatics venue</br>
-	Attend HCI and medical informatics conferences</p>
+    	<h3>Year 2: Coursework + Conferences</h3>
+    	<p>Complete coursework</br>
+    	Submit a paper to a medical informatics venue</br>
+    	Attend HCI and medical informatics conferences</p>
 
-	<h3>Year 3: Define the Thesis</h3>
-	<p>Finalize my thesis topic</br>
-	Publish in HCI and medical informatics venues</br>
-	Oversee multiple masters research projects</p>
+    	<h3>Year 3: Define the Thesis</h3>
+    	<p>Finalize my thesis topic<br>
+    	Publish in HCI and medical informatics venues<br>
+    	Oversee multiple masters research projects</p>
 
-	<h3>Year 4: Research + Service</h3>
-	<p>Publish in HCI and medical informatics venues</br>
-	Co-author a multi-year grant proposal</br>
-	Help teach medical informatics course</p>
+    	<h3>Year 4: Research + Service</h3>
+    	<p>Begin dissertation research<br>
+            Publish in HCI and medical informatics venues<br>
+    	    Co-author a multi-year grant proposal<br>
+    	    Help teach seminar course</p>
 
-	<h3>Year 5: Write Thesis + Job Hunt</h3>
-	<p>Write thesis</br>
-	Interview and secure a job in industry or a research lab</p>
+    	<h3>Year 5: Write Thesis + Job Hunt</h3>
+    	<p>Finish dissertation research<br>
+            Write thesis</br>
+    	    Interview and secure a job in industry research</p>
+    </div>
+
+    <div class="half_row">
+        <br>
+        <p>most courses done<br>
+            submitted to and rejected from CHI<br>
+            Ram and Kendall<br>
+        </p>
+
+        <br>
+        <p>all but COGS 200<br>
+            submitted to AMIA<br>
+            attended AMIA 2nd year; AMIA, CHI, and CSCW in 3rd<br>
+        </p>
+
+        <br>
+        <p>not finalized until Jan 2017<br>
+            published at AMIA<br>
+            worked loosely with Rizwan<br>
+        </p>
+
+        <br>
+        <p>begun<br>
+            Publishing at HCI<br>
+            writing Collaboratories grant<br>
+            ...<br>
+        </p>
+
+        <br>
+        <p>...<br>
+            ...<br>
+            ...<br>
+        </p>
+    </div>
 </div>
-
 <!-- Committee -->
 <div class="row">
-	<h2>Committee</h2>
-	<p>Jim Hollan (Advisor)</br>
-	Rob El-Kareh (Co-Advisor)</br>
-	TBD</br>
-	TBD</br>
-	TBD</p>
+	<h2>Dissertation Committee</h2>
+	<p>Jim Hollan (Advisor)<br>
+	Rob El-Kareh (Co-Advisor)<br>
+    Gloria Mark<br>
+	Philip Guo<br>
+	Brad Voytek</br>
+	Bill Griswald</p>
 </div>
 
 
 <script>
 	//the technical skills
-	var ts = [["Field Observation", 4],["Programming (Python)",3],
-			["Web Development",2],["Physiological Tracking",1],
-			["Machine Learning",1]]
+	var ts = [["Field Observation", 4],["Python",3],
+			["Javascript",2],["Data Analysis",1], ["Machine Learning", 1]]
 
 	var techSkills = d3.select('#tech').selectAll(".skill")
 		.data(ts)
@@ -131,7 +168,7 @@
 
 	//the soft skills
 	var ss = [['Presenting', 4],['Scientific Writing', 3],
-				['Teaching', 3],['Mentoring Students', 2]]
+				['Teaching', 3],['Mentoring', 2]]
 
 	var softSkills = d3.select('#soft').selectAll(".skill")
 		.data(ss)
