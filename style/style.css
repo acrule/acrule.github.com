@@ -44,6 +44,11 @@ h3{
     margin-top: 32px;
 }
 
+.work:hover{
+  background-color: #d7e1ee;
+  cursor: pointer;
+}
+
 .nav a{
     font-size: 1em;
     color: #666;
