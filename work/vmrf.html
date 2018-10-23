@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+ <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+	<link rel="stylesheet" href="../style/style.css">
+    <title>Adam Rule - VA EMR</title>
+ </head>
+<body>
+<div class="container">
+
+	<nav class="nav nav-default">
+		<a class="nav-link pl-0" href="../index.html">adam rule</a>
+		<a class="nav-link" href="../research.html">research</a>
+		<a class="nav-link" href="../cv.html">cv</a>
+    <a class="nav-link active" href="../work.html">work</a>
+	</nav>
+
+	<hr / class='mt-0'>
+
+    <div class="row project pt-0">
+      <div class="col-sm-12">
+
+      </div>
+    </div>
+
+    <div class="row project pt-0">
+        <div class="col-sm-3 text-right">
+
+          <img src="../images/vmrf.png" class="img-fluid" style="max-width:100px; margin-top:-20px">
+
+
+          <h3>Veteran's Medical Research Foundation</h3>
+          <p>Usability Study</p>
+        </div>
+        <div class="col-sm-9">
+            <h3>Problem</h3>
+            <p>
+            The US Department of Veterans Affairs (VA) had been using the same Electronic Medical Record (EMR) for decades and what had once been hailed as a break-through technology had become a legacy system that was difficult to manage and use.</p>
+
+            <img src="../images/cprs.png" class="img-fluid">
+            <p style="margin-top:8px;"><span style="color: #999"><em>Screenshots from the VA's EMR user manual showing how to edit a patient note and place medication orders. </em></span></p>
+
+            <p>As part of their EMR modernization efforts, the VA asked the Veterans Medical Research Foundation to explore new ways of interacting with medical records. <span style="background-color:#d7e1ee;">I partnered with the Foundation to study one aspect of their redesign: <em>free-text order entry</em></span>. Whereas clincians currently have to document medication orders in a progress note, and then separately place the order in a order-entry window, the Foundation had created a prototype note editor that let clinicians document and place orders at the same time using a search window in their clinical notes that supported auto-completion and free-text parsing.</p>
+
+            <p> The Foundation wanted to know: <em><span style="background-color:#d7e1ee;">How might clinicians use such free-text order entry?</span></em>
+            </p>
+
+
+            <h3 style="margin-top:40px">Research Plan</h3>
+            <p>Developers at the Foundation had designed and built the ActiveNotes system by the time I joined the project and wanted to develop it further before testing it. I advocated for, designed, and ran a usability study to help them test their assumptions about the usability and desirability of free-text order entry using their current prototype.</p>
+
+            <img src="../images/anotes.png" class="img-fluid">
+            <p style="margin-top:8px;"><span style="color: #999"><em>The ActiveNotes prototype supporting free-text medication order entry. Clinicans can access a search box while writing their note that lets them simultaneously document and place medication orders. </em></span></p>
+
+            <p>First, I helped the team identify the kinds of information they needed to support the next round of development. <span style="background-color:#d7e1ee;">We knew the system was still buggy, so I helped them focus on information that would help them decide whether the project was promising, or should be scrapped.</span> Better to get data now than spend even more time developing more than an MVP. I focused the study on identifying the feasability of implementing a more robust system (i.e., how diverse was the clinical shorthand that the tool would have to recognize, and what functionality was lacking from the clinicians' point of view) as well as the desirability of the tool. Working with clinicians on the Foundation's team, I designed two clinically-realistic tasks that involved writing a progress note for a patient and placing four medication orders. </p>
+
+
+            <h3 style="margin-top:40px">Usability Study</h3>
+            <p>Using connections at the local VA hospital, I worked with the team to recruit eight clinicians to participate in the study. After demonstrating the system to each clinician, I asked them to complete the two study tasks and provided minimal assistance, even when they asked for it. This enabled my research assistants and me to observe how the clinicians expected to use the system and what shorthand they naturally used to place orders. Using follow-up questions, I was able to get data on functionality that felt lacking and whether free-text order-entry addressed a current need.</p>
+
+
+            <h3 style="margin-top:40px">Results</h3>
+            <p>Despite the bugs in ActiveNotes, clinicians were overwhelming positive about the tools' potential to save them time and energy. By pushing the team to run a usability study before they felt ready, <span style="background-color:#d7e1ee;">I helped them get data on the feasability of implementing their system further</span> and focus their development effort. In the end the VA decided to stop trying to renovate their existing EMR and purchase an existing product.</p>
+
+            <p><a href="mamalode.html">Next Project: Mamalode Magazine &rarr;</a></p>
+
+        </div>
+    </div>
+
+
+</div>
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+</body>
+</html>
