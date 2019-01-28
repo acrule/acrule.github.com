@@ -1,4 +1,6 @@
 body {
+    font-family: Helvetica, Arial, sans-seriff;
+    font-weight: 300;
     max-width: 950px;
     margin: auto;
 }
@@ -67,7 +69,8 @@ h3{
 
 .news-date{
     text-align: right;
-    color: #666;
+    font-size: 1em;
+    /*font-variant: small-caps;*/
 }
 
 .news-row{
