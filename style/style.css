@@ -26,8 +26,9 @@ h2{
 }
 
 h3{
-    font-size: 1em;
-    font-variant: small-caps;
+    font-size: 0.7em;
+    text-transform: uppercase;
+    margin-bottom: 0px;
 }
 
 .project{
