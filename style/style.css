@@ -93,6 +93,11 @@ h3{
     padding-top: 1em;
 }
 
+.paper-year{
+  color: #666;
+  margin-bottom:6px;
+}
+
 @media (max-width: 575px) {
 
     img{
