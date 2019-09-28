@@ -1,12 +1,27 @@
 body {
-    font-family: Helvetica, Arial, sans-seriff;
+    font-family: 'Source Sans Pro', sans-serif;
     font-weight: 300;
     max-width: 950px;
     margin: auto;
 }
 
+.about{
+  font-size: 1.2em;
+}
+
+.callout{
+  color: green;
+  font-weight: 400;
+}
+
+.headshot{
+  margin-bottom: 10px;
+  border-radius:5px;
+}
+
 a{
     color: #47b;
+    font-weight: 400;
 }
 
 p.alt{
@@ -20,22 +35,51 @@ h1{
 }
 
 h2{
-    font-size: 1.1em;
-    font-weight: 400;
-    color: #999;
+    font-size: 1.2em;
+    font-weight: 600;
 }
 
 h3{
+    font-size: 1em;
+    margin-bottom: 0px;
+}
+
+h4{
     font-size: 0.7em;
     text-transform: uppercase;
     margin-bottom: 0px;
+}
+
+.proj-img{
+  border: 1px solid #DDDDDD;
+  float:left;
+  margin-top: 5px;
+  margin-right: 5px;
+  max-width:120px;
+}
+
+.news-row{
+    padding-top: 1em;
+}
+
+.paper-year{
+  color: #666;
+  margin-bottom:6px;
+}
+
+.text-9{
+  font-size:0.9em;
+}
+
+.text-8{
+  font-size:0.8em;
 }
 
 .project{
     padding-top: 1.2em;
 }
 
-.cv-header{
+/* .cv-header{
     margin-bottom: 40px;
 }
 
@@ -49,17 +93,16 @@ h3{
 
 .cv-section{
     margin-top: 16px;
-}
+} */
 
-
-.research{
+/* .research{
   text-align: right;
 }
 
 .research-img{
   padding-top: 10px;
   max-height: 120px;
-  /* border: 1px solid #DDD; */
+  border: 1px solid #DDD;
 }
 
 .work{
@@ -86,19 +129,12 @@ h3{
 .news-date{
     text-align: right;
     font-size: 1em;
-    /*font-variant: small-caps;*/
-}
+    /*font-variant: small-caps;
+}*/
 
-.news-row{
-    padding-top: 1em;
-}
 
-.paper-year{
-  color: #666;
-  margin-bottom:6px;
-}
 
-@media (max-width: 575px) {
+/* @media (max-width: 575px) {
 
     img{
         padding-bottom: 10px;
@@ -129,4 +165,4 @@ h3{
         text-align: left;
     }
 
-}
+} */
