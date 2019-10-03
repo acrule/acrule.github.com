@@ -1,20 +1,21 @@
 body {
     font-family: 'Source Sans Pro', sans-serif;
+    font-size: 14.5px;
     font-weight: 300;
     max-width: 950px;
     margin: auto;
 }
 
 .about{
-  font-size: 1.1em;
+  font-size: 17.5px;
 }
 
 .callout{
-  font-weight: 400;
+  font-weight: 600;
 }
 
 .headshot{
-  margin-bottom: 10px;
+  margin-bottom: 12px;
   border-radius:5px;
 }
 
@@ -29,139 +30,38 @@ p.alt{
     color: #999;
 }
 
+hr{
+  margin: 30px 0px;
+}
+
 h1{
-    font-size: 1.8em;
+    font-size: 24px;
 }
 
 h2{
-    font-size: 1.2em;
+    font-size: 18px;
     font-weight: 600;
 }
 
 h3{
-    font-size: 1em;
-    margin-bottom: 0px;
+    font-size: 16px;
+    margin-bottom: 4px;
 }
 
 h4{
-    font-size: 0.7em;
+    font-size: 12px;
     text-transform: uppercase;
-    margin-bottom: 0px;
+    margin-bottom: 4px;
 }
 
 .proj-img{
   border: 1px solid #DDDDDD;
   float:left;
-  margin-top: 5px;
-  margin-right: 5px;
+  margin-top: 8px;
+  margin-right: 12px;
   max-width:100px;
 }
 
-.news-row{
-    padding-top: 1em;
+.proj-row{
+  margin-bottom: 12px;
 }
-
-.paper-year{
-  color: #666;
-  margin-bottom:6px;
-}
-
-.text-9{
-  font-size:0.9em;
-}
-
-.text-8{
-  font-size:0.8em;
-}
-
-.project{
-    padding-top: 1.2em;
-}
-
-/* .cv-header{
-    margin-bottom: 40px;
-}
-
-.cv-tight{
-    margin-bottom: 0px;
-}
-
-.cond-right{
-    text-align: right;
-}
-
-.cv-section{
-    margin-top: 16px;
-} */
-
-/* .research{
-  text-align: right;
-}
-
-.research-img{
-  padding-top: 10px;
-  max-height: 120px;
-  border: 1px solid #DDD;
-}
-
-.work{
-  box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2), 0 3px 10px 0 rgba(0, 0, 0, 0.19);
-  padding: 10px;
-  margin-bottom: 30px;
-}
-
-.work:hover{
-  background-color: #DDD;
-  cursor: pointer;
-
-}
-
-.nav a{
-    font-size: 1em;
-    color: #666;
-}
-
-.nav a:hover, a.active{
-    color: #47b;
-}
-
-.news-date{
-    text-align: right;
-    font-size: 1em;
-    /*font-variant: small-caps;
-}*/
-
-
-
-/* @media (max-width: 575px) {
-
-    img{
-        padding-bottom: 10px;
-    }
-
-    h2{
-        text-align: left;
-    }
-
-    p.alt{
-        text-align: left;
-        margin-bottom: 0px;
-    }
-
-    .cond-right{
-        text-align: left;
-    }
-
-    .research{
-      text-align: left;
-    }
-
-    .news-date{
-        text-align: left;
-    }
-
-    .cond-right{
-        text-align: left;
-    }
-
-} */
