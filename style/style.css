@@ -20,7 +20,12 @@ body {
 
 .headshot{
   margin-bottom: 12px;
-  border-radius:5px;
+  border-radius: 10px;
+}
+
+.more-link{
+  font-size: 14px;
+  font-weight: 300;
 }
 
 a{
