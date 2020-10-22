@@ -89,3 +89,14 @@ h4{
 .proj-row{
   margin-bottom: 24px;
 }
+
+@media (max-width: 767px) {
+  .headshot{
+    max-width: 240px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 12px;
+    border-radius: 10px;
+  }
+}
