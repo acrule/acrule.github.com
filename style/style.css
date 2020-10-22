@@ -3,8 +3,9 @@ body {
     font-size: 15px;
     font-weight: 300;
     max-width: 950px;
-    color: #000000;
+    color: #494949;
     margin: auto;
+    background-color: #f7f7f7;
 }
 
 .about{
@@ -21,7 +22,7 @@ body {
 
 .headshot{
   margin-bottom: 12px;
-  border-radius: 10px;
+  border-radius: 20px;
 }
 
 .more-link{
@@ -30,8 +31,12 @@ body {
 }
 
 a{
-    color: #47b;
-    font-weight: 300;
+    color: #0479a8;
+    font-weight: 400;
+}
+
+a:hover{
+  color: #0479a8;
 }
 
 p{
