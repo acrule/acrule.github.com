@@ -1,11 +1,15 @@
 body {
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
+    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
+    font-size: 16px;
     font-weight: 300;
     max-width: 950px;
     /* color: #494949; */
     margin: auto;
-    background-color: #f7f7f7;
+    background-color: #fafafa;
+}
+
+.headline{
+  font-size: 20px;
 }
 
 .about{
@@ -26,8 +30,13 @@ body {
 }
 
 .more-link{
-  font-size: 14px;
+  /* font-size: 14px; */
   font-weight: 300;
+  font-variant: small-caps;
+}
+
+.news{
+  font-size: 14px;
 }
 
 a{
@@ -39,8 +48,19 @@ a:hover{
   color: #0479a8;
 }
 
+
+a.muted{
+    color: #888888;
+    font-weight: 400;
+}
+
+a.muted:hover{
+  color: #888888;
+}
+
+
 p{
-  margin-bottom: 15px;
+  margin-bottom: 18px;
 }
 
 p.alt{
