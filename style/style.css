@@ -4,7 +4,7 @@ body {
     font-size: 14px;
     font-weight: 300;
     max-width: 950px;
-    color: #494949;
+    color: #232323;
     margin: 24px auto 0px;
 }
 
@@ -30,7 +30,6 @@ body {
 }
 
 .more-link{
-  /* font-size: 14px; */
   font-weight: 300;
   font-variant: small-caps;
 }
@@ -40,14 +39,12 @@ body {
 }
 
 a{
-  /* color: #494949; */
     color: #9b0000;
     font-weight: 300;
 }
 
 a:hover{
   color: #C72519;
-  /* color: #009b9b; */
   /* text-decoration: none; */
 }
 
