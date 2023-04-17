@@ -1,15 +1,15 @@
 body {
-    font-family: 'Source Sans Pro', 'Open Sans', sans-serif;
-    font-size: 16px;
+    background-color: #f7f7f7;
+    font-family: 'Open Sans', 'Source Sans Pro', sans-serif;
+    font-size: 14px;
     font-weight: 300;
     max-width: 950px;
-    /* color: #494949; */
-    margin: auto;
-    background-color: #fafafa;
+    color: #494949;
+    margin: 36px auto 0px;
 }
 
 .headline{
-  font-size: 20px;
+  font-size: 18px;
 }
 
 .about{
@@ -40,12 +40,15 @@ body {
 }
 
 a{
-    color: #0479a8;
-    font-weight: 400;
+  /* color: #494949; */
+    color: #9b0000;
+    font-weight: 300;
 }
 
 a:hover{
-  color: #0479a8;
+  color: #C72519;
+  /* color: #009b9b; */
+  /* text-decoration: none; */
 }
 
 
