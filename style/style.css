@@ -44,18 +44,18 @@ a{
 }
 
 a:hover{
-  color: #C72519;
+  color: #9b0000;
   /* text-decoration: none; */
 }
 
 
 a.muted{
-    color: #888888;
+    color: #454545;
     font-weight: 400;
 }
 
 a.muted:hover{
-  color: #888888;
+  color: #454545;
 }
 
 
